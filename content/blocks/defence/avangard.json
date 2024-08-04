@@ -1,0 +1,60 @@
+{
+  "type": "PowerTurret",
+  "name": "avangard",
+  "researchCostMultiplier": 0.7,
+  "size": 3,
+  "health": 680,
+  "reload": 130,
+  "range": 160,
+  "targetAir": false,
+  "targetGround": true,
+  "recoilAmount": 1.8,
+  "restitution": 0.04,
+  "rotateSpeed": 8,
+  "shootSound": "laser",
+  "shoot": {
+    "firstShotDelay": 35,
+    "shots": 3,
+    "shotDelay": 25
+  },
+  "consumes": {
+    "power": 8
+  },
+  "powerUse": 8,
+  "hasPower": true,
+  "shootType": {
+    "type": "laserBulletType",
+    "sprite": "exogenesis-armored-bullet",
+    "absorbable": true,
+    "chargeEffect": "lancerLaserCharge",
+    "chargeBeginEffect": "lancerLaserChargeBegin",
+    "lifetime": 25,
+    "damage": 150,
+    "length": 165,
+    "wigth": 29,
+    "hitEffect": "hitLaser",
+    "pierce": true,
+    "frontColor": "bbdefb",
+    "backColor": "90caf9"
+  },
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 200
+    },
+    {
+      "item": "lead",
+      "amount": 120
+    },
+    {
+      "item": "cobalt",
+      "amount": 70
+    },
+    {
+      "item": "silicon-alloy",
+      "amount": 65
+    }
+  ],
+  "category": "turret",
+  "research": "collapse"
+}
