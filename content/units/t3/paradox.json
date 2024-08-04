@@ -1,0 +1,75 @@
+{
+  "type": "flying",
+  "name": "[yellow]paradox",
+  "health": 1000,
+  "flying": true,
+  "range": 100,  
+  "speed": 1.3,
+  "drag": 0.17,  
+  "hitSize": 17,
+  "rotateSpeed": 3.75, 
+  "armor": 3,
+  "lowAltitude": true,
+  "forceMultiTarget": true,
+  "engineSize": 2.85,
+  "engineOffset": 9,
+  "weapons": [
+    {
+      "name": "paradox-weapon",
+      "x": 0,
+      "y": 5,
+      "reload": 65,
+	  "layerOffset": 0.001,
+      "recoil": 0.1,
+      "mirror": false,
+      "shootSound": "missile",
+      "rotate": true,
+      "inaccuracity": 15, 
+      "shoot": {
+      "shots": 4,
+      "shotDelay": 2
+      },
+      "bullet": {
+        "type": "missileBulletType",
+        "damage": 30,
+		"lifetime": 28,
+        "height": 7,
+        "splashDamage": 35,
+        "splashDamageRadius": 35,
+        "weight": 5,
+        "hitEffect": "blastExplosion",
+        "despawnEffect": "blastExplosion", 
+        "speed": 5.5
+         }
+    },
+	{
+      "name": "paradox-weapon2",
+	  "layerOffset": 0.0009,
+      "x": -6.4,
+      "y": -5.8,
+      "reload": 5,
+      "recoil": 0.3,
+      "mirror": true,
+	  "shootSound": "lasershoot",
+      "rotate": true,
+	  "shootEffect": "none",
+      "inaccuracity": 3, 
+      "shoot": {
+      "shots": 2,
+      "shotDelay": 2
+      },
+      "bullet": {
+        "type": "basicBulletType",
+        "damage": 30,
+        "lifetime": 30,
+        "height": 5,
+	    "trailWidth": 2,
+	    "trailColor": "74a0af",
+        "trailLength": 2,
+        "weight": 5, 
+        "speed": 5
+         }
+    }
+  ],
+  "research": "niva"
+}

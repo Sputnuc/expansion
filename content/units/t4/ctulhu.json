@@ -1,0 +1,109 @@
+{
+  "type": "flying",
+  "name": "[red]ctulhu",
+  "health": 9500,
+  "flying": true,
+  "range": 100,  
+  "speed": 0.7,
+  "drag": 0.17,  
+  "hitSize": 29,
+  "rotateSpeed": 0.85, 
+  "armor": 18,
+  "lowAltitude": true,
+  "engineOffset": 16,
+  "forceMultiTarget": true,
+  "engineSize": 6.85,
+  "weapons": [
+    {
+      "name": "ctulhu-weapon1",
+      "x": 0,
+      "y": -4,
+      "reload": 65,
+	  "layerOffset": 0.001,
+      "recoil": 0.1,
+      "mirror": false,
+      "shootSound": "missile",
+      "rotate": true,
+      "inaccuracity": 15, 
+      "shoot": {
+      "shots": 4,
+      "shotDelay": 2
+      },
+      "bullet": {
+        "type": "missileBulletType",
+        "damage": 20,
+		"homingRange": 40,
+		"lifetime": 40,
+        "height": 7,
+        "splashDamage": 45,
+        "splashDamageRadius": 35,
+        "weight": 5,
+        "hitEffect": "blastExplosion",
+        "despawnEffect": "blastExplosion", 
+        "speed": 5.5
+         }
+    },
+	{
+      "x": 0,
+      "y": 10,
+      "name": "ctulhu-weapon2",
+      "shootSound": "laser",
+      "layerOffset": 0.0001,
+      "reload": 45,
+      "shootY": 2,
+      "recoil": 2,
+      "rotate": true,
+      "rotateSpeed": 1.1,
+      "mirror": false,
+      "shootCone": 4,
+      "cooldownTime": 30,
+      "bullet": {
+        "width": 16,
+        "type": "LaserBulletType",
+        "length": 180,
+        "damage": 125,
+        "pierceBuilding": true,
+        "lifetime": 40,
+        "hitColor": "feb380",
+        "hitEffect": "hitBulletColor",
+        "smokeEffect": "shootSmallSmoke",
+        "shootEffect": "lightningCharge"
+        "colors": [
+          "ec7458aa",
+          "ff9c5a",
+          "ffffff",
+          ]
+      }
+    },
+	{
+      "name": "ctulhu-weapon3",
+      "x": 16,
+      "y": 0,
+      "reload": 20,
+	  "layerOffset": 0.001,
+      "recoil": 0.1,
+      "mirror": true,
+      "shootSound": "missile",
+      "rotate": false,
+	  "shoot": {
+      "shots": 3,
+      "shotDelay": 5
+      },
+      "inaccuracity": 10, 
+      "bullet": {
+        "type": "missileBulletType",
+        "damage": 35,
+		"homingRange": 40,
+		"lifetime": 40,
+        "height": 7,
+        "splashDamage": 45,
+        "splashDamageRadius": 35,
+        "weight": 5,
+        "hitEffect": "blastExplosion",
+        "despawnEffect": "blastExplosion", 
+        "speed": 5.5
+         }
+    },
+  ],
+  "research": "paradox"
+}
