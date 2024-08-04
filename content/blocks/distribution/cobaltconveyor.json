@@ -1,0 +1,24 @@
+{
+  "type": "conveyor",
+  "name": "cobaltconveyor",
+  "description": "Cobalt conveyor more speedy then titanium conveyor",
+  "health": 230,
+  "requirements": [
+    {
+      "item": "cobalt",
+      "amount": 1
+    },
+    {
+      "item": "graphite",
+      "amount": 3
+    },
+    {
+      "item": "titanium",
+      "amount": 2
+    }
+  ],
+  "category": "distribution",
+  "research": "cobalt-furnace", 
+  "displayedSpeed": 20,
+  "speed": 0.165
+}
