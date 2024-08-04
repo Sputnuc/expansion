@@ -1,0 +1,45 @@
+{
+	"name": "water condencator",
+	"type": "GenericCrafter",
+	"category": "production",
+	"size": 2,
+	"hasPower": true,
+	"hasLiquid": true,
+	"liquidCapacity": 60,
+	"requirements": [
+	 {"item": "copper", "amount": 55},
+	 {"item": "lead", "amount": 25},
+     {"item": "metaglass", "amount": 25},
+	 {"item": "graphite", "amount": 25},
+    ],	
+    "outputLiquid": {"liquid": "water", "amount": 0.0333333333},
+    "craftTime": 20,
+	"research": "tebriy-expansion-liquid", 
+	"drawer": {
+      "type": "DrawMulti",
+      "drawers": [	  
+          {
+          "type": "DrawRegion",
+		  "suffix": "-bottom"
+          },
+		  {
+          "type": "DrawLiquidTile",
+          "drawLiquid": "water"
+          },
+		  {
+		  "type": "DrawDefault"
+		  },
+		  {
+            "type": "DrawRegion",
+            "suffix": "-top",
+          },
+		  {
+            "type": "DrawRegion",
+            "suffix": "-rotator",
+            "rotateSpeed": 3,
+            "spinSprite": true
+          }
+      ]
+    }
+}
+	

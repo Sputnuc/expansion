@@ -1,0 +1,26 @@
+{
+    "type": "GenericCrafter",
+	"buildCostMultiplier": 0.1,
+	"name": "woodgrowner",
+    "category": "production",
+    "research": "tebriy-expansion-liquid", 
+    "requirements": [
+      "graphite/80",
+      "metaglass/40", 
+      "tebriy-alloy/70",
+      "silicon/85",
+    ],
+    "outputItem": {"item": "wood", "amount": 8}
+    "craftTime": 100,
+    "size": 2,
+    "liquidCapacity": 290,
+    "hasLiquids": true,
+    "hasPower": true,
+    "hasItems": true,
+    "craftEffect": "none",
+    "itemCapacity": 50,
+    "consumes": {
+      "power": 2,
+      "liquid": "water/0.5"
+    }
+  }
