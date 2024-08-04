@@ -1,0 +1,9 @@
+{
+	"type": "material",
+	"name": "tebriy-alloy",
+	"description": "very strong material",
+	"color": "573620",
+	"hardness": 4,
+	"research": "tebriy", 
+	"cost": 3
+}

@@ -1,0 +1,12 @@
+{
+	"type": "material",
+	"name": "tebriy",
+	"description": "strong material",
+	"color": "873905",
+	"hardness": 4,
+	"cost": 4,
+	"research": {
+	"parent": "tebriy-expansion", 
+	"requirement": {"item": "titanium","amount": 50}
+	        }
+}
