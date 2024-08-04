@@ -1,0 +1,27 @@
+{
+  "type": "SolarGenerator",
+  "name": "panel",
+  "description": "more efficiency solar panel",
+  "health": 120,
+  "buildCostMultiplier": 0.25,
+  "size": 2,
+  "hasPower": true,
+  "hasLiquids": false,
+  "powerProduction": 1.3,
+  "requirements": [
+    {
+      "item": "tebriy-alloy",
+      "amount": 30
+    },
+	 {
+      "item": "silicon-alloy",
+      "amount": 30
+    },
+	{
+      "item": "cobalt",
+      "amount": 15
+    }
+  ],
+  "category": "power",
+  "research": "tebriy-expansion-power"
+}
