@@ -1,0 +1,44 @@
+{
+  "name": "steam-turbine",
+  "description": "Generates electricity using steam as fuel.",
+  "type": "ConsumeGenerator",
+  "size": 3,
+  "category": "power",
+  "research": "tebriy-expansion-power", 
+  "craftTime": 60,
+  "hasLiquid": true,
+  "liquidCapacity": 60,
+  "health": 860,
+  "drawer": {
+      "type": "DrawMulti",
+      "drawers": [
+        {
+          "type": "drawRegion",
+          "suffix": "-bottom"    
+          },  
+       {
+          "type": "DrawLiquidTile",
+          "drawLiquid": "stteam"
+        },
+        {
+          "type": "DrawDefault"
+        }
+      ]
+    },
+  "requirements": [
+    {"item": "copper", "amount": 195},
+    {"item": "lead", "amount": 90},
+    {"item": "graphite", "amount": 75},
+    {"item": "silicon", "amount": 60},
+	{"item": "metaglass", "amount": 25}
+
+  ],
+  "consumes": {
+      "liquid": {
+        "liquid": "stteam",
+        "amount": 0.5
+    }
+    },
+  "outputsPower": true,
+  "powerProduction": 10
+}

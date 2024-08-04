@@ -1,0 +1,27 @@
+{
+  "name": "sterling-engine",
+  "description": "better version of combustion generator",
+  "type": "ConsumeGenerator",
+  "size": 3,
+  "category": "power",
+  "research": "tebriy-expansion-power",
+  "researchCostMultiplier": 0.35,
+  "itemDuration": 45,
+  "updateEffect": "fuelburn", 
+  "itemCapacity": 30,
+  "health": 660,
+  "requirements": [
+    {"item": "copper", "amount": 145},
+    {"item": "lead", "amount": 140},
+    {"item": "graphite", "amount": 85},
+    {"item": "silicon", "amount": 90}
+  ],
+  "consumes": {
+  "items": [
+  {"item": "coal", "amount": 1}
+  ]
+    },
+  "outputsPower": true,
+  	"researchCostMultiplier": 0.25,
+  "powerProduction": 5.5
+}
