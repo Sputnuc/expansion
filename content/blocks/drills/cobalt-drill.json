@@ -1,0 +1,27 @@
+{
+	"name": "cobalt drill",
+	"description": "powerfull drill",
+	"type": "Drill",
+	"size": 4,
+	"itemCapacity": 45,
+	"buildCostMultiplier": 0.333,
+	"tier": 9,
+	"liquidBoostIntensity": 3,
+	"drilltime": 15,
+	"requirements": [
+	{"item": "tebriy-alloy", "amount": 100},
+	{"item": "surge-alloy", "amount": 30},
+	{"item": "thorium", "amount": 50},	
+	{"item": "cobalt", "amount": 300},	
+	{"item": "silicon-alloy", "amount": 80}	
+	],	
+	"consumes": {"power": 4,
+	"liquid": {
+		"liquid": "water",
+		"amount": 0.05,
+	"optional": true,	
+	"booster": true}
+	},
+	"category": "production"
+	"research": "tebriy_drill"
+}
