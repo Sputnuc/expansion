@@ -1,0 +1,43 @@
+{
+  "type": "flying",
+  "name": "niva",
+  "health": 650,
+  "flying": true, 
+  "speed": 1.1, 
+  "hitSize": 13,
+  "rotateSpeed": 4.5, 
+  "armor": 2,
+  "faceTarget": true,
+  "range": 200,
+  "engineSize": 2.85,
+  "weapons": [
+    {
+      "name": "niva-weapon",
+      "x": -7,
+      "y": 0,
+      "reload": 30,
+      "recoil": 2,
+      "mirror": true,
+      "shootSound": "missile",
+      "rotate": false,
+      "inaccuracity": 15, 
+      "shoot": {
+      "shots": 4,
+      "shotDelay": 2
+      },
+      "bullet": {
+        "type": "missileBulletType",
+        "damage": 15,
+        "lifeTime": 45,
+        "height": 7,
+        "splashDamage": 12,
+        "splashDamageRadius": 15.5,
+        "weight": 5,
+        "hitEffect": "blastExplosion",
+        "despawnEffect": "blastExplosion", 
+        "speed": 4.5
+         }
+    }
+  ],
+  "research": "solarizos"
+}

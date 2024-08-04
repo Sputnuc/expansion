@@ -1,0 +1,90 @@
+{
+  "type": "tank",
+  "name": "[red]armada",
+  "hitSize": 18,
+  "treadPullOffset": 5,
+  "speed": 0.55,
+  "rotateSpeed": 0.8,
+  "health": 750,
+  "armor": 10,
+  "treadRects": [
+    {
+      "x": 13,
+      "y": -38,
+      "width": 17,
+      "height": 76
+    }
+  ],
+  "singleTarget": false,
+  "omniMovement": false,
+  "faceTarget": false,
+  "weapons": [
+    {
+      "x": 0,
+      "y": 0,
+      "name": "armada-weapon1",
+      "shootSound": "laser",
+      "layerOffset": 0.0001,
+      "reload": 50,
+      "shootY": 10,
+      "recoil": 2,
+      "rotate": true,
+      "rotateSpeed": 1.1,
+      "mirror": false,
+      "shootCone": 4,
+      "cooldownTime": 30,
+      "bullet": {
+        "width": 16,
+        "type": "LaserBulletType",
+        "length": 240,
+        "damage": 65,
+        "pierceBuilding": true,
+        "laserAbsorb": true,
+        "lifetime": 40,
+        "hitColor": "feb380",
+        "hitEffect": "hitBulletColor",
+        "smokeEffect": "shootSmallSmoke",
+        "shootEffect": "lightningCharge"
+        "colors": [
+          "ec7458aa",
+          "ff9c5a",
+          "ffffff",
+          ]
+      }
+    },
+    {
+      "x": 7,
+      "y": -5,
+      "name": "armada-weapon2",
+      "layerOffset": 0.00001,
+      "reload": 25,
+      "shootY": 5,
+      "recoil": 1,
+      "inaccuracy": 6,
+      "rotate": true,
+      "rotateSpeed": 2.8,
+      "shootSound": "lasershoot",
+      "mirror": true,
+      "shootCone": 12,
+      "shoot": {
+      "shots": 3,
+      "shotDelay": 3
+      },
+      "bullet": {
+        "type": " laserBulletType",
+        "buildingDamageMultiplier": 0.7,
+        "damage": 15,
+        "lifeTime": 35,
+        "length": 10,
+        "wight":10, 
+        "speed": 5.5,
+         "colors": [
+          "ec7458aa",
+          "ff9c5a",
+          "ffffff",
+          ]
+      }
+    }
+  ],
+  "research": "warrior"
+}
