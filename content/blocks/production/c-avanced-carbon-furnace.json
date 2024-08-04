@@ -1,0 +1,52 @@
+{
+	"name": "advance carbon furnace",
+	"description": "smelting plastanium, silicon and lead to carbon",
+	"type": "GenericCrafter",
+	"buildCostMultiplier": 0.45,
+	"size": 4,
+	"hasPower": true,
+	"hasItems": true,
+	"itemCapacity": 30,
+	"requirements": [
+	{"item": "cobalt", "amount": 275},
+	{"item": "silicon-alloy", "amount": 130},
+	{"item": "tebriy-alloy", "amount": 120},
+	{"item": "thorium", "amount": 75},
+	{"item": "carbon", "amount": 60}
+                    ],
+    "consumes": {
+		"power": 2.5,
+		"items": {
+			"items": [
+				{ "item": "plastanium", "amount": 3},
+				{ "item": "silicon", "amount": 7},
+				{ "item": "tebriy", "amount": 5}
+			]
+		},
+	  },	
+    "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+    {
+    "type": "DrawDefault"
+    },
+   {
+    "type": "DrawFlame",
+    "flameRadius": 3,         
+    "flameRadiusIn": 3.5,
+    "flameRadiusScl": 2.5,  
+    "flameRadiusMag": 2.5,    
+    "flameRadiusInMag": 1.4
+   }
+               ]
+          },
+    "outputItem": {"item": "carbon", "amount": 10},	
+	"craftTime": 120,
+	"idleSound": "respawning",
+	"updateEffect": "smeltsmoke",
+	"craftEffect": "plasticExplosion",
+	"idleSoundVolume": 0.95,
+	"category": "crafting",
+	"research": "carbon-furnace"
+}
+	

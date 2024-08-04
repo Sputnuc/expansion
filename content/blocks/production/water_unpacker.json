@@ -1,0 +1,27 @@
+{
+    "type": "GenericCrafter",
+	"buildCostMultiplier": 0.1,
+	"name": "waterunpacker",
+    "category": "crafting",
+    "research": "water_packer", 
+    "requirements": [
+      "copper/60",
+      "lead/90",
+      "metaglass/85",
+    ],
+    "outputLiquid": {"liquid": "water","amount": 0.5}
+    "craftTime": 60,
+    "size": 2,
+    "liquidCapacity": 290,
+    "hasLiquids": true,
+    "hasPower": true,
+    "hasItems": true,
+    "craftEffect": "none",
+    "itemCapacity": 500,
+    "consumes": {
+      "power": 1,
+      "items":[
+	  {"item": "packet_water","amount": 1}
+	]
+    }
+}

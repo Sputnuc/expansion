@@ -1,0 +1,51 @@
+{
+	"name": "carbon furnace",
+	"description": "create carbon",
+	"type": "GenericCrafter",
+	"buildCostMultiplier": 0.50,
+	"size": 3,
+	"hasPower": true,
+	"hasItems": true,
+	"itemCapacity": 30,
+	"requirements": [
+	{"item": "cobalt", "amount": 75},
+	{"item": "silicon-alloy", "amount": 130},
+	{"item": "tebriy-alloy", "amount": 190},
+	{"item": "plastanium", "amount": 60}
+                    ],
+    "consumes": {
+		"power": 2.2,
+		"items": {
+			"items": [
+				{ "item": "graphite", "amount": 4},
+				{ "item": "silicon", "amount": 2},
+				{ "item": "plastanium", "amount": 3}
+			]
+		},
+	  },	
+    "outputItem": {"item": "carbon", "amount": 3},	
+	"craftTime": 180,
+	"idleSound": "respawning",
+	"drawer": {
+     "type": "DrawMulti",
+     "drawers": [
+       {
+         "type": "DrawDefault"
+       },
+       {
+        "type": "DrawFlame",
+        "flameRadius": 3,         
+        "flameRadiusIn": 3.0,
+        "flameRadiusScl": 2.9,
+        "flameRadiusMag": 2.8,    
+        "flameRadiusInMag": 3.5
+       }
+               ]
+          },
+	"updateEffect": "fuelburn",
+	"craftEffect": "blastsmoke",
+	"idleSoundVolume": 0.95,
+	"category": "crafting", 
+	"research": "cobalt-furnace"
+}
+	

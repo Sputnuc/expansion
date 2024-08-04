@@ -1,0 +1,33 @@
+{
+	"name": "advanced tebriy sintezer",
+	"description": "Sintezate tebriy from ",
+	"type": "GenericCrafter",
+	"size": 3,
+	"hasPower": true,
+	"hasItems": true,
+	"itemCapacity": 40,
+	"requirements": [
+		{"item": "copper", "amount": 95}, 
+		{"item": "lead", "amount": 90},
+		{"item": "silicon", "amount": 50},
+		{"item": "titanium", "amount": 70},
+		{"item": "graphite", "amount": 50}
+	],
+	"consumes": {
+		"power": 3.35,
+		"items": {
+			"items": [
+				{"item": "copper", "amount": 8},
+				{"item": "titanium", "amount": 3},
+				{"item": "lead", "amount": 5}
+			]
+		}
+	},	
+	"outputItem": {"item": "tebriy", "amount": 12},
+	"craftTime": 90,
+	"idleSound": "respawning",
+	"updateEffect": "smeltsmoke", 
+	"idleSoundVolume": 0.5,
+	"category": "crafting", 
+	"research": "tebriy-sintezer"
+}

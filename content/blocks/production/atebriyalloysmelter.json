@@ -1,0 +1,54 @@
+{
+	"name": "tebriy_alloy_smelter",
+	"description": "smelting silicon , tebriy and thorium to tebriy_alloy",
+	"type": "GenericCrafter",
+	"size": 3,
+	"hasPower": true,
+	"buildCostMultiplier": 0.25,
+	"hasItems": true,
+	"hasLiquid": true,
+	"itemCapacity": 20,
+	"liquidCapacity": 120,
+	"requirements": [
+	{"item": "copper", "amount": 175},
+	{"item": "lead", "amount": 260},
+	{"item": "silicon", "amount": 65},
+	{"item": "graphite", "amount": 95}
+                    ],
+"consumes": {
+		"power": 1.2,
+		"items": {
+			"items": [
+				{ "item": "copper", "amount": 2},
+				{ "item": "tebriy", "amount": 3}
+			]
+		}
+	},	
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+   {
+   "type": "DrawDefault"
+   },
+   {
+    "type": "DrawFlame",
+    "flameRadius": 6,         
+    "flameRadiusIn": 3.5,
+    "flameRadiusScl": 4.5,  
+    "flameRadiusMag": 2.5,    
+    "flameRadiusInMag": 1.7
+   }
+               ]
+          },
+    "outputItem": {"item": "tebriy-alloy", "amount": 3},	
+	"craftTime": 120,
+	"idleSound": "respawning",
+	"updateEffect": "smeltsmoke",
+	"idleSoundVolume": 0.5,
+	"category": "crafting", 
+	"researchCostMultiplier": 0.25,
+	"research": {
+	"parent": "tebriy-expansion"
+	        }
+}
+	

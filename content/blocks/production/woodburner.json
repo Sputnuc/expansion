@@ -1,0 +1,30 @@
+{
+	"name": "burner",
+	"description": "burn wood to coal",
+	"type": "GenericCrafter",
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"itemCapacity": 60,
+	"requirements": [
+	{"item": "copper", "amount": 70},
+	{"item": "lead", "amount": 40},
+	{"item": "silicon", "amount": 10}
+                    ],
+    "consumes": {
+	    "power": 0.25,
+		"items": {
+			"items": [
+				{ "item": "wood","amount": 2}
+			]
+		},
+	  },	  
+    "outputItem": {"item": "coal","amount": 1}
+	"craftTime": 30,
+	"idleSound": "respawning",
+	"updateEffect": "smeltsmoke",
+	"idleSoundVolume": 0.95,
+	"category": "crafting", 
+	"research": "woodgrower"
+}
+	

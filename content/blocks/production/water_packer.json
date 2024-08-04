@@ -1,0 +1,25 @@
+{
+    "type": "GenericCrafter",
+	"buildCostMultiplier": 0.1,
+	"name": "waterpacker",
+    "category": "crafting",
+    "research": "tebriy-expansion-liquid", 
+    "requirements": [
+      "copper/80",
+      "lead/70",
+      "metaglass/85",
+    ],
+    "outputItem": {"item": "packet_water", "amount": 1}
+    "craftTime": 60,
+    "size": 2,
+    "liquidCapacity": 290,
+    "hasLiquids": true,
+    "hasPower": true,
+    "hasItems": true,
+    "craftEffect": "none",
+    "itemCapacity": 500,
+    "consumes": {
+      "power": 1,
+      "liquid": "water/0.5"
+    }
+}
