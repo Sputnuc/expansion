@@ -1,0 +1,38 @@
+{
+    "type": "Reconstructor",
+    "name": "final refabricator",
+    "description": "Upgrades units the max tier"
+    "health": 750,
+    "size": 5,
+	"hasLiquid": true,
+	"liquidCapacity": 120,
+    "buildCostMultiplier": 0.50,
+    "constructTime": 5400,
+    "upgrades": [
+        ["flame", "leviafan"],
+        ["paradox", "ctulhu"]
+    ],
+    "consumes": {
+        "power": 15.5,
+        "items": {
+            "items": [
+			  "tebriy-alloy/420",
+              "silicon/650",
+			  "carbon/300",
+			  "plastanium/350"
+            ]
+			
+        },
+		"liquid": {"liquid": "cryofluid", "amount": 0.5}
+    },
+    "requirements": [
+      "carbon/350",      
+      "silicon-alloy/510",
+	  "thorium/550",
+      "plastanium/200",
+	  "phase-fabric/150",
+      "cobalt/220"
+    ],
+    "category": "units",
+    "research": "refabricator"
+ }
