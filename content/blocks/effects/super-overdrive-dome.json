@@ -1,0 +1,56 @@
+{
+  "type": "OverdriveProjector",
+  "name": "super Overdrive Projector",
+  "description": "A super overdrive projector. Makes everything in its range faster but be aware that it also increases energy consumption!",
+  "range": 88,
+  "health": 1600,
+  "buildCostMultiplier": 0.5,
+  "size": 4,
+  "hasBoost": false,
+  "phaseBoost": 10,
+  "phaseRangeBoost": 20,
+  "itemCapacity": 40,
+  "useTime": 600,
+  "speedBoost": 8.15,
+  "reload": 1,
+  "research": "surge-alloy",
+  "category": "effect",
+  "consumes": {
+    "power": 20,
+    "items": {
+      "items": [
+        "phase-fabric/5", 
+        "silicon-alloy/10", 
+        "surge-alloy/1"
+      ],
+      "booster": true,
+      "optional": false
+    }
+  },
+  "requirements": [
+    {
+      "item": "surge-alloy",
+      "amount": 155
+    },
+    {
+      "item": "carbon",
+      "amount": 300
+    },
+    {
+      "item": "phase-fabric", 
+      "amount": 80
+    },
+    {
+      "item": "thorium", 
+      "amount": 100
+    },  
+    {
+      "item": "plastanium", 
+      "amount": 280
+    }, 
+    {
+      "item": "silicon-alloy",
+      "amount": 425
+    }
+  ]
+}
