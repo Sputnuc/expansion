@@ -1,0 +1,26 @@
+{
+  "name": "steam",
+  "localizedName": "пар",
+  "description": "газообразное состояние воды.",
+  "color": "ffffff",
+  "research": "boiler", 
+  "temperature": 0.5,
+  "viscosity": 0.1,
+  "flammability": 0.5,
+  "explosiveness": 0.1,
+  "gas": true,
+  "boilPoint": 50,
+  "heatCapacity": 0.5,
+  "explosive": false,
+  "effect": "burning",
+  "heatCapacity": 0.5,
+  "liquid": {
+    "cap": 4,
+    "heatCapacity": 0.5,
+    "explosive": false,
+    "flammable": true,
+    "viscosity": 0.3,
+    "temperature": 80,
+    "color": "ffffff"
+  }
+}
