@@ -3,7 +3,6 @@
 	"type": "GenericCrafter",
 	"category": "production",
 	"size": 2,
-	"hasPower": true,
 	"hasLiquid": true,
 	"liquidCapacity": 60,
 	"requirements": [
