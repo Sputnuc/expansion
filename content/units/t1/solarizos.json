@@ -1,0 +1,35 @@
+{
+  "type": "flying",
+  "name": "solarizos",
+  "health": 170,
+  "flying": true, 
+  "speed": 1.5, 
+  "hitSize": 9,
+  "accel": 0.9,
+  "rotateSpeed": 9.5, 
+  "range": 85,
+  "weapons": [
+    {
+      "x": 0,
+      "y": 0,
+      "reload": 25,
+      "mirror": false,
+      "rotate": false,
+      "inaccuracity": 10, 
+      "shoot": {
+      "shots": 3,
+      "shotDelay": 3.5
+      },
+      "bullet": {
+        "type": "basicBulletType",
+        "buildingDamageMultiplier": 1.2,
+        "damage": 6,
+        "lifeTime": 0,
+        "height": 12,
+        "weight":10, 
+        "speed": 4.5
+         }
+    }
+  ],
+  "research": "solarizos-factory"
+}
