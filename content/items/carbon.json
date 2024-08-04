@@ -1,0 +1,12 @@
+{
+	"type": "material",
+	"name": "carbon",
+	"description": "valuable compound based on coal, graphite and silicon",
+	"color": "1b1b1c",
+	"hardness": 7,
+	"cost": 9,
+	"research": {
+	"parent": "cobalt", 
+	"requirement": {"item": "cobalt","amount": 300}
+	        }
+}
