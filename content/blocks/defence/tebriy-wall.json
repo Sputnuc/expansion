@@ -1,0 +1,13 @@
+{
+	"name": "Tebriy Wall",
+	"description": "A wall made of Tebriy",
+	"type": "Wall",
+	"buildCostMultiplier": 0.45,
+	"health": 2700,
+	"size": 2,
+	"requirements": [
+		{ "item": "tebriy-alloy", "amount": 20 }
+	],
+	"category": "defense",
+	"research": "atebriyalloysmelter"
+}

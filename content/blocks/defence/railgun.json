@@ -1,0 +1,135 @@
+{
+  "type": "ItemTurret",
+  "size": 5,
+  "health": 2560,
+  "buildCostMultiplier": 0.50,
+  "maxAmmo": 20,
+  "ammoPerShot": 5,
+  "unitSort": "strongest",
+  "reload": 220,
+  "range": 800,
+  "shake": 4,
+  "shootLength": 8,
+  "consumes": {
+    "power": 35,
+    "liquid": {"liquid": "cryofluid", "amount": 1}
+  },
+  "ammoUseEffect": "casing3Double",
+  "targetAir": true,
+  "targetGround": true,
+  "recoil": 4,
+  "shootShake": 6,
+  "inaccuracy": 0,
+  "cooldownTime": 220,
+  "rotateSpeed": 1,
+  "shootSound": "railgun",
+  "ammoTypes": {
+    "surge-alloy": {
+      "type": "pointBulletType",
+      "damage": 4000,
+      "shootEffect": "instShoot",
+      "hitEffect": {
+        "type": "multiEffect",
+        "effects": [
+          {
+            "type": "ParticleEffect",
+            "lightOpacity": 0,
+            "particles": 10,
+            "length": 30,
+            "lifetime": 50,
+            "interp": "circleOut",
+            "sizeInterp": "pow5In",
+            "sizeFrom": 5,
+            "sizeTo": 0,
+            "colorFrom": "F3E979FF",
+            "colorTo": "F3E979d8"
+          },
+          {
+            "type": "ParticleEffect",
+            "lightOpacity": 0,
+            "particles": 10,
+            "length": 20,
+            "lifetime": 40,
+            "interp": "circleOut",
+            "sizeInterp": "pow5In",
+            "sizeFrom": 3,
+            "sizeTo": 0,
+            "colorFrom": "F3E979FF",
+            "colorTo": "F3E979d8"
+          },
+          {
+            "type": "ParticleEffect",
+            "lightOpacity": 0,
+            "particles": 10,
+            "length": 20,
+            "lifetime": 30,
+            "interp": "circleOut",
+            "sizeInterp": "pow5In",
+            "sizeFrom": 2.5,
+            "sizeTo": 0,
+            "colorFrom": "F3E979FF",
+            "colorTo": "F3E979d8"
+          },
+          {
+            "type": "WaveEffect",
+            "lifetime": 25,
+            "sizeFrom": 0,
+            "sizeTo": 30,
+            "strokeFrom": 2,
+            "strokeTo": 0,
+            "lightColor": "F3E979FF",
+            "colorFrom": "F3E979FF",
+            "colorTo": "D99F6BFF"
+          },
+          {
+            "type": "ParticleEffect",
+            "particles": 1,
+            "sizeFrom": 35,
+            "sizeTo": 0,
+            "length": 0,
+            "interp": "swingIn",
+            "lifetime": 25,
+            "lightColor": "F3E979FF",
+            "colorFrom": "F3E979FF",
+            "colorTo": "F3E979FF"
+          },
+          {
+            "type": "ParticleEffect",
+            "particles": 1,
+            "sizeFrom": 12,
+            "sizeTo": 0,
+            "length": 0,
+            "interp": "swingIn",
+            "lifetime": 25,
+            "lightColor": "F3E979FF",
+            "colorFrom": "FFFFFFF",
+            "colorTo": "FFFFFFF"
+           }
+         ]
+        },
+      "speed": 1000,
+      "hitShake": 7,
+      "trailSpacing": 30,
+      "colorFrom": "F3E979FF",
+      "colorTo": "D99F6BFF",
+      "hitColor": "F3E979FF",
+      "trailEffect": "railTrail",
+      "despawnEffect": "none",
+      "splashDamageRadius": 40,
+      "buildingDamageMultiplier": 0.10
+    }
+  },
+  "requirements": [
+    "titanium/1250",
+    "thorium/1400",
+    "carbon/700",
+	"cobalt/500",
+    "plastanium/1050",
+    "copper/3000",
+    "surge-alloy/2000",
+    "silicon/1000"
+  ],
+  "category": "turret",
+  "canOverdrive": false,
+  "research": "horizon"
+}

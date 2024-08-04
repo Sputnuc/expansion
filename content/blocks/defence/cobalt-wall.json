@@ -1,0 +1,16 @@
+{
+	"name": "Cobalt Wall",
+	"description": "A wall made of Cobalt and tebriy-alloy",
+	"type": "Wall",
+	"buildCostMultiplier": 0.5,
+	"health": 3100,
+	"absorbLasers": true,
+	"size": 2,
+	"requirements": [
+		{ "item": "cobalt", "amount": 30 },
+		{ "item": "tebriy-alloy", "amount": 40 },
+		{ "item": "plastanium", "amount": 10},
+	],
+	"category": "defense",
+	"research": "tebriy-wall"
+}
