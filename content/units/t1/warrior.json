@@ -1,0 +1,50 @@
+{
+  "type": "tank",
+  "name": "[orange]warrior",
+  "health": 600,
+  "armor": 2,
+  "speed": 0.75,
+  "hitSize": 12,
+  "treadPullOffset": 6,
+  "treadRects": [
+    {
+      "x": 7,
+      "y": -26,
+      "width": 14,
+      "height": 51
+    }
+  ],
+  "singleTarget": false,
+  "omniMovement": false,
+  "rotateSpeed": 2,
+  "faceTarget": false,
+  "flying": false,
+  "range": 120,
+  "weapons": [
+    {
+      "x": 0,
+      "name": "warrior-weapon",
+      "y": 0,
+      "reload": 30,
+      "rotateSpeed": 1.4,
+      "mirror": false,
+      "shootSound": "lasershoot",
+      "shoot": {
+       "shots": 3,
+       "shotDelay": 3
+  },
+      "rotate": true,
+      "bullet": {
+        "type": "basicBulletType",
+        "width": 8,
+        "hight": 8,
+        "speed": 4,
+        "lifetime": 45,
+        "damage": 15,
+        "buildingDamageMultiplier": 1.1,
+        "pierceBuilding": false
+      }
+    }
+  ],
+  "research": "solarizos-factory"
+}
