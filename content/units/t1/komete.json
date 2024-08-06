@@ -1,0 +1,61 @@
+{
+  "type": "naval",
+  "name": "Komete",
+  "health": 375,
+  "speed": 1.2,
+  "drag": 0.14,
+  "hitSize": 12,
+  "accel": 0.5,
+  "rotateSpeed": 5.5,
+  "weapons": [
+    {
+      "x": -5,
+      "name": "komete-weapon",
+      "y": -4,
+      "reload": 40,
+      "rotateSpeed": 1.7,
+      "mirror": true,
+      "shootSound": "shoot",
+      "shoot": {
+       "shots": 3,
+       "shotDelay": 5
+  },
+      "rotate": true,
+      "bullet": {
+        "type": "basicBulletType",
+        "width": 7,
+        "hight": 7,
+        "speed": 4,
+        "lifetime": 48,
+        "damage": 10,
+        "pierceBuilding": false
+      }
+    },
+	{
+      "x": 0,
+      "name": "komete-weapon2",
+      "y": 3,
+      "reload": 80,
+      "rotateSpeed": 1.4,
+      "mirror": false,
+      "shootSound": "bang",
+      "rotate": true,
+      "bullet": {
+        "type": "basicBulletType",
+        "width": 12,
+        "hight": 12,
+		"trailColor": "ffa665",
+        "frontColor": "ffffff",
+        "trailWidth": 4,
+        "trailLength": 4,
+        "speed": 8,
+        "lifetime": 24,
+        "damage": 35,
+		"splashDamage": 25,
+		"splashDamageRadius": 24,
+        "pierceBuilding": false
+      }
+    }
+  ],
+  "research": "solarizos-factory"
+}
