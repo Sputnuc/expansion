@@ -1,0 +1,59 @@
+{
+  "type": "naval",
+  "name": "[yellow]Meteor",
+  "health": 750,
+  "speed": 1.0,
+  "drag": 0.14,
+  "hitSize": 20,
+  "accel": 0.5,
+  "rotateSpeed": 3.0,
+  "weapons": [
+    {
+      "x": -6,
+      "name": "meteor-weapon",
+      "y": -4,
+      "reload": 20,
+      "rotateSpeed": 1.7,
+      "mirror": true,
+      "shootSound": "bang",
+      "rotate": true,
+      "bullet": {
+        "type": "basicBulletType",
+        "width": 9,
+        "hight": 9,
+        "speed": 4,
+        "lifetime": 60,
+        "damage": 30,
+        "pierceBuilding": false
+      }
+    },
+	{
+      "x": 0,
+      "name": "meteor-weapon2",
+      "y": -3,
+      "reload": 60,
+      "rotateSpeed": 1.4,
+      "mirror": false,
+      "shootSound": "bang",
+      "rotate": true,
+      "bullet": {
+        "type": "basicBulletType",
+        "width": 10,
+        "hight": 14,
+		"trailColor": "ffa665",
+        "frontColor": "ffffff",
+        "trailWidth": 4,
+        "trailLength": 3,
+        "speed": 3,
+        "lifetime": 90,
+        "damage": 45,
+		"splashDamage": 50,
+		"splashDamageRadius": 34,
+		"hitEffect": "blastExplosion",
+        "despawnEffect": "blastExplosion"
+        "pierceBuilding": false
+      }
+    }
+  ],
+  "research": "solarizos-factory"
+}
