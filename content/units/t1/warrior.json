@@ -1,10 +1,10 @@
 {
   "type": "tank",
   "name": "[orange]warrior",
-  "health": 600,
+  "health": 400,
   "armor": 2,
   "speed": 0.75,
-  "hitSize": 12,
+  "hitSize": 5,
   "treadPullOffset": 6,
   "treadRects": [
     {
