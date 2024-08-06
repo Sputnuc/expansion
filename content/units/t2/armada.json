@@ -6,7 +6,7 @@
   "speed": 0.55,
   "rotateSpeed": 0.8,
   "health": 750,
-  "armor": 10,
+  "armor": 9,
   "treadRects": [
     {
       "x": 13,
