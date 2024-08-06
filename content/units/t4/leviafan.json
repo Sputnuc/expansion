@@ -1,14 +1,14 @@
 {
   "type": "tank",
   "name": "[red]leviafan",
-  "hitSize": 28,
+  "hitSize": 34,
   "treadPullOffset": 7,
   "speed": 0.35,
-  "rotateSpeed": 0.6,
-  "health": 10000,
+  "rotateSpeed": 0.9,
+  "health": 9500,
   "crushDamage": 3,
   "range": 224,
-  "armor": 34,
+  "armor": 18,
   "treadRects": [
     {
       "x": 13,
