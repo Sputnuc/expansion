@@ -9,7 +9,8 @@
     "buildCostMultiplier": 0.50,
     "constructTime": 10800,
     "upgrades": [
-        ["leviafan", "ragnarek"]
+        ["leviafan", "ragnarek"],
+		["ctulhu", "storm"]
     ],
     "consumes": {
         "power": 25.0,
