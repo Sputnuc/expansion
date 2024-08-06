@@ -8,6 +8,7 @@
     "upgrades": [
         ["warrior", "armada"],
         ["solarizos", "niva"],
+		["komete", "meteor"],
     ],
     "consumes": {
         "power": 1.5,
