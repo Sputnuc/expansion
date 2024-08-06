@@ -23,6 +23,15 @@
         "lead/100"
            ],
       "time": 1800
+    },
+	   {
+      "unit": "komete",
+      "requirements": [
+        "silicon/30", 
+        "graphite/65",
+        "metaglass/35"
+           ],
+      "time": 1800
     }
   ],
   "requirements": [
