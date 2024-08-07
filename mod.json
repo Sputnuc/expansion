@@ -1,7 +1,8 @@
 {
 	"name": "expansion",
 	"author": "sputnuc",
-	"description": "МОд добавляющий небольшое обилие контента, (ВНИМАНИЕ МОД ЛОКАЛИЗОВАН ТОЛЬКО НА РУССКИЙ ЯЗЫК)",
-	"version": 3,
+	"description": "Мод добавляющий небольшое обилие контента ([red](требует multicrafter-lib[darkgray])",
+	"version": 3.12,
+	"dependencies": ["multi-crafter"],
 	"minGameVersion": 136
 }
