@@ -2,7 +2,7 @@
 	"name": "expansion",
 	"author": "sputnuc",
 	"description": "Мод добавляющий небольшое обилие контента ([red](требует multicrafter-lib[darkgray])",
-	"version": 3.12,
+	"version": 3.15,
 	"dependencies": ["multi-crafter"],
 	"minGameVersion": 136
 }
