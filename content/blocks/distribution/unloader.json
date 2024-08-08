@@ -1,0 +1,24 @@
+{
+  "type": "Unloader" 
+  "name": "upgrated Unloader",
+  "description": "upgrated unloader buffer some items.",
+  "size": 1,
+  "itemCapacity": 10,
+  "speed": 1.3,
+  "category": "effect",
+  "research": "cobaltconveyor",
+  "requirements": [
+  {
+    "item": "silicon",
+    "amount": 50
+  },
+  {
+    "item": "titanium",
+    "amount": 25
+  },
+  {
+	"item": "cobalt",
+	"amount": 10
+  }
+]
+}
