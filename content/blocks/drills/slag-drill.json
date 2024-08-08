@@ -21,7 +21,7 @@
     "consumes": {
       "power": 2.1,
       "items": [
-      {"item": "coal", "amount": 1}
+      {"item": "sand", "amount": 1}
       ]
     },
     "drawer": {
