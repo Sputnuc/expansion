@@ -1,0 +1,10 @@
+{
+	"type": "duct",
+	"speed": 2.4,
+	"armored": false,
+	"requirements": [
+	  "carbon/1",
+	  "cobalt/2",
+	  "graphite/1"				
+      ],
+}
