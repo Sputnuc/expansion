@@ -2,20 +2,12 @@
   "type": "tank",
   "name": "[red]RAGNAREK",
   "hitSize": 56,
-  "treadPullOffset": 7,
-  "speed": 0.30,
-  "rotateSpeed": 0.8,
+  "treadPullOffset": 1,
+  "speed": 0.35,
+  "rotateSpeed": 0.6,
   "health": 23000,
   "crushDamage": 20,
   "armor": 25,
-  "treadRects": [
-    {
-      "x": 13,
-      "y": -38,
-      "width": 17,
-      "height": 76
-    }
-  ],
   "singleTarget": false,
   "omniMovement": false,
   "faceTarget": false,
@@ -23,30 +15,57 @@
     {
       "x": 0,
       "y": 0,
-      "name": "ragnarek-weapon",
+      "name": "ragnarek-weapon1",
       "layerOffset": 0.001,
 	  "shake": 7,
       "reload": 150,
-      "shootY": 15,
+      "shootY": 17.5,
+	  "shootWarmupSpeed": 0.06,
+	  "minWarmup": 0.9,
 	  "cooldownTime": 130,
 	  "heatColor": "f9350f",
       "recoil": 3,
       "rotate": true,
-      "rotateSpeed": 0.6,
-      "shootSound": "mediumCannon",
+      "rotateSpeed": 0.9,
+      "shootSound": "largeCannon",
       "mirror": false,
-      "shootCone": 5,
+      "shootCone": 2,
+	  "parts": [
+	    {
+       "type": "RegionPart",
+       "suffix": "-side",
+       "mirror": true,
+       "under": false,
+       "x": 0,
+       "y": 0,
+       "moves": [
+       {
+         "type": "PartMove",
+         "progress": "recoil",
+         "rot": 13
+       }
+      ],
+       "progress": {
+         "type": "warmup",
+         "op": "delay",
+         "other": "reload",
+         "amount": 0.1
+       },
+       "moveRot": 20
+}
+		  ],
+			  
       "bullet": {
         "type": "basicBulletType",
         "width": 13,
         "height": 13,
-        "damage": 300,
+        "damage": 400,
 		"pierceBuilding": true,
 	    "scaleLife": true,
 		"reflectable": false,
         "pierceCap": 3,
 		"speed": 24.0,
-        "lifetime": 25,
+        "lifetime": 20.0,
         "shootEffect": "shootTitan",
         "smokeEffect": "shootSmokeTitan",
         "hitColor": "ffa665",
@@ -171,73 +190,7 @@
           }
           }
       }
-    },
-		{
-      "x": -20,
-      "y": 0,
-      "name": "ragnarek-weapon2",
-      "shootSound": "laser",
-      "layerOffset": 0.0001,
-      "reload": 45,
-      "shootY": 2,
-	  "shake": 2,
-      "recoil": 2,
-      "rotate": true,
-      "rotateSpeed": 1.1,
-      "mirror": true,
-      "shootCone": 4,
-      "cooldownTime": 30,
-      "bullet": {
-        "width": 16,
-        "type": "LaserBulletType",
-        "length": 240,
-        "damage": 120,
-        "pierceBuilding": true,
-        "lifetime": 40,
-        "hitColor": "feb380",
-        "hitEffect": "hitBulletColor",
-        "smokeEffect": "shootSmallSmoke",
-        "shootEffect": "lightningCharge"
-        "colors": [
-          "ec7458aa",
-          "ff9c5a",
-          "ffffff",
-          ]
-      }
-    },
-	{
-      "x": 0,
-      "y": -13,
-      "name": "ragnarek-weaponnuclear",
-      "shootSound": "railgun",
-      "layerOffset": 0.01,
-      "reload": 300,
-	  "shake": 5,
-      "shootY": 2,
-      "recoil": 4,
-      "rotate": true,
-      "rotateSpeed": 0.9,
-      "mirror": false,
-      "shootCone": 1,
-      "bullet": {
-        "width": 46,
-        "type": "LaserBulletType",
-        "length": 600,
-        "damage": 400,
-        "pierceBuilding": true,
-		"pierce": true,
-        "lifetime": 20,
-        "hitColor": "feb380",
-        "hitEffect": "hitBulletColor",
-        "smokeEffect": "shootSmallSmoke",
-        "shootEffect": "lightningCharge"
-        "colors": [
-          "efe46b",
-          "f9f4b9",
-          "ffffff",
-          ]
-      }
-    },
+    }
   ],
   "research": "leviafan"
 }
