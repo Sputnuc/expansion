@@ -2,8 +2,8 @@
 	"name": "expansion",
 	"author": "sputnuc",
 	"description": "Мод добавляющий небольшое обилие контента [red](требует multicrafter-lib)",
-	"version": "3.5 release",
+	"version": "3.51 patch",
 	"dependencies": ["multi-crafter"],
 	"minGameVersion": 136,
-	"subtitle": "3.5 release"
+	"subtitle": "3.51 patch"
 }
