@@ -35,14 +35,14 @@
         "bullet": {
         "type": "laserBulletType",
         "width": 50,
-        "length": 340,
+        "length": 440,
         "damage": 540,
 		"pierceBuilding": true,
         "pierceCap": 5,
         "lifetime": 50,
 		"colors": [
-          "ec7458aa",
-          "ff9c5a",
+          "a1acd9",
+          "dfd6ff",
           "ffffff",
            ]
       }
@@ -51,7 +51,7 @@
 		"name": "storm-weapon2",
 		"x": 25,
 		"y": 0,
-		"reload": 8,
+		"reload": 5,
 		"shake": 3,
 		"shootSound": "malignShoot",
 		"top": false,
@@ -60,13 +60,13 @@
 		"warmupSpeed": 0.01,
 		"shootCone": 180,
 		"rotation": 90,
-		"baseRotation": -90,
+		"baseRotation": 0,
 		"mirror": true,
 		 "bullet": {
 		"type": "basicBulletType",
 		"higth": 16,
 		"width": 13,
-		"damage": 35,
+		"damage": 45,
 		"speed": 25,
 		"lifetime": 15,
 		"homingRange": 190,
