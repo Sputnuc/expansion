@@ -8,7 +8,7 @@
   "unitSort": "strongest",
   "reload": 220,
   "range": 800,
-  "shake": 4,
+  "shake": 9,
   "shootLength": 8,
   "consumes": {
     "power": 35,
@@ -41,8 +41,8 @@
             "sizeInterp": "pow5In",
             "sizeFrom": 5,
             "sizeTo": 0,
-            "colorFrom": "837cd9",
-            "colorTo": "5b5699"
+            "colorFrom": "fffa75",
+            "colorTo": "f3ed35"
           },
           {
             "type": "ParticleEffect",
@@ -54,8 +54,8 @@
             "sizeInterp": "pow5In",
             "sizeFrom": 3,
             "sizeTo": 0,
-            "colorFrom": "837cd9",
-            "colorTo": "5b5699"
+            "colorFrom": "fffa75",
+            "colorTo": "f3ed35"
           },
           {
             "type": "ParticleEffect",
@@ -67,8 +67,8 @@
             "sizeInterp": "pow5In",
             "sizeFrom": 2.5,
             "sizeTo": 0,
-            "colorFrom": "837cd9",
-            "colorTo": "5b5699"
+            "colorFrom": "fffa75",
+            "colorTo": "f3ed35"
           },
           {
             "type": "WaveEffect",
@@ -77,9 +77,9 @@
             "sizeTo": 30,
             "strokeFrom": 2,
             "strokeTo": 0,
-            "lightColor": "837cd9",
-            "colorFrom": "837cd9",
-            "colorTo": "D99F6BFF"
+            "lightColor": "fffee5",
+            "colorFrom": "fffa75",
+            "colorTo": "f3ed35"
           },
           {
             "type": "ParticleEffect",
@@ -89,9 +89,9 @@
             "length": 0,
             "interp": "swingIn",
             "lifetime": 25,
-            "lightColor": "837cd9",
-            "colorFrom": "837cd9",
-            "colorTo": "837cd9"
+            "lightColor": "fffee5",
+            "colorFrom": "fffa75",
+            "colorTo": "f3ed35"
           },
           {
             "type": "ParticleEffect",
@@ -101,7 +101,7 @@
             "length": 0,
             "interp": "swingIn",
             "lifetime": 25,
-            "lightColor": "837cd9",
+            "lightColor": "fffee5",
             "colorFrom": "FFFFFFF",
             "colorTo": "FFFFFFF"
            }
@@ -110,9 +110,9 @@
       "speed": 1000,
       "hitShake": 7,
       "trailSpacing": 30,
-      "colorFrom": "837cd9",
-      "colorTo": "D99F6BFF",
-      "hitColor": "837cd9",
+      "colorFrom": "fffee5",
+      "colorTo": "f3ed35",
+      "hitColor": "fffee5",
       "trailEffect": "railTrail",
       "despawnEffect": "none",
       "splashDamageRadius": 40,

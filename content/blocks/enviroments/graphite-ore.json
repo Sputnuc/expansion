@@ -1,0 +1,7 @@
+{
+	"type": "OreBlock",
+	"itemDrop": "graphite"
+	"oreDefault": true,
+	"oreThreshold": 0.880,
+	"oreScale": 21.6
+}

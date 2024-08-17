@@ -1,16 +1,20 @@
 {
-    "type": "GenericCrafter",
+    "type": "AttributeCrafter",
 	"buildCostMultiplier": 0.5,
 	"name": "slag-extractor",
     "category": "production",
     "research": "tebriy-expansion-liquid", 
+	"attribute": "oil",
+	"minEfficiency": 1,
+	"baseEfficiency": 0.1,
+	"boostScale": 0.1,
     "requirements": [
       "copper/160",
       "graphite/90",
       "metaglass/70", 
       "silicon/100"
     ],
-    "outputLiquid": "slag/0.20",
+    "outputLiquid": "slag/0.25",
     "craftTime": 60,
     "size": 3,
     "liquidCapacity": 90,

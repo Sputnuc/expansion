@@ -1,8 +1,13 @@
 {
 	"name": "graphite_drill",
 	"description": "graphite is drilling from the bowels of the earth",
-	"type": "GenericCrafter",
+	"type": "AttributeCrafter",
 	"category": "production",
+	"attribute": "carbontile",
+	"baseEfficiency": 1,
+	"boostScale": 0.05,
+	"maxBoost": 2,
+	"minEfficiency": 1,
 	"size": 4,
 	"hasPower": true,
 	"requirements": [

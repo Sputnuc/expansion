@@ -4,9 +4,11 @@
   "description": "turret from cobalt",
   "health": 850,
   "buildCostMultiplier": 0.5,
-  "reload": 60,
+  "shake": 2,
+  "reload": 40,
   "recoil": 0.6,
   "range": 200,
+  "shootSound": "shootBig",
   "size": 2,
   "consumes": { 
     "coolant": { 
@@ -15,7 +17,7 @@
   },
   "shoot": {
     "type": "ShootAlternate",
-    "shots": 8,
+    "shots": 3,
     "spread": 1,
     "shotDelay": 4,
   },
@@ -27,10 +29,9 @@
     "silicon-alloy": {
       "speed": 5.5,
       "ammoMultiplier": 2,
-      "hitSize": 8,
       "type": "BasicBulletType",
       "width": 13,
-      "damage": 54,
+      "damage": 44,
       "lifetime": 40,
 	  "trailWidth": 2,
       "trailLength": 12,
@@ -42,9 +43,8 @@
       "width": 8,
       "height": 8,
       "damage": 38,
-      "lifetime": 80,
-      "speed": 3,
-      "hitSize": 5,
+      "lifetime": 53.666,
+      "speed": 4,
       "ammoMultiplier": 4,
 	  "trailWidth": 2,
       "trailLength": 9,
@@ -55,27 +55,25 @@
       "type": "basicBulletType",
       "height": 8,
       "width": 5,
-      "damage": 56,
+      "damage": 36,
 	  "splashDamageRadius": 45,
 	  "hitEffect": "blastExplosion",
-	  "splashDamage": 65,
+	  "splashDamage": 45,
 	  "reloadMultiplier": 0.75,
       "speed": 4.5,
 	  "trailWidth": 2,
       "trailLength": 12,
 	  "trailColor": "aeabe5",
       "lifetime": 55,
-      "hitSize": 18,
       "ammoMultiplier": 2,
     },
     "silicon": {
       "type": "BasicBulletType",
       "height": 8,
       "width": 8,
-      "damage": 58,
+      "damage": 38,
       "speed": 7,
       "lifetime": 34,
-      "hitSize": 8,
       "ammoMultiplier": 3, 
 	  "trailWidth": 2,
       "trailLength": 12,
@@ -87,15 +85,15 @@
   "requirements": [
     {
       "item": "cobalt",
-      "amount": 20
+      "amount": 75
     },
     {
       "item": "silicon",
-      "amount": 60
+      "amount": 130
     },
 	{
-      "item": "tebriy-alloy",
-      "amount": 40
+      "item": "copper",
+      "amount": 120
     }
   ],
   "category": "turret", 
