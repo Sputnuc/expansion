@@ -15,7 +15,7 @@
       "reload": 25,
       "mirror": false,
       "rotate": false,
-      "inaccuracity": 10, 
+      "inaccuracy": 10, 
       "shoot": {
       "shots": 3,
       "shotDelay": 3.5

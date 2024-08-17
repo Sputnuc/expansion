@@ -1,7 +1,7 @@
 {
   "type": "tank",
   "name": "[red]RAGNAREK",
-  "hitSize": 56,
+  "hitSize": 46,
   "treadPullOffset": 1,
   "speed": 0.35,
   "rotateSpeed": 0.6,
