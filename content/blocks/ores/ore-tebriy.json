@@ -1,7 +1,0 @@
-{
-	"type": "OreBlock",
-	"itemDrop": "tebriy"
-	"oreDefault": true,
-	"oreThreshold": 0.880,
-	"oreScale": 23.6
-}
