@@ -1,6 +1,6 @@
 {
   "type": "tank",
-  "name": "[red]RAGNAREK",
+  "name": "[red]Assault",
   "hitSize": 46,
   "treadPullOffset": 1,
   "speed": 0.35,
@@ -59,13 +59,11 @@
         "type": "basicBulletType",
         "width": 13,
         "height": 13,
-        "damage": 350,
+        "damage": 1000,
 		"pierceBuilding": true,
-	    "scaleLife": true,
-		"reflectable": false,
         "pierceCap": 3,
 		"speed": 24.0,
-        "lifetime": 20.0,
+        "lifetime": 15.0,
         "shootEffect": "shootTitan",
         "smokeEffect": "shootSmokeTitan",
         "hitColor": "ffa665",
@@ -140,57 +138,7 @@
             "colorTo": "b35a1e"
            }
          ]
-        },
-		"pierceFragCap": 4,
-        "fragSpread": 15,
-		"fragRandomSpread": 0,
-        "fragBullets": 24,
-        "fragVelocityMin": 1,
-        "fragVelocityMax": 1,
-        "fragBullet": {
-            "type": "basicBulletType",
-            "splashDamageRadius": 40,
-			"damage": 18,
-            "splashDamage": 23,
-			"pierceBuilding": true,
-            "pierceCap": 2,
-			"reflectable": true,
-			"lifetime": 5,
-            "speed": 1,
-			"homingPower": 0.7,
-			"homingRange": 240,
-			"hitColor": "ffa665",
-            "backColor": "ffa665",
-			"despawnEffect": "explosion"
-			"hitEffect": "pointHit",
-            "fragSpread": 1,
-			"fragRandomSpread": 0,
-            "fragBullets": 3,
-            "fragVelocityMin": 1,
-            "fragVelocityMax": 1
-            "trailColor": "ffa665",
-			"fragOnHit": false,
-            "frontColor": "ffffff",
-            "trailWidth": 5,
-            "trailLength": 2,
-			 "fragBullet": {
-            "type": "basicBulletType",
-            "splashDamageRadius": 20,
-			"damage": 4,
-            "splashDamage": 9,
-			"pierceBuilding": true,
-            "pierceCap": 2,
-			"lifetime": 3,
-            "speed": 2,
-			"hitColor": "ffa665",
-            "backColor": "ffa665",
-            "trailColor": "ffa665",
-            "frontColor": "ffffff",
-            "trailWidth": 3,
-            "trailLength": 1,
-            "lifetime": 15
-          }
-          }
+        }
       }
     }
   ],

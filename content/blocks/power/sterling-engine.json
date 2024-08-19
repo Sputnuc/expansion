@@ -1,6 +1,4 @@
 {
-  "name": "sterling-engine",
-  "description": "better version of combustion generator",
   "type": "ConsumeGenerator",
   "size": 3,
   "category": "power",

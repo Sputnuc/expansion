@@ -1,7 +1,6 @@
 {
     "type": "multicraft.MultiCrafter",
 	"buildCostMultiplier": 0.1,
-	"name": "waterpacker",
     "category": "crafting",
     "research": "tebriy-expansion-liquid", 
     "requirements": [

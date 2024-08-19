@@ -1,6 +1,4 @@
 {
-	"name": "tebriy drill",
-	"description": "powerfull drill",
 	"type": "Drill",
 	"size": 2,
 	"itemCapacity": 25,

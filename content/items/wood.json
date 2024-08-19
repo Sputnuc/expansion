@@ -1,7 +1,5 @@
 {
 	"type": "material",
-	"name": "wood",
-	"description": "wood",
 	"color": "613a10",
 	"hardness": 1,
 	"research": "tebriy-alloy", 

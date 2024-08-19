@@ -1,7 +1,5 @@
 {
 	"type": "material",
-	"name": "silicon alloy",
-	"description": "alloy of silicon",
 	"color": "474747",
 	"hardness": 4,
 	"research": "tebriy", 

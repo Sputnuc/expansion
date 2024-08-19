@@ -1,7 +1,5 @@
 {
 	"type": "material",
-	"name": "tebriy",
-	"description": "strong material",
 	"color": "873905",
 	"hardness": 4,
 	"cost": 4,

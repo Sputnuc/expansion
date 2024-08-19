@@ -1,7 +1,5 @@
 {
   "type": "SolarGenerator",
-  "name": "panel",
-  "description": "more efficiency solar panel",
   "health": 120,
   "buildCostMultiplier": 0.25,
   "size": 2,

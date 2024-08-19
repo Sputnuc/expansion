@@ -1,6 +1,4 @@
 {
-	"name": "Tebriy Wall",
-	"description": "A wall made of Tebriy",
 	"type": "Wall",
 	"buildCostMultiplier": 0.45,
 	"health": 2700,

@@ -1,14 +1,13 @@
 {
     "type": "Reconstructor",
-    "name": "Teberiy Refabricator",
-    "description": "Upgrades units created in the Basic Factory to the next tier. Units produced by this Reassembly Chamber may be further upgraded.",
     "health": 750,
     "size": 5,
 	"buildCostMultiplier": 0.65,
     "constructTime": 2700,
     "upgrades": [
         ["armada", "flame"],
-		["niva", "paradox"]
+		["niva", "paradox"],
+		["meteor", "pressure"]
     ],
     "consumes": {
         "power": 6.5,

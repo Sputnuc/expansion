@@ -1,7 +1,5 @@
 {
 	"type": "material",
-	"name": "carbon",
-	"description": "valuable compound based on coal, graphite and silicon",
 	"color": "1b1b1c",
 	"hardness": 7,
 	"cost": 9,

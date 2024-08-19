@@ -1,6 +1,4 @@
 {
-	"name": "cobalt furnace",
-	"description": "smelting titanium , tebriy and lead to cobalt",
 	"type": "GenericCrafter",
 	"buildCostMultiplier": 0.45,
 	"size": 3,

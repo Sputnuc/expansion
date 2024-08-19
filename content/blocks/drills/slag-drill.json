@@ -1,7 +1,6 @@
 {
     "type": "AttributeCrafter",
 	"buildCostMultiplier": 0.5,
-	"name": "slag-extractor",
     "category": "production",
     "research": "tebriy-expansion-liquid", 
 	"attribute": "oil",

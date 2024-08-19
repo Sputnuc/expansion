@@ -1,7 +1,5 @@
 {
     "type": "Reconstructor",
-    "name": "Teberiy Reassembler",
-    "description": "Upgrades units the max tier"
     "health": 1000,
     "size": 7,
 	"hasLiquid": true,

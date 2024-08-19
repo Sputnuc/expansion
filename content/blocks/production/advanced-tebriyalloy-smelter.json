@@ -1,6 +1,4 @@
 {
-	"name": "advance tebriy_alloy_smelter",
-	"description": "smelting silicon , tebriy and thorium to tebriy_alloy",
 	"type": "GenericCrafter",
 	"size": 3,
 	"hasPower": true,

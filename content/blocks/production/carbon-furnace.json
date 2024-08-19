@@ -1,6 +1,4 @@
 {
-	"name": "carbon furnace",
-	"description": "create carbon",
 	"type": "GenericCrafter",
 	"buildCostMultiplier": 0.50,
 	"size": 3,

@@ -1,7 +1,5 @@
 {
     "type": "Reconstructor",
-    "name": "Teberiy Reconstructor",
-    "description": "Upgrades units created in the Basic Factory to the next tier. Units produced by this Reassembly Chamber may be further upgraded.",
     "health": 550,
     "size": 3,
     "constructTime": 900,

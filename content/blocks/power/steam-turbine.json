@@ -1,6 +1,4 @@
 {
-  "name": "steam-turbine",
-  "description": "Generates electricity using steam as fuel.",
   "type": "ConsumeGenerator",
   "size": 3,
   "category": "power",

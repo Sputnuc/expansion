@@ -1,7 +1,5 @@
 {
   "type": "conveyor",
-  "name": "cobaltconveyor",
-  "description": "Cobalt conveyor more speedy then titanium conveyor",
   "health": 230,
   "requirements": [
     {

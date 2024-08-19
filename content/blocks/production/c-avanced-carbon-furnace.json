@@ -1,6 +1,4 @@
 {
-	"name": "advance carbon furnace",
-	"description": "smelting plastanium, silicon and lead to carbon",
 	"type": "GenericCrafter",
 	"buildCostMultiplier": 0.45,
 	"size": 4,

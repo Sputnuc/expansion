@@ -1,6 +1,4 @@
 {
-	"name": "graphite_drill",
-	"description": "graphite is drilling from the bowels of the earth",
 	"type": "AttributeCrafter",
 	"category": "production",
 	"attribute": "carbontile",

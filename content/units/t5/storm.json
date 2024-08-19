@@ -1,6 +1,6 @@
 {
   "type": "flying",
-  "name": "[red]STORM",
+  "name": "[red]Storm",
   "health": 19000,
   "flying": true,
   "range": 100,  

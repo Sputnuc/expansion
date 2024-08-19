@@ -1,7 +1,4 @@
 {
-  "name": "steam",
-  "localizedName": "пар",
-  "description": "газообразное состояние воды.",
   "color": "ffffff",
   "research": "boiler", 
   "temperature": 0.5,

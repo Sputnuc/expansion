@@ -1,6 +1,4 @@
 {
-	"name": "silicon-alloy smelter",
-	"description": "Smelting silicon, sand, and coal to silicon-alloy",
 	"type": "GenericCrafter",
 	"size": 3,
 	"buildCostMultiplier": 0.5,

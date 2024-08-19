@@ -1,21 +1,26 @@
 {
   "type": "naval",
-  "name": "[yellow]Meteor",
-  "health": 750,
-  "speed": 1.0,
+  "name": "[orange]Pressure",
+  "health": 1150,
+  "speed": 0.8,
   "drag": 0.14,
-  "hitSize": 16,
+  "hitSize": 24,
   "accel": 0.5,
-  "rotateSpeed": 3.0,
+  "rotateSpeed": 2.4,
   "weapons": [
     {
-      "x": -6,
-      "name": "meteor-weapon",
-      "y": -4,
-      "reload": 20,
+      "x": 0,
+      "name": "pressure-weapon1",
+      "y": 6,
+      "reload": 600,
       "rotateSpeed": 1.7,
-      "mirror": true,
-      "shootSound": "bang",
+      "mirror": false,
+	  "shoot": {
+		  "shots": 50,
+		  "shotDelay": 3,
+	  },
+      "shootSound": "shoot",
+	  "inaccuracy": 3,
       "rotate": true,
       "bullet": {
         "type": "basicBulletType",
@@ -23,14 +28,35 @@
         "hight": 9,
         "speed": 4,
         "lifetime": 60,
-        "damage": 15,
+        "damage": 10,
         "pierceBuilding": false
       }
     },
 	{
+		"name": "pressure-weapon2",
+		"x": -6,
+		"y": 0,
+		"reload": 15,
+	    "baseRotation": 45,
+		"shootCone": 180,
+		"rotate": false,
+		"shootSound": "missile",
+		"mirror": true,
+		"bullet": {
+			"type": "MissileBulletType",
+			"speed": 3.5,
+			"lifetime": 90,
+			"damage": 25,
+			"splashDamage": 10,
+			"splashDamageRadius": 24,
+			"homingPower": 0.2,
+			"homingRange": 80,				
+		}
+	},
+	{
       "x": 0,
-      "name": "meteor-weapon2",
-      "y": -3,
+      "name": "pressure-weapon3",
+      "y": -5,
       "reload": 60,
       "rotateSpeed": 1.4,
       "mirror": false,
@@ -46,7 +72,7 @@
         "trailLength": 3,
         "speed": 3,
         "lifetime": 90,
-        "damage": 20,
+        "damage": 45,
 		"splashDamage": 50,
 		"splashDamageRadius": 34,
 		"hitEffect": "blastExplosion",
@@ -55,5 +81,5 @@
       }
     }
   ],
-  "research": "komete"
+  "research": "meteor"
 }

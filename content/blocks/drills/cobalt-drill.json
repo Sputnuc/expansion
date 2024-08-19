@@ -1,6 +1,4 @@
 {
-	"name": "cobalt drill",
-	"description": "powerfull drill",
 	"type": "Drill",
 	"size": 4,
 	"itemCapacity": 45,

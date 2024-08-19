@@ -1,7 +1,5 @@
 {
 	"type": "material",
-	"name": "cobalt",
-	"description": "very valuable material used in defence",
 	"color": "1f2468",
 	"hardness": 5,
 	"explosiveness": 1,

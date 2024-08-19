@@ -1,7 +1,5 @@
 {
     "type": "Reconstructor",
-    "name": "final refabricator",
-    "description": "Upgrades units the max tier"
     "health": 750,
     "size": 5,
 	"hasLiquid": true,

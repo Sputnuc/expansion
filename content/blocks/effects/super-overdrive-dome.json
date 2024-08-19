@@ -1,7 +1,5 @@
 {
   "type": "OverdriveProjector",
-  "name": "super Overdrive Projector",
-  "description": "A super overdrive projector. Makes everything in its range faster but be aware that it also increases energy consumption!",
   "range": 88,
   "health": 1600,
   "buildCostMultiplier": 0.5,

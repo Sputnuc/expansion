@@ -1,7 +1,5 @@
 {
   "type": "ItemTurret",
-  "name": "horizon",
-  "description": "spectre but",
   "buildCostMultiplier": 0.50,
   "health": 2400,
   "reload": 10,

@@ -1,6 +1,4 @@
 {
-	"name": "advanced tebriy sintezer",
-	"description": "Sintezate tebriy from ",
 	"type": "GenericCrafter",
 	"size": 3,
 	"hasPower": true,

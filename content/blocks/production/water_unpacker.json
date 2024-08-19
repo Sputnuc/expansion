@@ -1,7 +1,6 @@
 {
     "type": "multicraft.MultiCrafter",
 	"buildCostMultiplier": 0.1,
-	"name": "waterunpacker",
     "category": "crafting",
     "research": "water_packer", 
     "requirements": [

@@ -1,6 +1,5 @@
 {
   "type": "PowerTurret",
-  "name": "avangard",
   "researchCostMultiplier": 0.7,
   "size": 3,
   "health": 680,

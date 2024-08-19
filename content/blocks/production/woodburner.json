@@ -1,6 +1,4 @@
 {
-	"name": "burner",
-	"description": "burn wood to coal",
 	"type": "GenericCrafter",
 	"size": 2,
 	"hasPower": true,

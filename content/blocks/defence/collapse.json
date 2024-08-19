@@ -1,7 +1,5 @@
 {
   "type": "ItemTurret",
-  "name": "Collapse",
-  "description": "turret from cobalt",
   "health": 850,
   "buildCostMultiplier": 0.5,
   "shake": 2,
