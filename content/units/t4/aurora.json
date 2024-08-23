@@ -1,0 +1,64 @@
+{
+  "type": "naval",
+  "health": 11000,
+  "armor": 16,
+  "speed": 0.4,
+  "drag": 0.14,
+  "hitSize": 24,
+  "accel": 0.5,
+  "rotateSpeed": 2.1,
+  "weapons": [
+    {
+      "x": 0,
+      "name": "aurora-wepon1",
+      "y": 6,
+      "reload": 60,
+      "rotateSpeed": 1.4,
+      "mirror": false,
+      "shootSound": "shootAlt",
+	  "inaccuracy": 1,
+      "rotate": true,
+      "bullet": {
+        "type": "basicBulletType",
+        "width": 9,
+        "hight": 9,
+        "speed": 5,
+		"trailColor": "fecaa4",
+        "frontColor": "ffffff",
+        "trailWidth": 5,
+        "trailLength": 7,
+        "lifetime": 60,
+        "damage": 80,
+        "pierceBuilding": false
+      }
+    },
+	{
+      "x":-6,
+      "name": "aurora-wepon2",
+      "y": -10,
+      "reload": 30,
+      "rotateSpeed": 1.4,
+      "mirror": true,
+      "shootSound": "bang",
+      "rotate": true,
+      "bullet": {
+        "type": "basicBulletType",
+        "width": 10,
+        "hight": 14,
+		"trailColor": "ffa665",
+        "frontColor": "ffffff",
+        "trailWidth": 4,
+        "trailLength": 3,
+        "speed": 4,
+        "lifetime": 90,
+        "damage": 60,
+		"splashDamage": 20,
+		"splashDamageRadius": 34,
+		"hitEffect": "blastExplosion",
+        "despawnEffect": "blastExplosion"
+        "pierceBuilding": false
+      }
+    }
+  ],
+  "research": "pressure"
+}

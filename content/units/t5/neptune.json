@@ -1,0 +1,76 @@
+{
+  "type": "naval",
+  "health": 22500,
+  "armor": 17,
+  "speed": 0.35,
+  "drag": 0.14,
+  "hitSize": 48,
+  "accel": 0.5,
+  "rotateSpeed": 0.9,
+  "weapons": [
+	{
+      "x":-14,
+      "name": "neptune-weapon",
+      "y": -6.5,
+      "reload": 40,
+	  "shake": 3,
+	  "recoil": 3,
+      "rotateSpeed": 1.4,
+      "mirror": true,
+      "shootSound": "bang",
+      "rotate": true,
+      "bullet": {
+        "type": "basicBulletType",
+        "width": 10,
+        "hight": 14,
+		"trailColor": "ffa665",
+        "frontColor": "ffffff",
+        "trailWidth": 7,
+        "trailLength": 9,
+        "speed": 7,
+        "lifetime": 40,
+        "damage": 90,
+		"splashDamage": 70,
+		"splashDamageRadius": 34,
+		"hitEffect": "blastExplosion",
+        "despawnEffect": "blastExplosion"
+        "pierceBuilding": false
+      }
+    },
+	{
+      "x": 0,
+      "y": -8,
+      "name": "neptune-weapon2",
+      "shootSound": "railgun",
+      "layerOffset": 0.0001,
+      "reload": 100,
+	  "shake": 7,
+      "shootY": 4,
+      "recoil": 5,
+      "rotate": true,
+      "rotateSpeed": 1.1,
+      "mirror": false,
+      "shootCone": 4,
+      "cooldownTime": 30,
+      "bullet": {
+        "width": 19,
+        "type": "LaserBulletType",
+        "length": 440,
+        "damage": 800,
+        "pierceBuilding": true,
+        "laserAbsorb": true,
+        "lifetime": 40,
+        "hitColor": "ebf377",
+        "hitEffect": "hitBulletColor",
+        "smokeEffect": "shootSmallSmoke",
+        "shootEffect": "lightningCharge"
+        "colors": [
+          "dce656",
+          "ebf377",
+          "ffffff",
+          ]
+      }
+    }
+  ],
+  "research": "aurora"
+}

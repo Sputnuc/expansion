@@ -6,7 +6,7 @@
   "speed": 0.35,
   "rotateSpeed": 0.6,
   "health": 24000,
-  "crushDamage": 20,
+  "crushDamage": 4,
   "armor": 25,
   "singleTarget": false,
   "omniMovement": false,

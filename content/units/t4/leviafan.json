@@ -5,8 +5,8 @@
   "treadPullOffset": 7,
   "speed": 0.35,
   "rotateSpeed": 0.9,
-  "health": 9500,
-  "crushDamage": 3,
+  "health": 10500,
+  "crushDamage": 1,
   "range": 224,
   "armor": 18,
   "treadRects": [
