@@ -1,17 +1,18 @@
 {
     "type": "GenericCrafter",
-	"buildCostMultiplier": 0.1,
+	"buildCostMultiplier": 0.75,
     "category": "production",
     "research": "tebriy-expansion-liquid", 
     "requirements": [
-      "graphite/80",
-      "metaglass/40", 
-      "tebriy-alloy/70",
-      "silicon/85",
+      "graphite/120",
+	  "copper/75",
+      "metaglass/70", 
+      "tebriy-alloy/35",
+      "silicon/95",
     ],
     "outputItem": {"item": "wood", "amount": 8}
     "craftTime": 100,
-    "size": 2,
+    "size": 4,
     "liquidCapacity": 290,
     "hasLiquids": true,
     "hasPower": true,
@@ -21,5 +22,30 @@
     "consumes": {
       "power": 2,
       "liquid": "water/0.5"
-    }
+    },
+	"drawer": {
+      "type": "DrawMulti",
+      "drawers": [
+        {
+          "type": "DrawRegion",
+          "suffix": "-bottom"
+        },
+        {
+          "type": "DrawLiquidTile",
+          "drawLiquid": "water"
+        },
+        {
+          "type": "DrawDefault" 
+        },
+        {
+          "type": "DrawCultivator"
+		  "plantColor": "5ca932",
+		  "plantColorLight": "69df2a"
+        },
+        {
+          "type": "DrawRegion",
+          "suffix": "-top"
+        }
+      ]
+    },
   }
