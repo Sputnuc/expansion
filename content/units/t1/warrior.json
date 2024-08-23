@@ -25,13 +25,13 @@
       "x": 0,
       "name": "warrior-weapon",
       "y": 0,
-      "reload": 30,
+      "reload": 40,
       "rotateSpeed": 1.4,
       "mirror": false,
       "shootSound": "lasershoot",
       "shoot": {
        "shots": 3,
-       "shotDelay": 3
+       "shotDelay": 6
   },
       "rotate": true,
       "bullet": {
