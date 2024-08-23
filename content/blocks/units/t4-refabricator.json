@@ -8,7 +8,8 @@
     "constructTime": 5400,
     "upgrades": [
         ["flame", "leviafan"],
-        ["paradox", "ctulhu"]
+        ["paradox", "ctulhu"],
+	    ["pressure", "aurora"]
     ],
     "consumes": {
         "power": 15.5,

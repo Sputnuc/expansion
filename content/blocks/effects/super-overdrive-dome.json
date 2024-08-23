@@ -11,7 +11,7 @@
   "useTime": 600,
   "speedBoost": 8.15,
   "reload": 1,
-  "research": "surge-alloy",
+  "research": "carbon-furnace",
   "category": "effect",
   "consumes": {
     "power": 20,

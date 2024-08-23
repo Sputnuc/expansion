@@ -1,0 +1,14 @@
+{
+	"type": "Wall",
+	"buildCostMultiplier": 0.5,
+	"health": 775,
+	"absorbLasers": true,
+	"size": 1,
+	"requirements": [
+		{ "item": "cobalt", "amount": 8 },
+		{ "item": "tebriy-alloy", "amount": 10 },
+		{ "item": "plastanium", "amount": 3},
+	],
+	"category": "defense",
+	"research": "cobalt-wall"
+}
