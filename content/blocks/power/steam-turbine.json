@@ -20,7 +20,13 @@
         },
         {
           "type": "DrawDefault"
-        }
+        },
+		{
+            "type": "DrawRegion",
+            "suffix": "-rotator",
+            "rotateSpeed": 9,
+            "spinSprite": true
+          },
       ]
     },
   "requirements": [
