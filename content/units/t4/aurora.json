@@ -12,7 +12,7 @@
       "x": 0,
       "name": "aurora-wepon1",
       "y": 6,
-      "reload": 60,
+      "reload": 40,
       "rotateSpeed": 1.4,
       "mirror": false,
       "shootSound": "shootAlt",
@@ -39,6 +39,10 @@
       "reload": 30,
       "rotateSpeed": 1.4,
       "mirror": true,
+	  "shoot": {
+		  "shots": 3,
+		  "shotDelay": 2
+	  },
       "shootSound": "bang",
       "rotate": true,
       "bullet": {
