@@ -66,7 +66,7 @@
 		"type": "basicBulletType",
 		"higth": 16,
 		"width": 13,
-		"damage": 45,
+		"damage": 65,
 		"speed": 25,
 		"lifetime": 15,
 		"homingRange": 190,
