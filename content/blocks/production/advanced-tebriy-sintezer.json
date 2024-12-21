@@ -15,13 +15,16 @@
 		"power": 3.35,
 		"items": {
 			"items": [
-				{"item": "copper", "amount": 8},
-				{"item": "titanium", "amount": 3},
-				{"item": "lead", "amount": 5}
+				{"item": "copper", "amount": 6},
+				{"item": "coal", "amount": 10},
+				{"item": "graphite", "amount": 3},
 			]
 		}
 	},	
-	"outputItem": {"item": "tebriy", "amount": 12},
+	"outputItems": [
+     "tebriy/10",
+     "silicon/1"
+],
 	"craftTime": 90,
 	"idleSound": "respawning",
 	"updateEffect": "smeltsmoke", 

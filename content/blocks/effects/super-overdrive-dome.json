@@ -9,7 +9,7 @@
   "phaseRangeBoost": 20,
   "itemCapacity": 40,
   "useTime": 600,
-  "speedBoost": 8.15,
+  "speedBoost": 5.15,
   "reload": 1,
   "research": "carbon-furnace",
   "category": "effect",

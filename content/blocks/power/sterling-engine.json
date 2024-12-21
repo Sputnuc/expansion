@@ -11,8 +11,7 @@
   "requirements": [
     {"item": "copper", "amount": 145},
     {"item": "lead", "amount": 140},
-    {"item": "graphite", "amount": 85},
-    {"item": "silicon", "amount": 90}
+    {"item": "graphite", "amount": 85}
   ],
   "consumes": {
   "items": [
@@ -21,5 +20,5 @@
     },
   "outputsPower": true,
   	"researchCostMultiplier": 0.25,
-  "powerProduction": 5.5
+  "powerProduction": 4.5
 }

@@ -18,20 +18,19 @@
       "amount": 0.8
     }
   },
-  "coolantMultiplier": 0.4,
+  "coolantMultiplier": 0.7,
   "shoot": {
     "type": "ShootAlternate",
     "shots": 2,
     "spread": 10,
-    "barrels": 2,
-    "shotDelay": 3
+    "barrels": 2
   },
   "maxAmmo": 75,
   "ammoTypes": {
     "blast-compound": {
       "type": "basicBulletType",
-      "width": 8,
-      "height": 8,
+      "width": 16,
+      "height": 16,
       "shrinkY": 0,
       "splashDamageRadius": 32,
       "splashDamage": 50,
@@ -51,12 +50,12 @@
       "type": "BasicBulletType",
       "frontColor": "6e6e6e",
       "backColor": "a2a3a6",
-      "width": 8,
+      "width": 16,
       "height": 10,
       "shrinkY": 0,
-      "damage": 100,
+      "damage": 90,
       "ammoMultiplier": 5,
-	  "reloadMultiplier": 1.15,
+	  "reloadMultiplier": 1.35,
 	  "trailWidth": 4,
       "trailLength": 18,
 	  "trailColor": "ecdbd3",
@@ -71,8 +70,8 @@
       "height": 8,
       "shrinkY": 0,
       "splashDamageRadius": 34,
-      "splashDamage": 100
-      "damage": 60,
+      "splashDamage": 45
+      "damage": 135,
       "hitEffect": "blastExplosion",
 	  "trailWidth": 4,
       "trailLength": 18,
@@ -95,7 +94,7 @@
 	"thorium/190",
 	"surge-alloy/380"
   ],
-  "shootSound": "shootSmite",
+  "shootSound": "shootBig",
   "category": "turret",
   "research": "collapse"
 }

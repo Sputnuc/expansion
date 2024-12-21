@@ -6,7 +6,7 @@
   "maxAmmo": 20,
   "ammoPerShot": 5,
   "unitSort": "strongest",
-  "reload": 220,
+  "reload": 360,
   "range": 800,
   "shake": 9,
   "shootLength": 8,
@@ -20,13 +20,13 @@
   "recoil": 4,
   "shootShake": 6,
   "inaccuracy": 0,
-  "cooldownTime": 220,
+  "cooldownTime": 320,
   "rotateSpeed": 1,
   "shootSound": "railgun",
   "ammoTypes": {
     "surge-alloy": {
-      "type": "pointBulletType",
-      "damage": 4000,
+      "type": "PointBulletType",
+      "damage": 5000,
       "shootEffect": "instShoot",
       "hitEffect": {
         "type": "multiEffect",
@@ -121,6 +121,8 @@
 	"cobalt": {
       "type": "pointBulletType",
       "damage": 2000,
+      "splashDamage": 500,
+      "splashDamageRadius": 32,
 	  "reloadMultiplier": 1.5,
       "shootEffect": "instShoot",
       "hitEffect": {

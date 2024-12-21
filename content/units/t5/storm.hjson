@@ -1,0 +1,105 @@
+
+  type: flying
+  name: "[red]Storm"
+  health: 19000
+  flying: true
+  range: 100  
+  speed: 0.6
+  drag: 0.17  
+  hitSize: 50
+  rotateSpeed: 0.75 
+  armor: 18
+  lowAltitude: true
+  engineOffset: 6
+  forceMultiTarget: true
+  engineSize: 13.0
+  weapons: [
+    {
+      name: storm-weapon1
+      x: 0
+      y: 0
+      reload: 230
+	  top: false
+	  layerOffset: 0.001
+	  shake: 19
+	  shootY: 0
+      mirror: false
+      shootSound: laserblast
+	  chargeSound: laserchange
+	  cooldownTime: 130
+  	parentizeEffects: true
+      shoot: {
+        firstShotDelay: 90
+         }	  
+      rotate: false
+      inaccuracity: 3
+        bullet: {
+        type: laserBulletType
+        width: 50
+        length: 640
+        damage: 640
+		pierceBuilding: true
+        pierceCap: 5
+        lifetime: 50
+        chargeEffect: [
+        {
+        type: WaveEffect
+        followParent: true
+        sizeFrom: 120
+        sizeTo: 0
+        strokeFrom: 0
+        strokeTo: 3
+        lifetime: 75
+        }       
+        ]
+		colors: [
+          a1acd9
+          dfd6ff
+          ffffff
+           ]
+      }
+    }
+	{
+		name: storm-weapon2
+		x: 25
+		y: 0
+		reload: 60
+		shoot: {
+		type: ShootSpread
+		spread: 3
+		shots: 6
+		shotDelay: 4
+}
+		shake: 3
+		shootSound: malignShoot
+		top: false
+		minWarmup: 0.1
+		inaccuracity: 30
+		warmupSpeed: 0.01
+		shootCone: 180
+		rotation: 90
+		baseRotation: 0
+		mirror: true
+		 bullet: {
+		type: basicBulletType
+		higth: 16
+		width: 13
+		damage: 35
+		speed: 5
+		lifetime: 72
+		homingRange: 32
+		homingPower: 0.12
+		hitColor: a1acd9
+        backColor: a1acd9
+        trailColor: a1acd9
+        frontColor: dfd6ff
+        trailWidth: 3
+        trailLength: 8
+		 }
+	}
+		
+		
+		
+  ]
+  research: ctulhu
+

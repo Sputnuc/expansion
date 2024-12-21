@@ -9,7 +9,7 @@
   "rotateSpeed": 0.9,
   "weapons": [
 	{
-      "x":-14,
+      "x": -14,
       "name": "neptune-weapon",
       "y": -6.5,
       "reload": 40,
@@ -25,7 +25,7 @@
         "hight": 14,
 		"trailColor": "ffa665",
         "frontColor": "ffffff",
-        "trailWidth": 7,
+        "trailWidth": 4,
         "trailLength": 9,
         "speed": 7,
         "lifetime": 40,
@@ -54,21 +54,30 @@
       "cooldownTime": 30,
       "bullet": {
         "width": 19,
-        "type": "LaserBulletType",
-        "length": 440,
+        "type": "BasicBulletType",
+        "height": 19,
+        "scaleLife": true,
+        "speed": 18,
+        "lifetime": 35,
         "damage": 900,
+        "pierce": true,
         "pierceBuilding": true,
-        "laserAbsorb": true,
-        "lifetime": 40,
         "hitColor": "ebf377",
         "hitEffect": "hitBulletColor",
         "smokeEffect": "shootSmallSmoke",
-        "shootEffect": "lightningCharge"
-        "colors": [
-          "dce656",
-          "ebf377",
-          "ffffff",
-          ]
+        "shootEffect": "lightningCharge",
+        "trailEffect": {
+          "type": "ParticleEffect",
+          "lifetime": 30,
+          "particles": 6,
+          "sizeFrom": 3,
+          "sizeTo": 2.5,
+          "length": 5,
+          "baseLength" : 6,
+          "colorTo": "F1EA8F00",
+          "colorFrom": "FFF576"
+         },
+        "trailInterval": 1
       }
     }
   ],

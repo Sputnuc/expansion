@@ -36,8 +36,8 @@
       "bullet": {
         "width": 16,
         "type": "LaserBulletType",
-        "length": 240,
-        "damage": 65,
+        "length": 100,
+        "damage": 25,
         "pierceBuilding": true,
         "laserAbsorb": true,
         "lifetime": 40,

@@ -1,7 +1,7 @@
 {
 	"type": "GenericCrafter",
 	"liquidCapacity": 80,
-	"outputLiquid": {"liquid": "stteam", "amount": 1.1},
+	"outputLiquid": {"liquid": "stteam", "amount": 1},
 	"size": 2,
 	"hasPower": false,
 	"hasLiquids": true,

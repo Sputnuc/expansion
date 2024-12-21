@@ -1,7 +1,7 @@
 {
   "type": "flying",
   "name": "niva",
-  "health": 650,
+  "health": 350,
   "flying": true, 
   "speed": 1.1, 
   "hitSize": 13,
@@ -15,27 +15,32 @@
       "name": "niva-weapon",
       "x": -7,
       "y": 0,
-      "reload": 30,
+      "reload": 60,
       "recoil": 2,
       "mirror": true,
       "shootSound": "missile",
       "rotate": false,
-      "inaccuracity": 15, 
+      "velocityRnd": 0.1,
+      "inaccuracity": 45, 
+      "alternate": false,
       "shoot": {
       "shots": 4,
-      "shotDelay": 2
+      "shotDelay": 6
       },
       "bullet": {
         "type": "missileBulletType",
-        "damage": 15,
+        "damage": 7,
         "lifeTime": 45,
         "height": 7,
-        "splashDamage": 12,
+        "splashDamage": 8,
         "splashDamageRadius": 15.5,
         "weight": 5,
         "hitEffect": "blastExplosion",
         "despawnEffect": "blastExplosion", 
-        "speed": 4.5
+        "speed": 4.5,
+        "homingPower": 0.1,
+        "homingRadius": 40,
+        "homingDelay": 10,
          }
     }
   ],
