@@ -2,8 +2,8 @@
 	"name": "expansion",
 	"author": "sputnuc",
 	"description": "[ENG]A mod that adds new content to serpulo.(needs multicrafter-lib).\n\n[Ru]Мод добавляющий новый контент для серпуло. (необходим мод multicrafter-lib)",
-	"version": "4",
+	"version": "4.1",
 	"dependencies": ["multi-crafter"],
 	"minGameVersion": 136,
-	"subtitle": "v4"
+	"subtitle": "v4.1"
 }
