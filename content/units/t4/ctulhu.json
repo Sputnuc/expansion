@@ -1,18 +1,17 @@
 {
   "type": "flying",
   "name": "[red]ctulhu",
-  "health": 9500,
+  "health": 9400,
   "flying": true,
   "range": 100,  
-  "speed": 0.7,
+  "speed": 1.1,
   "drag": 0.17,  
-  "hitSize": 29,
+  "hitSize": 35,
   "rotateSpeed": 0.85, 
-  "armor": 18,
+  "armor": 15,
   "lowAltitude": true,
-  "engineOffset": 16,
-  "forceMultiTarget": true,
-  "engineSize": 6.85,
+  "engineOffset": 10.5,
+  "engineSize": 3.85,
   "weapons": [
     {
       "name": "ctulhu-weapon1",
@@ -24,23 +23,24 @@
       "mirror": false,
       "shootSound": "missile",
       "rotate": true,
-      "inaccuracity": 15, 
+      "inaccuracy": 15, 
       "shoot": {
-      "shots": 4,
-      "shotDelay": 2
+      "shots": 8,
+      "shotDelay": 3
       },
       "bullet": {
         "type": "missileBulletType",
         "damage": 20,
 		"homingRange": 40,
-		"lifetime": 40,
+		"homingPower": 0.3,
+		"lifetime": 60,
         "height": 7,
         "splashDamage": 45,
         "splashDamageRadius": 35,
-        "weight": 5,
+        "width": 5,
         "hitEffect": "blastExplosion",
         "despawnEffect": "blastExplosion", 
-        "speed": 5.5
+        "speed": 3.5
          }
     },
 	{
@@ -49,19 +49,19 @@
       "name": "ctulhu-weapon2",
       "shootSound": "laser",
       "layerOffset": 0.0001,
-      "reload": 45,
+      "reload": 75,
       "shootY": 2,
       "recoil": 2,
       "rotate": true,
       "rotateSpeed": 1.1,
       "mirror": false,
-      "shootCone": 4,
+      "shootCone": 1,
       "cooldownTime": 30,
       "bullet": {
         "width": 16,
         "type": "LaserBulletType",
         "length": 180,
-        "damage": 125,
+        "damage": 75,
         "pierceBuilding": true,
         "lifetime": 40,
         "hitColor": "feb380",
@@ -77,9 +77,9 @@
     },
 	{
       "name": "ctulhu-weapon3",
-      "x": 16,
-      "y": 0,
-      "reload": 20,
+      "x": -15,
+      "y": 3,
+      "reload": 40,
 	  "layerOffset": 0.001,
       "recoil": 0.1,
       "mirror": true,
@@ -93,15 +93,19 @@
       "bullet": {
         "type": "missileBulletType",
         "damage": 35,
-		"homingRange": 40,
-		"lifetime": 40,
+		"homingRange": 30,
+		"homingPower": 0.1,
+		"homingDelay": 20
+		"lifetime": 70,
         "height": 7,
-        "splashDamage": 45,
+        "splashDamage": 35,
         "splashDamageRadius": 35,
-        "weight": 5,
+        "width": 5,
         "hitEffect": "blastExplosion",
         "despawnEffect": "blastExplosion", 
-        "speed": 5.5
+        "speed": 2.5,
+        "weaveScale": 4,
+        "weaveMag": 3
          }
     },
   ],

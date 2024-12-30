@@ -13,7 +13,7 @@
 		"power": 1.75,
 		"items": {
 			"items": [
-				{"item": "titanium", "amount": 2}
+				{"item": "coal", "amount": 4}
 				{"item": "copper", "amount": 2}
 			]
 		}

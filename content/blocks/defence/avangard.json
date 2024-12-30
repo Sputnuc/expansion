@@ -3,7 +3,7 @@
   "researchCostMultiplier": 0.7,
   "size": 3,
   "health": 680,
-  "reload": 130,
+  "reload": 110,
   "range": 160,
   "targetAir": false,
   "targetGround": true,
@@ -12,9 +12,11 @@
   "rotateSpeed": 8,
   "shootSound": "laser",
   "shoot": {
+    "type": "ShootSpread",
     "firstShotDelay": 35,
+    "spread": 15
     "shots": 3,
-    "shotDelay": 25
+    "shotDelay": 5
   },
   "consumes": {
     "power": 8
@@ -23,7 +25,6 @@
   "hasPower": true,
   "shootType": {
     "type": "laserBulletType",
-    "sprite": "exogenesis-armored-bullet",
     "absorbable": true,
     "chargeEffect": "lancerLaserCharge",
     "chargeBeginEffect": "lancerLaserChargeBegin",

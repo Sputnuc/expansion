@@ -6,7 +6,7 @@
   "drag": 0.14,
   "hitSize": 24,
   "accel": 0.5,
-  "rotateSpeed": 2.4,
+  "rotateSpeed": 1.4,
   "weapons": [
     {
       "x": 0,

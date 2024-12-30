@@ -1,12 +1,12 @@
 {
   "type": "ItemTurret",
   "size": 5,
-  "health": 2560,
+  "health": 4560,
   "buildCostMultiplier": 0.50,
   "maxAmmo": 20,
   "ammoPerShot": 5,
   "unitSort": "strongest",
-  "reload": 220,
+  "reload": 390,
   "range": 800,
   "shake": 9,
   "shootLength": 8,
@@ -20,13 +20,13 @@
   "recoil": 4,
   "shootShake": 6,
   "inaccuracy": 0,
-  "cooldownTime": 220,
+  "cooldownTime": 370,
   "rotateSpeed": 1,
   "shootSound": "railgun",
   "ammoTypes": {
     "surge-alloy": {
-      "type": "pointBulletType",
-      "damage": 4000,
+      "type": "PointBulletType",
+      "damage": 8000,
       "shootEffect": "instShoot",
       "hitEffect": {
         "type": "multiEffect",
@@ -120,8 +120,9 @@
     },
 	"cobalt": {
       "type": "pointBulletType",
-      "damage": 2000,
-	  "reloadMultiplier": 1.5,
+      "splashDamage": 4200,
+      "splashDamageRadius": 48,
+	  "reloadMultiplier": 1.25,
       "shootEffect": "instShoot",
       "hitEffect": {
         "type": "multiEffect",

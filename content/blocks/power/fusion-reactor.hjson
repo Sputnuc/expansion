@@ -1,0 +1,44 @@
+
+  type: ImpactReactor
+  name: Fusion reactor
+  description: Generate a huge amount of power, Don't allow it to break during work!!!
+  health: 4100
+  size: 5
+  hasPower: true
+  hasLiquids: true
+  hasItems: true
+  warmupSpeed: 0.0001
+  explosionShake: 26
+  lightColor: 000000
+  itemCapacity: 60
+  liquidCapacity: 900
+  itemDuration: 30
+  powerProduction: 1700
+  explosionDamage: 19000
+  explosionRadius: 60
+  consumes: {
+    power: 250
+    liquid: {
+      liquid: cryofluid
+      amount: 1
+    }
+    items: {
+      items: [
+        blast-compound/2
+        surge-alloy/1
+      ]
+    }
+  }
+  requirements: [
+  copper/1240
+  lead/750
+  graphite/780
+  silicon/1140
+  thorium/450
+  phase-fabric/540
+  surge-alloy/450
+  cobalt/750
+  silicon-alloy/890
+  ]
+  category: power
+  research: steam-turbine

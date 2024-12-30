@@ -5,7 +5,7 @@
   "size": 2,
   "hasPower": true,
   "hasLiquids": false,
-  "powerProduction": 1.3,
+  "powerProduction": 1,
   "requirements": [
     {
       "item": "tebriy-alloy",

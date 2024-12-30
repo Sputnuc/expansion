@@ -15,12 +15,12 @@
         "power": 25.0,
         "items": {
             "items": [
-			  "tebriy-alloy/3700",
-			  "surge-alloy/750",
-              "silicon/2550",
-			  "carbon/1500",
-			  "plastanium/1750",
-			  "phase-fabric/1750"
+              "silicon/1550",
+			  "plastanium/1250",
+			  "phase-fabric/1750",
+		      "surge-alloy/750",
+		      "tebriy-alloy/570",
+		      "carbon/920"
             ]
 			
         },

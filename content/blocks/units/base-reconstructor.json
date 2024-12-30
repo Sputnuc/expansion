@@ -12,9 +12,9 @@
         "power": 1.5,
         "items": {
             "items": [
-              "silicon/90",
+              "silicon/40",
               "graphite/50", 
-              "titanium/70"
+              "titanium/25"
             ]
         }
     },

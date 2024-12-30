@@ -1,0 +1,124 @@
+
+  type: flying
+  name: "[red]Storm"
+  health: 19000
+  flying: true
+  range: 100  
+  speed: 0.6
+  drag: 0.17  
+  hitSize: 50
+  rotateSpeed: 0.75 
+  armor: 18
+  lowAltitude: true
+  engineOffset: 6
+  forceMultiTarget: true
+  engineSize: 13.0
+  weapons: [
+    {
+      name: storm-weapon1
+      x: 0
+      y: 0
+      reload: 270
+	  top: false
+	  layerOffset: 0.001
+	  shake: 19
+	  shootY: 0
+      mirror: false
+      shootSound: laserblast
+	  chargeSound: laserchange
+	  cooldownTime: 130
+  	parentizeEffects: true
+      shoot: {
+        firstShotDelay: 80
+         }	  
+      rotate: false
+      inaccuracity: 3
+        bullet: {
+        type: laserBulletType
+        width: 50
+        length: 640
+        damage: 640
+		pierceBuilding: true
+        pierceCap: 5
+        lifetime: 50
+        chargeEffect: [
+        {
+        type: WaveEffect
+        followParent: true
+        sizeFrom: 120
+        sizeTo: 0
+        strokeFrom: 0
+        strokeTo: 5
+        lifetime: 75
+        }
+        {
+         type: ParticleEffect
+         particles: 12
+         sizeFrom: 0
+         sizeTo: 6
+         length: 90
+         baseLength: -90
+         colorFrom: ffffff00
+         lifetime: 75
+        }       
+        ]
+		colors: [
+          a1acd9
+          dfd6ff
+          ffffff
+           ]
+      }
+    }
+	{
+		name: storm-weapon2
+		x: 25
+		y: 0
+		reload: 60
+		shake: 3
+		shootSound: malignShoot
+		top: false
+		minWarmup: 0.1
+		inaccuracy: 3
+		warmupSpeed: 0.01
+		shootCone: 30
+		rotation: 90
+		baseRotation: 0
+		mirror: true
+		 bullet: {
+		type: basicBulletType
+		height: 18
+		width: 16
+		damage: 145
+		speed: 9
+		lifetime: 72
+		homingRange: 32
+		homingPower: 0.1
+		weaveScale: 2
+		weaveMag: 3
+		hitColor: a1acd9
+        backColor: a1acd9
+        trailColor: a1acd9
+        frontColor: BECBD9
+        trailWidth: 5
+        trailLength: 8
+        trailEffect: {
+        type: ParticleEffect
+        particle: 4
+        line: true
+        lenFrom: 5
+        lenTo: 6
+        colorFrom: a1acd9
+        colorTo: ffffff00
+        strokeFrom: 1
+        strokeTo: 3
+        length: 10
+        baseLength: 13
+           }
+		 }
+	}
+		
+		
+		
+  ]
+  research: ctulhu
+

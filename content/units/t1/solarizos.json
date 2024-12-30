@@ -3,31 +3,34 @@
   "name": "solarizos",
   "health": 170,
   "flying": true, 
-  "speed": 1.5, 
+  "speed": 3.8, 
   "hitSize": 9,
-  "accel": 0.9,
-  "rotateSpeed": 9.5, 
+  "accel": 0.02,
+  "drag": 0.0025,
+  "rotateSpeed": 7, 
+  "trailLength": 6.5,
+  "circleTarget": true,
+  "faceTarget": false,
   "range": 85,
   "weapons": [
     {
+     "shootCone": 30,
       "x": 0,
       "y": 0,
-      "reload": 25,
+      "reload": 4,
       "mirror": false,
       "rotate": false,
-      "inaccuracy": 10, 
-      "shoot": {
-      "shots": 3,
-      "shotDelay": 3.5
-      },
+      "inaccuracy": 7, 
       "bullet": {
         "type": "basicBulletType",
-        "buildingDamageMultiplier": 1.2,
-        "damage": 6,
-        "lifeTime": 0,
-        "height": 12,
-        "weight":10, 
-        "speed": 4.5
+        "buildingDamageMultiplier": 1.1,
+        "damage": 5,
+        "lifetime": 26.5,
+        "height": 13,
+        "width": 7.5, 
+        "speed": 8.25
+        "trailWidth": 3,
+        "trailLength": 4,
          }
     }
   ],

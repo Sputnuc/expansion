@@ -13,10 +13,10 @@
         "power": 6.5,
         "items": {
             "items": [
-              "silicon/250",
-			  "titanium/200", 
+              "silicon/150",
+			  "titanium/60", 
 			  "metaglass/75",
-              "tebriy-alloy/100"          
+              "tebriy-alloy/70"          
             ]
         }
     },

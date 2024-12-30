@@ -6,30 +6,36 @@
   "drag": 0.14,
   "hitSize": 48,
   "accel": 0.5,
-  "rotateSpeed": 0.9,
+  "rotateSpeed": 0.5,
   "weapons": [
 	{
-      "x":-14,
+      "x": -14,
       "name": "neptune-weapon",
       "y": -6.5,
-      "reload": 40,
+      "reload": 70,
 	  "shake": 3,
 	  "recoil": 3,
+	  "inaccuracy": 5,
+	  "velocityRnd": 0.3,
       "rotateSpeed": 1.4,
       "mirror": true,
       "shootSound": "bang",
       "rotate": true,
+      "shoot": {
+      "shots": 4,
+}
       "bullet": {
         "type": "basicBulletType",
         "width": 10,
         "hight": 14,
 		"trailColor": "ffa665",
         "frontColor": "ffffff",
-        "trailWidth": 7,
+        "trailWidth": 4,
         "trailLength": 9,
-        "speed": 7,
-        "lifetime": 40,
-        "damage": 125,
+        "speed": 9,
+        "lifetime": 75,
+        "drag": 0.019,
+        "damage": 85,
 		"splashDamage": 90,
 		"splashDamageRadius": 34,
 		"hitEffect": "blastExplosion",
@@ -50,25 +56,61 @@
       "rotate": true,
       "rotateSpeed": 1.1,
       "mirror": false,
-      "shootCone": 4,
       "cooldownTime": 30,
       "bullet": {
-        "width": 19,
-        "type": "LaserBulletType",
-        "length": 440,
+        "width": 39,
+        "type": "BasicBulletType",
+        "height": 39,
+        "speed": 18,
+        "lifetime": 35,
         "damage": 900,
+        "pierce": true,
         "pierceBuilding": true,
-        "laserAbsorb": true,
-        "lifetime": 40,
         "hitColor": "ebf377",
         "hitEffect": "hitBulletColor",
         "smokeEffect": "shootSmallSmoke",
-        "shootEffect": "lightningCharge"
-        "colors": [
-          "dce656",
-          "ebf377",
-          "ffffff",
+        "shootEffect": "lightningCharge",
+        "trailWidth": 5,
+        "trailLength": 22,
+  	  "trailColor": "f3ed35",
+        "despawnEffect": {
+         "type": "multiEffect",
+         "effects": [
+          {
+             "type": "ParticleEffect",
+             "particles": 1,
+             "sizeFrom": 0,
+             "sizeTo": 20,
+             "colorTo": "f3ed35",
+             "colorFrom": "F8F47A",
+             "lifetime": 25,
+             "length": 0
+           },
+           {
+             "type": "ParticleEffect",
+             "particles": 1,
+             "sizeFrom": 20,
+             "sizeTo": 0,
+             "colorFrom": "f3ed35",
+             "colorTo": "F8F47A",
+             "lifetime": 35,
+             "startDelay": 25,
+             "length": 0
+           }
           ]
+},
+        "trailEffect": {
+          "type": "ParticleEffect",
+          "lifetime": 30,
+          "particles": 6,
+          "sizeFrom": 3,
+          "sizeTo": 2.5,
+          "length": 5,
+          "baseLength" : 6,
+          "colorTo": "F1EA8F00",
+          "colorFrom": "FFF576"
+         },
+        "trailInterval": 1
       }
     }
   ],

@@ -17,6 +17,6 @@
   ],
   "category": "distribution",
   "research": "cobalt-furnace", 
-  "displayedSpeed": 20,
-  "speed": 0.165
+  "displayedSpeed": 14,
+  "speed": 0.1
 }
