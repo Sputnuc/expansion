@@ -18,7 +18,7 @@
 		 "liquid": {"liquid": "water", "amount": 0.41666666666},	
 	},
     "outputItem": {"item": "graphite","amount": 1}
-    "craftTime": 30,
+    "craftTime": 45,
 	"updateEffect": "mine",
 	"research": "tebriy_drill", 
 	"drawer": {
