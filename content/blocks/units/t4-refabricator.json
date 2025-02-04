@@ -15,9 +15,9 @@
         "power": 15.5,
         "items": {
             "items": [
-              "silicon/450",
-              "plastanium/350",
-			  "tebriy-alloy/220",
+              "silicon/350",
+              "plastanium/250",
+			  "tebriy-alloy/320",
 			  "carbon/150"
             ]
 			

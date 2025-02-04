@@ -32,20 +32,20 @@
       },
       "bullet": {
         "type": "missileBulletType",
-        "damage": 12,
-		"lifetime": 48,
-        "height": 7,
+        "damage": 15,
+		"lifetime": 65,
+        "height": 9,
         "splashDamage": 15,
         "splashDamageRadius": 35,
-        "weight": 5,
+        "width": 8,
         "hitEffect": "blastExplosion",
         "despawnEffect": "blastExplosion",
         "homingPower": 0.4,
         "homingRadius": 40,
         "homingDelay": 20,
         "speed": 3.5,
-        "weaveScl": 3,
-        "weaveMag": 2
+        "weaveScale": 3,
+        "weaveMag": 4
          }
     },
 	{
@@ -61,8 +61,8 @@
 	  "shootEffect": "none",
       "inaccuracity": 3, 
       "shoot": {
-      "shots": 3,
-      "shotDelay": 2
+      "shots": 6,
+      "shotDelay": 3
       },
       "bullet": {
         "type": "basicBulletType",
@@ -70,10 +70,12 @@
         "lifetime": 30,
         "height": 5,
 	    "trailWidth": 2,
+	    "frontColor": "8FBCD5",
+	    "backColor": "74a0af",
 	    "trailColor": "74a0af",
         "trailLength": 2,
-        "weight": 5, 
-        "speed": 5
+        "width": 5, 
+        "speed": 7
          }
     }
   ],

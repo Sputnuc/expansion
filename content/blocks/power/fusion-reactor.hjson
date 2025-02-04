@@ -13,14 +13,14 @@
   itemCapacity: 60
   liquidCapacity: 900
   itemDuration: 30
-  powerProduction: 1500
+  powerProduction: 1700
   explosionDamage: 19000
   explosionRadius: 60
   consumes: {
     power: 250
     liquid: {
       liquid: cryofluid
-      amount: 2
+      amount: 1
     }
     items: {
       items: [

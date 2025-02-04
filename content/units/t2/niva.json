@@ -15,18 +15,13 @@
       "name": "niva-weapon",
       "x": -7,
       "y": 0,
-      "reload": 60,
+      "reload": 10,
       "recoil": 2,
       "mirror": true,
       "shootSound": "missile",
       "rotate": false,
       "velocityRnd": 0.1,
-      "inaccuracity": 45, 
-      "alternate": false,
-      "shoot": {
-      "shots": 4,
-      "shotDelay": 6
-      },
+      "inaccuracy": 6,
       "bullet": {
         "type": "missileBulletType",
         "damage": 7,
@@ -41,6 +36,8 @@
         "homingPower": 0.1,
         "homingRadius": 40,
         "homingDelay": 10,
+        "weaveScale": 3,
+        "weaveMag": 1
          }
     }
   ],

@@ -40,7 +40,7 @@
       shots: 8
       }
       shootCone: 4
-      inaccuracy: 4
+      inaccuracy: 3
       bullet: {
         type: basicBulletType
         width: 13
@@ -52,8 +52,27 @@
         pierceCap: 3
 		speed: 15.5
         lifetime: 24
-        shootEffect: shootTitan
-        smokeEffect: shootSmokeTitan
+        shootEffect: {
+        type: ParticleEffect
+        cone: 18
+        particles: 1
+        sizeFrom: 2
+        sizeTo: 0
+        colorFrom: FFD1B8
+        colorTo: ffffff00
+        length: 15
+        baseLength: 30
+        }
+        smokeEffect: {
+        type: ParticleEffect
+        cone: 24
+        particles: 2
+        sizeFrom: 4
+        sizeTo: 3
+        colorFrom: FFC782
+        colorTo: 7C7C7C00
+        length: 20
+        }  
         hitColor: ffa665
         backColor: ffa665
         trailColor: ffa665

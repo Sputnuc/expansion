@@ -3,20 +3,19 @@
   "researchCostMultiplier": 0.7,
   "size": 3,
   "health": 680,
-  "reload": 170,
+  "reload": 150,
   "range": 160,
   "targetAir": false,
   "targetGround": true,
   "recoilAmount": 1.8,
   "restitution": 0.04,
-  "rotateSpeed": 8,
+  "rotateSpeed": 4,
+  "shake": 2,
   "shootSound": "laser",
   "shoot": {
-    "type": "ShootSpread",
     "firstShotDelay": 35,
-    "spread": 7,
-    "shots": 5,
-    "shotDelay": 5
+    "shots": 3,
+    "shotDelay": 12
   },
   "consumes": {
     "power": 8
@@ -25,14 +24,13 @@
   "hasPower": true,
   "shootType": {
     "type": "laserBulletType",
-    "sprite": "exogenesis-armored-bullet",
     "absorbable": true,
     "chargeEffect": "lancerLaserCharge",
     "chargeBeginEffect": "lancerLaserChargeBegin",
     "lifetime": 25,
-    "damage": 150,
+    "damage": 185,
     "length": 165,
-    "wigth": 29,
+    "wigth": 39,
     "hitEffect": "hitLaser",
     "pierce": true,
     "frontColor": "bbdefb",

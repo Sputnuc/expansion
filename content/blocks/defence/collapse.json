@@ -3,33 +3,28 @@
   "health": 850,
   "buildCostMultiplier": 0.5,
   "shake": 2,
-  "reload": 50,
+  "reload": 5,
   "recoil": 0.6,
   "range": 200,
   "shootSound": "shootBig",
   "size": 2,
+  "inaccuracy": 2,
   "consumes": { 
     "coolant": { 
        "amount": 0.1 
     } 
-  },
-  "shoot": {
-    "type": "ShootSpread",
-    "shots": 5,
-    "spread": 4,
-    "shotDelay": 3,
   },
   "researchCostMultiplier": 0.4,
   "targetAir": true,
   "targetGround": true,
   "ammoTypes": {
     "silicon-alloy": {
-      "speed": 10,
+      "speed": 12.5,
       "ammoMultiplier": 2,
       "type": "BasicBulletType",
       "width": 13,
-      "damage": 18,
-      "lifetime": 22,
+      "damage": 24,
+      "lifetime": 16,
 	  "trailWidth": 2,
       "trailLength": 12,
 	  "trailColor": "d0cbc0",
@@ -39,8 +34,8 @@
       "type": "BasicBulletType",
       "width": 8,
       "height": 8,
-      "damage": 28,
-      "lifetime": 53.666,
+      "damage": 26,
+      "lifetime": 50,
       "speed": 4,
       "ammoMultiplier": 4,
 	  "trailWidth": 2,
@@ -52,25 +47,25 @@
       "type": "basicBulletType",
       "height": 8,
       "width": 5,
-      "damage": 16,
+      "damage": 36,
 	  "splashDamageRadius": 12,
 	  "hitEffect": "blastExplosion",
-	  "splashDamage": 45,
-	  "reloadMultiplier": 0.55,
-      "speed": 4.5,
+	  "splashDamage": 25,
+	  "reloadMultiplier": 0.70,
+      "speed": 7.7,
 	  "trailWidth": 2,
       "trailLength": 12,
 	  "trailColor": "aeabe5",
-      "lifetime": 55,
+      "lifetime": 26,
       "ammoMultiplier": 2,
     },
     "silicon": {
       "type": "BasicBulletType",
       "height": 8,
       "width": 8,
-      "damage": 13,
-      "speed": 7,
-      "lifetime": 34,
+      "damage": 20,
+      "speed": 8,
+      "lifetime": 25,
       "ammoMultiplier": 3, 
 	  "trailWidth": 2,
       "trailLength": 12,
@@ -81,18 +76,10 @@
     }
   },
   "requirements": [
-    {
-      "item": "cobalt",
-      "amount": 35
-    },
-    {
-      "item": "silicon",
-      "amount": 50
-    },
-	{
-      "item": "copper",
-      "amount": 70
-    }
+   "copper/85",
+   "graphite/55",
+   "titanium/45",
+   "silicon-alloy/25", 
   ],
   "category": "turret", 
   "research": "cobalt-furnace"

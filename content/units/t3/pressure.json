@@ -6,21 +6,17 @@
   "drag": 0.14,
   "hitSize": 24,
   "accel": 0.5,
-  "rotateSpeed": 2.4,
+  "rotateSpeed": 1.4,
   "weapons": [
     {
       "x": 0,
       "name": "pressure-weapon1",
       "y": 6,
-      "reload": 600,
+      "reload": 10,
       "rotateSpeed": 1.7,
       "mirror": false,
-	  "shoot": {
-		  "shots": 50,
-		  "shotDelay": 3,
-	  },
       "shootSound": "shoot",
-	  "inaccuracy": 3,
+	  "inaccuracy": 2,
       "rotate": true,
       "bullet": {
         "type": "basicBulletType",
@@ -28,7 +24,7 @@
         "hight": 9,
         "speed": 4,
         "lifetime": 60,
-        "damage": 10,
+        "damage": 15,
         "pierceBuilding": false
       }
     },
@@ -47,7 +43,7 @@
 			"speed": 3.5,
 			"lifetime": 90,
 			"damage": 25,
-			"splashDamage": 10,
+			"splashDamage": 14,
 			"splashDamageRadius": 24,
 			"homingPower": 0.2,
 			"homingRange": 80,				
@@ -73,7 +69,7 @@
         "speed": 3,
         "lifetime": 90,
         "damage": 45,
-		"splashDamage": 50,
+		"splashDamage": 30,
 		"splashDamageRadius": 34,
 		"hitEffect": "blastExplosion",
         "despawnEffect": "blastExplosion"

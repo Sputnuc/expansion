@@ -18,7 +18,7 @@
       name: storm-weapon1
       x: 0
       y: 0
-      reload: 230
+      reload: 670
 	  top: false
 	  layerOffset: 0.001
 	  shake: 19
@@ -32,14 +32,13 @@
         firstShotDelay: 90
          }	  
       rotate: false
-      inaccuracity: 3
         bullet: {
         type: laserBulletType
         width: 50
         length: 640
-        damage: 640
+        damage: 940
 		pierceBuilding: true
-        pierceCap: 5
+        pierceCap: 12
         lifetime: 50
         chargeEffect: [
         {
@@ -48,8 +47,18 @@
         sizeFrom: 120
         sizeTo: 0
         strokeFrom: 0
-        strokeTo: 3
+        strokeTo: 5
         lifetime: 75
+        }
+        {
+         type: ParticleEffect
+         particles: 12
+         sizeFrom: 0
+         sizeTo: 6
+         length: 90
+         baseLength: -90
+         colorFrom: ffffff00
+         lifetime: 75
         }       
         ]
 		colors: [
@@ -63,38 +72,52 @@
 		name: storm-weapon2
 		x: 25
 		y: 0
-		reload: 60
-		shoot: {
-		type: ShootSpread
-		spread: 3
-		shots: 6
-		shotDelay: 4
-}
+		reload: 90
 		shake: 3
 		shootSound: malignShoot
 		top: false
 		minWarmup: 0.1
-		inaccuracity: 30
+		inaccuracy: 1
 		warmupSpeed: 0.01
-		shootCone: 180
+		shootCone: 30
 		rotation: 90
 		baseRotation: 0
 		mirror: true
+		shoot: {
+		shots: 8
+		shotDelay: 4
+		}
 		 bullet: {
 		type: basicBulletType
-		higth: 16
-		width: 13
-		damage: 35
-		speed: 5
+		height: 18
+		width: 16
+		damage: 145
+		speed: 9
 		lifetime: 72
 		homingRange: 32
-		homingPower: 0.12
+		homingPower: 0.2
+		weaveScale: 2
+		weaveMag: 3
 		hitColor: a1acd9
         backColor: a1acd9
         trailColor: a1acd9
-        frontColor: dfd6ff
-        trailWidth: 3
+        frontColor: BECBD9
+        trailWidth: 5
         trailLength: 8
+        trailInterval: 1
+        trailEffect: {
+        type: ParticleEffect
+        particles: 5
+        line: true
+        lenFrom: 3
+        lenTo: 4
+        colorFrom: a1acd9
+        colorTo: ffffff00
+        strokeFrom: 0
+        strokeTo: 3
+        length: 4
+        baseLength: 3
+           }
 		 }
 	}
 		

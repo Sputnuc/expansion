@@ -4,18 +4,19 @@
   hitSize: 46
   treadRects: [
   {
-  x: 22.5
-  y: -52
-  width: 26
+  x: -70
+  y: -104
+  width: 27
   height: 140
   }
   {
-  x: 10.5
-  y: 28
-  width: 26
+  x: -46
+  y: 56
+  width: 27
   height: 40
   }
  ]
+  template: TankUnitType
   speed: 0.35
   rotateSpeed: 0.6
   health: 24000
@@ -24,6 +25,8 @@
   singleTarget: false
   omniMovement: false
   faceTarget: false
+  treadPullOffset: 1.1
+  template: TankUnitType
   weapons: [
     {
       x: 0
@@ -71,9 +74,9 @@
 			  
       bullet: {
         type: basicBulletType
-        width: 13
-        height: 13
-        damage: 700
+        width: 15
+        height: 23
+        damage: 790
 		pierceBuilding: true
         pierceCap: 3
 		speed: 24
@@ -84,20 +87,20 @@
         backColor: ffa665
         trailColor: ffa665
         frontColor: ffffff
-        trailWidth: 3
-        trailLength: 6
+        trailWidth: 4.5
+        trailLength: 7
         trailInterval: 1
         trailEffect: {
         type: multiEffect
         effects: [
         {
         type: ParticleEffect
-        particles: 10
+        particles: 7
         sizeFrom: 3
         sizeTo: 0
         colorTo: ffa66500
         lifetime: 60
-        length: 20
+        length: 15
         baseLength: 10
         }
    ]

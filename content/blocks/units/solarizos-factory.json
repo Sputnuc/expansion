@@ -25,11 +25,11 @@
 	   {
       "unit": "komete",
       "requirements": [
-        "silicon/30", 
+        "silicon/45", 
         "graphite/65",
         "metaglass/35"
            ],
-      "time": 1800
+      "time": 2000
     }
   ],
   "requirements": [
