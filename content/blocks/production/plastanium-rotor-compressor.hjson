@@ -1,0 +1,55 @@
+type: GenericCrafter
+size: 3
+hasPower: true
+buildCostMultiplier: 0.5
+hasItems: true
+hasLiquid: true
+itemCapacity: 20
+liquidCapacity: 60
+name: Plastanium rotor compressor
+requirements: [
+lead/95
+graphite/120
+titanium/90
+thorium/80
+plastanium/40
+]
+consumes: {
+    power: 2
+    items: [
+titanium/3
+    ]
+    liquids: [
+petroleum-gas/0.5
+    ]
+}
+drawer: {
+    type: DrawMulti
+    drawers: [{
+        type: DrawRegion
+        suffix: -bottom
+    }
+        {
+            type: DrawLiquidTile
+            drawLiquid: petroleum-gas
+        }
+        {
+            type: DrawRegion
+            suffix: -rotor
+            spinSprite: true
+            rotateSpeed: 1
+        }
+        {
+            type: DrawDefault
+        }]
+}
+outputItem: plastanium/4
+craftTime: 90
+idleSound: respawning
+updateEffect: smeltsmoke
+idleSoundVolume: 0.5
+category: crafting
+researchCostMultiplier: 0.25
+research: {
+    parent: oil-renifer
+}

@@ -37,7 +37,7 @@
       mirror: false
       velocityRnd: 0.4
       shoot: {
-      shots: 8
+      shots: 5
       }
       shootCone: 4
       inaccuracy: 3
@@ -45,7 +45,7 @@
         type: basicBulletType
         width: 13
         height: 13
-        damage: 50
+        damage: 70
 		pierceBuilding: true
 	    scaleLife: false
 		reflectable: false

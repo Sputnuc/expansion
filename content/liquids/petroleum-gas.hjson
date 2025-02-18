@@ -1,0 +1,8 @@
+  name: Petroleum gas
+  color: A9CFF0
+  research: oil-renifer
+  temperature: 0.5
+  flammability: 1.2
+  explosiveness: 1.2
+  gas: true
+  effect: burning

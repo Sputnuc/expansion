@@ -5,7 +5,7 @@
 	"buildCostMultiplier": 0.25,
 	"hasItems": true,
 	"hasLiquid": true,
-	"itemCapacity": 20,
+	"itemCapacity": 35,
 	"liquidCapacity": 120,
 	"requirements": [
 	{"item": "copper", "amount": 275},
@@ -19,7 +19,7 @@
 		"power": 2.7,
 		"items": {
 			"items": [
-				{ "item": "copper", "amount": 5},
+				{ "item": "titanium", "amount": 5},
 				{ "item": "lead", "amount": 4},
 				{ "item": "tebriy", "amount": 7}
 			]
@@ -41,7 +41,7 @@
    }
                ]
           },
-    "outputItem": {"item": "tebriy-alloy", "amount": 10},	
+    "outputItem": {"item": "tebriy-alloy", "amount": 12},	
 	"craftTime": 100,
 	"idleSound": "respawning",
 	"updateEffect": "smeltsmoke",

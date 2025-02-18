@@ -1,0 +1,51 @@
+research: tebriy-expansion-liquid
+name: Oil renifer
+description: ...
+type: GenericCrafter
+category: crafting
+invertFlip: true
+rotateDraw: false
+hasLiquids: true
+hasPower: true
+rotate: true
+size: 3
+
+outputLiquids: [
+   gasoline/0.25
+   heavy-oil/0.25
+   petroleum-gas/0.25
+]
+liquidOutputDirections: [ 1, 2, 3 ]
+liquidCapacity: 120
+itemCapacity: 0
+craftTime: 30
+
+ambientSoundVolume: 0.025
+ambientSound: electricHum
+
+consumes: {
+    power: 3
+liquids: [
+    oil/0.75
+]
+    }
+
+requirements: [
+    copper/130
+    lead/210
+    graphite/60
+    thorium/75
+    tebriy-alloy/55
+    ]
+
+drawer: {
+    type: DrawMulti
+drawers: [
+{
+    type: DrawDefault
+    }
+{
+    type: DrawLiquidOutputs
+    }
+]
+    }

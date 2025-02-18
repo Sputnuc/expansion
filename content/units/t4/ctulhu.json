@@ -4,8 +4,9 @@
   "health": 9400,
   "flying": true,
   "range": 100,  
-  "speed": 1.4,
-  "drag": 0.19,  
+  "speed": 1.7,
+  "accel": 0.05
+  "drag": 0.09,  
   "hitSize": 35,
   "rotateSpeed": 0.85, 
   "armor": 15,
@@ -25,7 +26,7 @@
       "rotate": true,
       "inaccuracy": 15, 
       "shoot": {
-      "shots": 12,
+      "shots": 8,
       "shotDelay": 2
       },
       "bullet": {
@@ -80,7 +81,7 @@
       "x": -15,
       "y": 3,
       "reload": 40,
-	  "layerOffset": 0.001,
+	  "layerOffset": -0.001,
       "recoil": 0.1,
       "mirror": true,
       "shootSound": "missile",
@@ -93,7 +94,7 @@
       "inaccuracity": 10, 
       "bullet": {
         "type": "missileBulletType",
-        "damage": 25,
+        "damage": 18,
 		"homingRange": 30,
 		"homingPower": 0.1,
 		"homingDelay": 20

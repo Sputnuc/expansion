@@ -1,0 +1,81 @@
+type: tank
+name: "[yellow]flame"
+hitSize: 24
+treadPullOffset: 5
+speed: 0.35
+rotateSpeed: 0.5
+health: 2300
+armor: 14
+treadRects: [{
+    x: 13
+    y: -38
+    width: 17
+    height: 76
+}]
+singleTarget: false
+omniMovement: false
+faceTarget: false
+weapons: [{
+    x: 0
+    y: 0
+    name: flame-weapon
+    layerOffset: 0.001
+    reload: 75
+    shootY: 5
+    recoil: 4
+    rotate: true
+    rotateSpeed: 0.8
+    shootSound: mediumCannon
+    mirror: false
+    shootCone: 5
+    bullet: {
+        type: basicBulletType
+        width: 5
+        height: 5
+        damage: 45
+        lifetime: 24
+        speed: 7.5
+        splashDamage: 25
+        splashDamageRadius: 44
+        shootEffect: shootTitan
+        smokeEffect: shootSmokeTitan
+        hitColor: ffa665
+        backColor: ffa665
+        trailColor: ffa665
+        frontColor: ffffff
+        trailWidth: 3.5
+        trailLength: 12
+        despawnSound: dullExplosion
+        hitEffect: blastExplosion
+        despawnEffect: blastExplosion
+    }
+}
+    {
+        x: 8
+        y: -8.5
+        name: armada-weapon2
+        layerOffset: 0.00001
+        reload: 25
+        shootY: 5
+        recoil: 1
+        inaccuracy: 6
+        rotate: true
+        rotateSpeed: 2.8
+        shootSound: lasershoot
+        mirror: true
+        shootCone: 12
+        shoot: {
+            shots: 3
+            shotDelay: 3
+        }
+        bullet: {
+            type:  BasicBulletType
+            buildingDamageMultiplier: 0.7
+            damage: 15
+            lifeTime: 35
+            heigth: 10
+            wight:10
+            speed: 5.5
+        }
+    }]
+research: armada

@@ -1,7 +1,7 @@
 {
   "color": "ffffff",
   "research": "boiler", 
-  "temperature": 0.5,
+  "temperature": 0.65,
   "viscosity": 0.1,
   "flammability": 0.5,
   "explosiveness": 0.1,

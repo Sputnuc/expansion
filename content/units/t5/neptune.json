@@ -94,7 +94,7 @@
              "colorFrom": "f3ed35",
              "colorTo": "F8F47A",
              "lifetime": 35,
-             "startDelay": 25,
+             "startDelay": 20,
              "length": 0
            }
           ]

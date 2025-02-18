@@ -13,8 +13,8 @@
 		"power": 1.75,
 		"items": {
 			"items": [
-				{"item": "coal", "amount": 4}
 				{"item": "copper", "amount": 2}
+	            {"item": "lead", "amount": 3}
 			]
 		}
 	},	

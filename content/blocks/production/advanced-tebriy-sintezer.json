@@ -16,7 +16,7 @@
 		"items": {
 			"items": [
 				{"item": "copper", "amount": 6},
-				{"item": "coal", "amount": 10},
+				{"item": "lead", "amount": 4},
 				{"item": "graphite", "amount": 3},
 			]
 		}

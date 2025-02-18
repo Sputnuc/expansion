@@ -1,0 +1,7 @@
+  name: Gasoline
+  color: 9F6F4E
+  research: oil-renifer
+  temperature: 0.5
+  viscosity: 0.05
+  flammability: 1.3
+  explosiveness: 1.3

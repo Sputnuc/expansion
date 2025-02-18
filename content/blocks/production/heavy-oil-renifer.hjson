@@ -1,0 +1,49 @@
+research: oil-renifer
+name: Heavy oil renifer
+description: ...
+type: GenericCrafter
+category: crafting
+invertFlip: true
+rotateDraw: false
+hasLiquids: true
+hasPower: true
+rotate: true
+size: 2
+
+outputLiquids: [
+water/0.1666666666666
+petroleum-gas/0.166666666666666
+]
+outputItem: coal/3
+liquidOutputDirections: [1, 3]
+liquidCapacity: 120
+itemCapacity: 20
+craftTime: 60
+
+ambientSoundVolume: 0.025
+ambientSound: electricHum
+
+consumes: {
+    power: 3
+    liquids: [
+heavy-oil/0.25
+    ]
+}
+
+requirements: [
+lead/110
+graphite/60
+titanium/50
+thorium/35
+silicon-alloy/35
+]
+
+drawer: {
+    type: DrawMulti
+    drawers: [{
+        type: DrawDefault
+    }
+        {
+            type: DrawLiquidOutputs
+        }]
+}

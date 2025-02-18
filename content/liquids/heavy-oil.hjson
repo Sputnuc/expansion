@@ -1,0 +1,7 @@
+  name: Heavy oil
+  color: 3A302B
+  research: oil-renifer
+  temperature: 0.5
+  viscosity: 0.85
+  flammability: 1.1
+  explosiveness: 1

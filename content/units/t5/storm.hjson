@@ -1,25 +1,26 @@
 
   type: flying
   name: "[red]Storm"
-  health: 19000
+  health: 18000
   flying: true
   range: 100  
-  speed: 0.6
-  drag: 0.17  
+  speed: 0.8
+  drag: 0.07
+  accel: 0.09
   hitSize: 50
   rotateSpeed: 0.75 
   armor: 18
   lowAltitude: true
-  engineOffset: 6
+  engineOffset: -3
   forceMultiTarget: true
-  engineSize: 13.0
+  engineSize: 9.0
   weapons: [
     {
       name: storm-weapon1
       x: 0
-      y: 0
+      y: -8.75
       reload: 670
-	  top: false
+	  top: true
 	  layerOffset: 0.001
 	  shake: 19
 	  shootY: 0
@@ -27,16 +28,19 @@
       shootSound: laserblast
 	  chargeSound: laserchange
 	  cooldownTime: 130
-  	parentizeEffects: true
+	  shootStatus: unmoving
+      shootStatusDuration: 90
+ 	  parentizeEffects: true
+ 	  rotateSpeed: 0.4
       shoot: {
         firstShotDelay: 90
          }	  
-      rotate: false
+      rotate: true
         bullet: {
         type: laserBulletType
         width: 50
         length: 640
-        damage: 940
+        damage: 640
 		pierceBuilding: true
         pierceCap: 12
         lifetime: 50
@@ -44,7 +48,7 @@
         {
         type: WaveEffect
         followParent: true
-        sizeFrom: 120
+        sizeFrom: 150
         sizeTo: 0
         strokeFrom: 0
         strokeTo: 5
@@ -70,28 +74,28 @@
     }
 	{
 		name: storm-weapon2
-		x: 25
-		y: 0
+		x: -22.5
+		y: -7
 		reload: 90
 		shake: 3
 		shootSound: malignShoot
-		top: false
+		top: true
+		rotate: true
+		rotateSpeed: 1.1
 		minWarmup: 0.1
 		inaccuracy: 1
 		warmupSpeed: 0.01
-		shootCone: 30
-		rotation: 90
-		baseRotation: 0
+		shootCone: 5
 		mirror: true
 		shoot: {
-		shots: 8
+		shots: 6
 		shotDelay: 4
 		}
 		 bullet: {
 		type: basicBulletType
 		height: 18
 		width: 16
-		damage: 145
+		damage: 80
 		speed: 9
 		lifetime: 72
 		homingRange: 32

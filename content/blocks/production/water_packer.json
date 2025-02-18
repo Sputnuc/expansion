@@ -20,7 +20,7 @@
 		"fluids": ["water/1"]
 		},
     "output":{
-		"items": ["expansion-packet-water/1"]
+		"items": ["exp-packet-water/1"]
 		},
 	"craftTime": 60			
     },
@@ -29,7 +29,7 @@
 		"fluids": ["slag/1"]
 		},
     "output":{
-		"items": ["expansion-packet-slag/1"]
+		"items": ["exp-packet-slag/1"]
 		},
 	"craftTime": 60			
     },
@@ -38,7 +38,7 @@
 		"fluids": ["oil/1"]
 		},
     "output":{
-		"items": ["expansion-packet-oil/1"]
+		"items": ["exp-packet-oil/1"]
 		},
 	"craftTime": 60			
     },
@@ -47,7 +47,7 @@
 		"fluids": ["cryofluid/1"]
 		},
     "output":{
-		"items": ["expansion-packet-cryo/1"]
+		"items": ["exp-packet-cryo/1"]
 		},
 	"craftTime": 60			
     }

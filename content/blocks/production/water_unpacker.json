@@ -18,7 +18,7 @@
 	"recipes": [
 	{
 	"input": {
-		"items": ["expansion-packet-water/1"]
+		"items": ["exp-packet-water/1"]
 		},
     "output":{
 		"fluids": ["water/1"]
@@ -27,7 +27,7 @@
     },
 		{
 	"input": {
-		"items": ["expansion-packet-slag/1"]
+		"items": ["exp-packet-slag/1"]
 		},
     "output":{
 		"fluids": ["slag/1"]
@@ -36,7 +36,7 @@
     },
 	{
 	"input": {
-		"items": ["expansion-packet-oil/1"]
+		"items": ["exp-packet-oil/1"]
 		},
     "output":{
 		"fluids": ["oil/1"]
@@ -45,7 +45,7 @@
     },
 	{
 	"input": {
-		"items": ["expansion-packet-cryo/1"]
+		"items": ["exp-packet-cryo/1"]
 		},
     "output":{
 		"fluids": ["cryofluid/1"]
