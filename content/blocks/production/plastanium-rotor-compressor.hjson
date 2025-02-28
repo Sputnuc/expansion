@@ -1,10 +1,10 @@
 type: GenericCrafter
 size: 3
 hasPower: true
-buildCostMultiplier: 0.5
+buildCostMultiplier: 1.1
 hasItems: true
 hasLiquid: true
-itemCapacity: 20
+itemCapacity: 25
 liquidCapacity: 60
 name: Plastanium rotor compressor
 requirements: [
@@ -17,7 +17,7 @@ plastanium/40
 consumes: {
     power: 2
     items: [
-titanium/3
+titanium/4
     ]
     liquids: [
 petroleum-gas/0.5
@@ -25,26 +25,32 @@ petroleum-gas/0.5
 }
 drawer: {
     type: DrawMulti
-    drawers: [{
-        type: DrawRegion
-        suffix: -bottom
-    }
-        {
-            type: DrawLiquidTile
-            drawLiquid: petroleum-gas
-        }
-        {
-            type: DrawRegion
-            suffix: -rotor
-            spinSprite: true
-            rotateSpeed: 1
-        }
-        {
-            type: DrawDefault
-        }]
+    drawers: [
+              {
+          type: DrawRegion
+		  suffix: -bottom
+          }
+		  {
+          type: DrawLiquidTile
+          drawLiquid: petroleum-gas
+          }
+		  {
+		  type: DrawRegion
+		  suffix: -rotator
+		  spinSprite: true
+		  rotateSpeed: 1
+		  }
+		  {
+		  type: DrawDefault
+          }
+          {
+          type: DrawRegion
+          suffix: -top
+          }
+        ]
 }
-outputItem: plastanium/4
-craftTime: 90
+outputItem: plastanium/5
+craftTime: 75
 idleSound: respawning
 updateEffect: smeltsmoke
 idleSoundVolume: 0.5

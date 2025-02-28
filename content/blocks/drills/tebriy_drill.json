@@ -4,8 +4,8 @@
     "itemCapacity": 25,
     "liquidCapacity": 35,
     "tier": 5,
-    "drilltime": 95,
-    "liquidBoostIntensity": 1.95,
+    "drillTime": 410,
+    "liquidBoostIntensity": 1.55,
     "requirements": [{
         "item": "copper", "amount": 30
     },
@@ -19,7 +19,7 @@
         "power": 0.3,
         "liquid": {
             "liquid": "stteam",
-            "amount": 0.2,
+            "amount": 0.1,
             "optional": true,
             "booster": true
         }

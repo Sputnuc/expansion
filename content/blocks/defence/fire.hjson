@@ -1,32 +1,31 @@
 type: LiquidTurret
 research: collapse
-name: Fire
+name: Fireburn
 category: turret
 targetAir: false
-fogRadius: 10.5
 shootCone: 50
-shootY: 3
+shootY: 11.5
 recoil: 0
 liquidCapacity: 45
 buildCostMultiplier: 1.75
 coolantMultiplier: 10
 ammoPerShot: 5
 inaccuracy: 2
-size: 2
+size: 3
 maxAmmo: 18
 health: 720
-reload: 3
+reload: 2
 range: 120
 armor: 3
 researchCostMultiplier:0.6
 ammoUseEffect: none
 shootSound: flame
 requirements: [
-copper/90
-graphite/75
-titanium/55
-plastanium/35
-tebriy-alloy/45
+copper/170
+graphite/125
+titanium/90
+plastanium/135
+tebriy-alloy/95
 ]
 
 ammoTypes: {
@@ -50,15 +49,14 @@ ammoTypes: {
         trailInterval: 1
         trailEffect: {
             type: ParticleEffect
-            particles: 4
+            particles: 5
             lifetime: 20
-            cone: 55
-            length: 7
+            length: 4
             baseLength: 8
-            colorFrom: FF4700
-            colorTo: 84848400
-            sizeFrom: 2
-            sizeTo: 3
+            colorFrom: FFD098
+            colorTo: FF0800
+            sizeFrom: 3
+            sizeTo: 0
         }
         hitEffect: hitFlameSmall
         despawnEffect: none
@@ -77,22 +75,21 @@ ammoTypes: {
         pierceCap: 4
         lifetime: 30
         speed: 4
-        damage: 45
+        damage: 65
         splashDamage: 12
         splashDamageRadius: 15
         trailRotation: true
         trailInterval: 1
         trailEffect: {
             type: ParticleEffect
-            particles: 3
-            lifetime: 50
-            cone: 55
+            particles: 4
+            lifetime: 30
             length: 5
             baseLength: 5
-            colorFrom: FF7600
-            colorTo: 84848400
+            colorFrom: FF8D00
+            colorTo: FF0015
             sizeFrom: 2
-            sizeTo: 3
+            sizeTo: 0
         }
         hitEffect: hitFlameSmall
         despawnEffect: none

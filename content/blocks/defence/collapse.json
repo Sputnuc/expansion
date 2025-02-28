@@ -23,7 +23,7 @@
       "ammoMultiplier": 2,
       "type": "BasicBulletType",
       "width": 13,
-      "damage": 24,
+      "damage": 29,
       "lifetime": 16,
 	  "trailWidth": 2,
       "trailLength": 12,
