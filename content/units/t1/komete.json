@@ -20,8 +20,8 @@
       "rotate": true,
       "bullet": {
         "type": "basicBulletType",
-        "width": 7,
-        "hight": 7,
+        "width": 10,
+        "height": 10,
         "speed": 8,
         "lifetime": 24,
         "damage": 8,
@@ -39,8 +39,8 @@
       "rotate": true,
       "bullet": {
         "type": "basicBulletType",
-        "width": 9,
-        "hight": 9,
+        "width": 12,
+        "height": 12,
 		"trailColor": "ffa665",
         "frontColor": "ffffff",
         "trailWidth": 1.5,

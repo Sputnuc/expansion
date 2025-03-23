@@ -21,24 +21,23 @@ weapons: [{
     name: flame-weapon
     layerOffset: 0.001
     reload: 75
-    shootY: 5
+    shootY: 9
     recoil: 4
     rotate: true
     rotateSpeed: 0.8
-    shootSound: mediumCannon
+    shootSound: shootBig
     mirror: false
     shootCone: 5
     bullet: {
         type: basicBulletType
-        width: 5
-        height: 5
+        width: 13
+        height: 14
         damage: 45
         lifetime: 24
-        speed: 7.5
+        speed: 8.4
         splashDamage: 25
         splashDamageRadius: 44
-        shootEffect: shootTitan
-        smokeEffect: shootSmokeTitan
+        shootEffect: shootBig
         hitColor: ffa665
         backColor: ffa665
         trailColor: ffa665
@@ -72,10 +71,10 @@ weapons: [{
             type:  BasicBulletType
             buildingDamageMultiplier: 0.7
             damage: 15
-            lifeTime: 35
-            heigth: 10
-            wight:10
-            speed: 5.5
+            lifetime: 40
+            height: 10
+            width:10
+            speed: 5
         }
     }]
 research: armada

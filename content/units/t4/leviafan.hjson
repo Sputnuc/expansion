@@ -5,18 +5,27 @@
   treadPullOffset: 7
   speed: 0.35
   rotateSpeed: 0.9
-  health: 10500
+  health: 9800
   crushDamage: 1
   range: 224
-  armor: 18
+  armor: 19
   treadRects: [
     {
-      x: 13
-      y: -38
-      width: 17
-      height: 76
+      x: -58
+      y: -64
+      width: 37
+      height: 136
     }
   ]
+  abilities: [
+    {
+    type: ShieldRegenFieldAbility
+    reload: 150
+    amount: 180
+    range: 0
+    max: 1900
+    }
+    ]
   singleTarget: true
   omniMovement: false
   faceTarget: false
@@ -26,7 +35,7 @@
       y: 0
       name: leviafan-weapon
       layerOffset: 0.001
-      reload: 150
+      reload: 90
       shootY: 15
 	  cooldownTime: 130
 	  heatColor: f9350f
@@ -35,50 +44,28 @@
       rotateSpeed: 0.6
       shootSound: mediumCannon
       mirror: false
-      velocityRnd: 0.4
-      shoot: {
-      shots: 5
-      }
-      shootCone: 4
-      inaccuracy: 3
+      shootCone: 1
       bullet: {
         type: basicBulletType
-        width: 13
-        height: 13
-        damage: 70
+        width: 18
+        height: 20
+        damage: 175
+        splashDamage: 75
+        splashDamageRadius: 32
 		pierceBuilding: true
 	    scaleLife: false
 		reflectable: false
-        pierceCap: 3
+        pierceCap: 2
 		speed: 15.5
         lifetime: 24
-        shootEffect: {
-        type: ParticleEffect
-        cone: 18
-        particles: 1
-        sizeFrom: 2
-        sizeTo: 0
-        colorFrom: FFD1B8
-        colorTo: ffffff00
-        length: 15
-        baseLength: 30
-        }
-        smokeEffect: {
-        type: ParticleEffect
-        cone: 24
-        particles: 2
-        sizeFrom: 4
-        sizeTo: 3
-        colorFrom: FFC782
-        colorTo: 7C7C7C00
-        length: 20
-        }  
+        shootEffect: shootTitan
+        smokeEffect: shootSmokeTitan
         hitColor: ffa665
         backColor: ffa665
         trailColor: ffa665
         frontColor: ffffff
-        trailWidth: 3.5
-        trailLength: 6
+        trailWidth: 4
+        trailLength: 7
         despawnSound: dullExplosion
         despawnEffect: {
         type: multiEffect

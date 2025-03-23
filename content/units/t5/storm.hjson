@@ -11,9 +11,9 @@
   rotateSpeed: 0.75 
   armor: 18
   lowAltitude: true
-  engineOffset: -3
+  engineOffset: 10
   forceMultiTarget: true
-  engineSize: 9.0
+  engineSize: 3.0
   weapons: [
     {
       name: storm-weapon1

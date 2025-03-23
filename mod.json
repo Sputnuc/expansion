@@ -3,8 +3,8 @@
 	"name": "exp",
 	"author": "sputnuc",
 	"description": "[ENG]A mod that adds new content to serpulo.(needs multicrafter-lib).\n\n[Ru]Мод добавляющий новый контент для серпуло. (необходим мод multicrafter-lib)",
-	"version": "4.3",
+	"version": "4.4",
 	"dependencies": ["multi-crafter"],
 	"minGameVersion": 136,
-	"subtitle": "v4.3 rework update"
+	"subtitle": "v4.4 global rework"
 }

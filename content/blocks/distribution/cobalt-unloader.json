@@ -7,12 +7,12 @@
   "research": "cobaltconveyor",
   "requirements": [
   {
-    "item": "silicon",
-    "amount": 50
-  },
-  {
     "item": "titanium",
     "amount": 25
+  },
+  {
+    "item": "silicon",
+    "amount": 50
   },
   {
 	"item": "cobalt",

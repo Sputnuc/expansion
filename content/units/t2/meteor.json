@@ -46,7 +46,7 @@
         "trailLength": 7,
         "speed": 9,
         "lifetime": 30,
-        "damage": 35,
+        "damage": 45,
         "pierceBuilding": true,
         "pierceCap": 2
       }
