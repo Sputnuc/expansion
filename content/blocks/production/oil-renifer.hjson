@@ -26,7 +26,7 @@ ambientSound: electricHum
 consumes: {
     power: 3
 liquids: [
-    oil/0.75
+    oil/0.5
 ]
     }
 

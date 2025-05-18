@@ -20,10 +20,10 @@
   abilities: [
     {
     type: ShieldRegenFieldAbility
-    reload: 150
-    amount: 180
+    reload: 180
+    amount: 100
     range: 0
-    max: 1900
+    max: 950
     }
     ]
   singleTarget: true
@@ -35,12 +35,13 @@
       y: 0
       name: leviafan-weapon
       layerOffset: 0.001
-      reload: 90
+      reload: 60
       shootY: 15
 	  cooldownTime: 130
 	  heatColor: f9350f
       recoil: 3
       rotate: true
+      shake: 6
       rotateSpeed: 0.6
       shootSound: mediumCannon
       mirror: false
@@ -49,7 +50,7 @@
         type: basicBulletType
         width: 18
         height: 20
-        damage: 175
+        damage: 100
         splashDamage: 75
         splashDamageRadius: 32
 		pierceBuilding: true
@@ -66,6 +67,18 @@
         frontColor: ffffff
         trailWidth: 4
         trailLength: 7
+        trailInterval: 1
+        trailEffect: {
+        type: ParticleEffect
+        particles: 3
+        sizeFrom: 2
+        sizeTo: 0
+        length: 4
+        baseLength: 2
+        lifetime: 35
+        colorFrom: ffa665
+        colorTo: ffa66500
+        }
         despawnSound: dullExplosion
         despawnEffect: {
         type: multiEffect
@@ -74,7 +87,7 @@
           type: ParticleEffect
           particles: 13
           length: 13
-          baseLength: 12
+          baseLength: 4
           lifetime: 60
           sizeTo: 0
           sizeFrom: 5
@@ -84,8 +97,8 @@
                {
           type: ParticleEffect
           particles: 5
-          length: 6
-          baseLength: 19
+          length: 20
+          baseLength: 2
           lifetime: 30
           sizeTo: 0
           sizeFrom: 3

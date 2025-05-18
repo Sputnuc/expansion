@@ -39,7 +39,7 @@
    }
                ]
           },
-    "outputItem": {"item": "carbon", "amount": 10},	
+    "outputItem": {"item": "carbon", "amount": 14},	
 	"craftTime": 120,
 	"idleSound": "respawning",
 	"updateEffect": "smeltsmoke",

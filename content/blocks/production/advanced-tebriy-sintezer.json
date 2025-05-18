@@ -15,15 +15,14 @@
 		"power": 3.35,
 		"items": {
 			"items": [
-				{"item": "copper", "amount": 6},
+				{"item": "copper", "amount": 7},
 				{"item": "lead", "amount": 4},
-				{"item": "graphite", "amount": 3},
+				{"item": "graphite", "amount": 4},
 			]
 		}
 	},	
 	"outputItems": [
-     "tebriy/10",
-     "silicon/1"
+     "tebriy/12",
 ],
 	"craftTime": 90,
 	"idleSound": "respawning",

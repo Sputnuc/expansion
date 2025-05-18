@@ -23,7 +23,7 @@
       "ammoMultiplier": 2,
       "type": "BasicBulletType",
       "width": 13,
-      "damage": 29,
+      "damage": 33,
       "lifetime": 16,
 	  "trailWidth": 2,
       "trailLength": 12,
@@ -34,7 +34,7 @@
       "type": "BasicBulletType",
       "width": 8,
       "height": 8,
-      "damage": 26,
+      "damage": 31,
       "lifetime": 50,
       "speed": 4,
       "ammoMultiplier": 4,
@@ -47,8 +47,8 @@
       "type": "basicBulletType",
       "height": 8,
       "width": 5,
-      "damage": 36,
-	  "splashDamageRadius": 12,
+      "damage": 39,
+	  "splashDamageRadius": 16,
 	  "hitEffect": "blastExplosion",
 	  "splashDamage": 25,
 	  "reloadMultiplier": 0.70,
@@ -63,7 +63,7 @@
       "type": "BasicBulletType",
       "height": 8,
       "width": 8,
-      "damage": 20,
+      "damage": 23,
       "speed": 8,
       "lifetime": 25,
       "ammoMultiplier": 3, 
@@ -72,7 +72,7 @@
 	  "trailColor": "d0cbc0",
       "homingPower": 0.3,
       "homingRange": 50,
-      "reloadMultiplier": 1.3
+      "reloadMultiplier": 1.45
     }
   },
   "requirements": [

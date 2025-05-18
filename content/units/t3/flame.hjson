@@ -23,6 +23,7 @@ weapons: [{
     reload: 75
     shootY: 9
     recoil: 4
+    shake: 4
     rotate: true
     rotateSpeed: 0.8
     shootSound: shootBig
@@ -32,7 +33,7 @@ weapons: [{
         type: basicBulletType
         width: 13
         height: 14
-        damage: 45
+        damage: 75
         lifetime: 24
         speed: 8.4
         splashDamage: 25
@@ -42,7 +43,7 @@ weapons: [{
         backColor: ffa665
         trailColor: ffa665
         frontColor: ffffff
-        trailWidth: 3.5
+        trailWidth: 3
         trailLength: 12
         despawnSound: dullExplosion
         hitEffect: blastExplosion
@@ -51,8 +52,8 @@ weapons: [{
 }
     {
         x: 8
-        y: -8.5
-        name: armada-weapon2
+        y: -9
+        name: flame-weapon2
         layerOffset: 0.00001
         reload: 25
         shootY: 5

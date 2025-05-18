@@ -17,10 +17,10 @@ plastanium/40
 consumes: {
     power: 2
     items: [
-titanium/4
+titanium/1
     ]
     liquids: [
-petroleum-gas/0.5
+petroleum-gas/0.25
     ]
 }
 drawer: {
@@ -49,8 +49,8 @@ drawer: {
           }
         ]
 }
-outputItem: plastanium/5
-craftTime: 75
+outputItem: plastanium/2
+craftTime: 30
 idleSound: respawning
 updateEffect: smeltsmoke
 idleSoundVolume: 0.5

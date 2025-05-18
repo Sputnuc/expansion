@@ -37,7 +37,7 @@
    }
                ]
           },
-    "outputItem": {"item": "cobalt", "amount": 10},	
+    "outputItem": {"item": "cobalt", "amount": 16},	
 	"craftTime": 240,
 	"idleSound": "respawning",
 	"updateEffect": "smeltsmoke",

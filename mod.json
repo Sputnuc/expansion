@@ -1,10 +1,9 @@
 {
     "displayName": "Expansion mod",
 	"name": "exp",
-	"author": "Sputnuc, thanks to AnDashik for committing my code",
+	"author": "sputnuc",
 	"description": "[ENG]A mod that adds new content to serpulo.(needs multicrafter-lib).\n\n[Ru]Мод добавляющий новый контент для серпуло. (необходим мод multicrafter-lib)",
-	"version": "4.4",
-	"dependencies": ["multi-crafter"],
+	"version": "4.6",
 	"minGameVersion": 136,
-	"subtitle": "v4.4 global rework"
+	"subtitle": "v4.6, compatible with v8"
 }

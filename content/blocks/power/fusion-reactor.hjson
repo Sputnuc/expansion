@@ -6,7 +6,7 @@ size: 5
 hasPower: true
 hasLiquids: true
 hasItems: true
-warmupSpeed: 0.0001
+warmupSpeed: 0.0009
 explosionShake: 26
 lightColor: 000000
 itemCapacity: 60

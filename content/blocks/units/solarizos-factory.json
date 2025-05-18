@@ -11,7 +11,7 @@
        "graphite/30",
        "silicon/25"
            ],
-      "time": 1200
+      "time": 900
     }, 
     {
       "unit": "warrior",
@@ -29,7 +29,16 @@
         "graphite/65",
         "metaglass/35"
            ],
-      "time": 2000
+      "time": 1800
+    }
+    {
+      "unit": "strife",
+      "requirements": [
+        "silicon/15", 
+        "lead/15",
+        "titanium/25"
+           ],
+      "time": 1200
     }
   ],
   "requirements": [

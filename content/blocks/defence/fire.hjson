@@ -86,7 +86,7 @@ ammoTypes: {
             lifetime: 30
             length: 5
             baseLength: 5
-            colorFrom: FF8D00
+            colorFrom: FFD098
             colorTo: FF0015
             sizeFrom: 2
             sizeTo: 0
