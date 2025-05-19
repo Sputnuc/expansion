@@ -2,7 +2,7 @@
     "displayName": "Expansion mod",
 	"name": "exp",
 	"author": "sputnuc",
-	"description": "[ENG]A mod that adds new content to serpulo.(needs multicrafter-lib).\n\n[Ru]Мод добавляющий новый контент для серпуло. (необходим мод multicrafter-lib)",
+	"description": "[ENG]A mod that adds new content to serpulo.\n\n[Ru]Мод добавляющий новый контент для серпуло.",
 	"version": "4.6",
 	"minGameVersion": 136,
 	"subtitle": "v4.6, compatible with v8"
