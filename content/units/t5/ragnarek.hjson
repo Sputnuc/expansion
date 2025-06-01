@@ -4,16 +4,10 @@
   hitSize: 46
   treadRects: [
   {
-  x: -70
-  y: -36
+  x: -73
+  y: -89
   width: 27
-  height: 140
-  }
-  {
-  x: -46
-  y: -95
-  width: 27
-  height: 40
+  height: 190
   }
  ]
   speed: 0.35
@@ -51,8 +45,8 @@
        suffix: -side
        mirror: true
        under: true
-       x: -11
-       y: -4
+       x: -11.25
+       y: -3.75
        moves: [
        {
          type: PartMove
@@ -64,7 +58,7 @@
       {
         type: PartMove
         progress: warmup
-        rot: 10
+        rot: 15
         moveX: 0.5
       }
       ]

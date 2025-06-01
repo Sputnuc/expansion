@@ -1,7 +1,7 @@
 {
   "type": "flying",
   "name": "[red]ctulhu",
-  "health": 8800,
+  "health": 7100,
   "flying": true,
   "range": 100,  
   "speed": 1.7,
@@ -11,7 +11,7 @@
   "rotateSpeed": 0.85, 
   "armor": 7,
   "lowAltitude": true,
-  "engineOffset": 17,
+  "engineOffset": 21,
   "engineSize": 5.85,
   "weapons": [
 	{
@@ -26,15 +26,15 @@
       "shake": 1,
       "rotate": true,
       "rotateSpeed": 1.1,
-      "inaccuracy": 3,
+      "inaccuracy": 5,
       "mirror": false,
       "shootCone": 1,
       "cooldownTime": 30,
       "bullet": {
         "width": 10,
         "type": "BasicBulletType",
-        "height": 14,
-        "damage": 25,
+        "height": 10,
+        "damage": 29,
         "lifetime": 22,
         "speed": 9,
         "hitColor": "feb380",
@@ -46,7 +46,7 @@
       "name": "ctulhu-weapon3",
       "x": -16,
       "y": -10.5,
-      "reload": 60,
+      "reload": 12,
 	  "layerOffset": 0.0001,
       "recoil": 0.9,
       "shake": 3,
@@ -56,16 +56,20 @@
       "rotateSpeed": 1.5,
       "inaccuracy": 6,
       "shoot": {
-         "shots": 3 
+         "shots": 1
       }
       "bullet": {
         "type": "BasicBulletType",
-        "damage": 15,
+        "damage": 29,
 		"lifetime": 38,
+        "frontColor": "ffe1c7",
+        "backColor": "ff8352",
         "height": 14,
-        "splashDamage": 12,
+        "splashDamage": 32,
         "splashDamageRadius": 35,
-        "width": 18,
+        "width": 14,
+        "trailLength": 5,
+        "trailWidth": 1.5,
         "hitEffect": "blastExplosion",
         "despawnEffect": "blastExplosion", 
         "speed": 6.1538461538461538,

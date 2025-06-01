@@ -26,7 +26,7 @@ weapons: [{
     shake: 4
     rotate: true
     rotateSpeed: 0.8
-    shootSound: shootBig
+    shootSound: artillery
     mirror: false
     shootCone: 5
     bullet: {
