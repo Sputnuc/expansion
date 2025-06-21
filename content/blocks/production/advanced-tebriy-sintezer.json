@@ -9,7 +9,7 @@
 		{"item": "lead", "amount": 90},
 		{"item": "silicon", "amount": 50},
 		{"item": "titanium", "amount": 70},
-		{"item": "graphite", "amount": 50}
+		{"item": "thorium", "amount": 50}
 	],
 	"consumes": {
 		"power": 3.35,

@@ -30,7 +30,7 @@
       ]
     },
   "requirements": [
-    {"item": "copper", "amount": 195},
+    {"item": "copper", "amount": 115},
     {"item": "lead", "amount": 90},
     {"item": "graphite", "amount": 75},
     {"item": "silicon", "amount": 60},
@@ -44,5 +44,5 @@
     }
     },
   "outputsPower": true,
-  "powerProduction": 9.833333333333333
+  "powerProduction": 11
 }

@@ -9,19 +9,19 @@
 	"liquidCapacity": 120,
 	"requirements": [
 	{"item": "copper", "amount": 275},
-	{"item": "lead", "amount": 230},
+	{"item": "lead", "amount": 130},
+	{"item": "graphite", "amount": 75},
 	{"item": "silicon", "amount": 115},
-	{"item": "thorium", "amount": 200},
-	{"item": "tebriy-alloy", "amount": 120},
-	{"item": "graphite", "amount": 130}
+	{"item": "thorium", "amount": 100},
+	{"item": "tebriy-alloy", "amount": 45},
                     ],
 "consumes": {
 		"power": 2.7,
 		"items": {
 			"items": [
-				{ "item": "titanium", "amount": 5},
-				{ "item": "lead", "amount": 4},
-				{ "item": "tebriy", "amount": 7}
+				{ "item": "titanium", "amount": 8},
+				{ "item": "lead", "amount": 9},
+				{ "item": "tebriy", "amount": 8}
 			]
 		}
 	},	
@@ -41,7 +41,7 @@
    }
                ]
           },
-    "outputItem": {"item": "tebriy-alloy", "amount": 12},	
+    "outputItem": {"item": "tebriy-alloy", "amount": 18},	
 	"craftTime": 100,
 	"idleSound": "respawning",
 	"updateEffect": "smeltsmoke",

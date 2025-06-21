@@ -1,0 +1,112 @@
+type: PowerTurret
+researchCostMultiplier: 0.7
+size: 3
+health: 680
+reload: 500
+range: 390
+targetAir: false
+heatColor: "e00202"
+targetGround: true
+cooldownTime: 240
+recoilAmount: 1.8
+moveWhileCharging: false
+rotateSpeed: 4
+shake: 5
+recoil: 3.5
+cone: 0.1
+shootSound: laser
+shoot: {
+  firstShotDelay: 200
+  }
+consumes: {
+  power: 8
+  coolant: {
+            amount: 0.3
+        }
+  }
+hasPower: true
+shootType: {
+  type: laserBulletType
+  absorbable: true
+  chargeEffect: [
+  {
+    type: ParticleEffect
+    particles: 16
+    length: -40
+    baseLength: 40
+    lifetime: 190
+    sizeFrom: 0
+    sizeTo: 2
+    cone: 30
+    colorFrom: bbdefb
+    colorTo: 90caf9
+  }
+    {
+    type: ParticleEffect
+    particles: 1
+    length: 0
+    baseLength: 0
+    lifetime: 200
+    sizeFrom: 0
+    sizeTo: 3
+    colorFrom: bbdefb
+    colorTo: 90caf9
+  }
+  {
+    type: WaveEffect
+    colorFrom: bbdefb
+    colorTo: 90caf9
+    lifetime: 200
+    sizeTo: 0
+    sizeFrom: 50
+    strokeFrom: 0
+    strokeTo: 3
+  }
+]
+  lifetime: 25
+  damage: 755
+  shootEffect: [
+   {
+    type: ParticleEffect
+    particles: 16
+    length: 40
+    baseLength: 20
+    lifetime: 35
+    sizeFrom: 2
+    sizeTo: 0
+    cone: 40
+    colorFrom: bbdefb
+    colorTo: 90caf900
+  }
+  {
+    type: ParticleEffect
+    particles: 12
+    length: 30
+    baseLength: 20
+    lifetime: 25
+    line: true
+    lenFrom: 2
+    lenTo: 4
+    strokeFrom: 4
+    strokeTo: 0
+    cone: 45
+    colorFrom: bbdefb
+    colorTo: 90caf900
+  }
+  ]
+  length: 390
+  wigth: 39
+  hitEffect: hitLaser
+  pierce: true
+  frontColor: bbdefb
+  backColor: 90caf9
+ }
+requirements:
+  [
+    "copper/200"
+    "lead/120"
+    "cobalt/70"
+    "silicon-alloy/65"
+  ]
+category: turret
+research: collapse

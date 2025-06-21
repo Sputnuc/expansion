@@ -4,11 +4,12 @@
     "itemCapacity": 25,
     "liquidCapacity": 35,
     "tier": 5,
-    "drillTime": 410,
-    "liquidBoostIntensity": 1.55,
-    "requirements": [{
+    "drillTime": 400,
+    "liquidBoostIntensity": 2.15,
+    "requirements": [
+        {
         "item": "copper", "amount": 30
-    },
+        },
         {
             "item": "lead", "amount": 10
         },
@@ -16,7 +17,7 @@
             "item": "tebriy-alloy", "amount": 15
         }],
     "consumes": {
-        "power": 0.3,
+        "power": 0.5,
         "liquid": {
             "liquid": "stteam",
             "amount": 0.1,

@@ -8,10 +8,10 @@
 	"itemCapacity": 20,
 	"liquidCapacity": 120,
 	"requirements": [
-	{"item": "copper", "amount": 175},
-	{"item": "lead", "amount": 260},
+	{"item": "copper", "amount": 75},
+	{"item": "lead", "amount": 60},
 	{"item": "silicon", "amount": 65},
-	{"item": "graphite", "amount": 95}
+	{"item": "graphite", "amount": 45}
                     ],
 "consumes": {
 		"power": 1.2,

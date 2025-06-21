@@ -22,6 +22,7 @@ range: 115
       inaccuracy: 0
       shake: 5
       bullet: {
+        recoil: 3
         type: LaserBulletType
         damage: 170
         lifetime: 75

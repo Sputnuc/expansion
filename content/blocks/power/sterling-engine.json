@@ -9,9 +9,9 @@
   "itemCapacity": 30,
   "health": 660,
   "requirements": [
-    {"item": "copper", "amount": 145},
-    {"item": "lead", "amount": 140},
-    {"item": "graphite", "amount": 85}
+    {"item": "copper", "amount": 85},
+    {"item": "lead", "amount": 70},
+    {"item": "graphite", "amount": 45}
   ],
   "consumes": {
   "items": [

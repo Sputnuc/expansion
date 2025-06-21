@@ -4,11 +4,10 @@
     "category": "production",
     "research": "tebriy-expansion-liquid", 
     "requirements": [
+      "copper/75",
       "graphite/120",
-	  "copper/75",
-      "metaglass/70", 
-      "tebriy-alloy/35",
-      "silicon/95",
+      "metaglass/65", 
+      "silicon/45"
     ],
     "outputItem": {"item": "wood", "amount": 15}
     "craftTime": 60,

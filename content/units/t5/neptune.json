@@ -11,8 +11,8 @@
 	{
       "x": -14,
       "name": "neptune-weapon",
-      "y": -6.5,
-      "reload": 70,
+      "y": 3.5,
+      "reload": 40,
 	  "shake": 3,
 	  "recoil": 3,
 	  "inaccuracy": 2,
@@ -26,8 +26,8 @@
 }
       "bullet": {
         "type": "basicBulletType",
-        "width": 9,
-        "hight": 9,
+        "width": 16,
+        "hight": 16,
 		"trailColor": "ffa665",
         "frontColor": "ffffff",
         "trailWidth": 4,
@@ -49,7 +49,7 @@
       "name": "neptune-weapon2",
       "shootSound": "railgun",
       "layerOffset": 0.0001,
-      "reload": 100,
+      "reload": 70,
 	  "shake": 7,
       "shootY": 4,
       "recoil": 5,
@@ -58,59 +58,14 @@
       "mirror": false,
       "cooldownTime": 30,
       "bullet": {
-        "width": 39,
-        "type": "BasicBulletType",
-        "height": 39,
-        "speed": 18,
-        "lifetime": 35,
-        "damage": 900,
-        "pierce": true,
-        "pierceBuilding": true,
-        "hitColor": "ebf377",
-        "hitEffect": "hitBulletColor",
-        "smokeEffect": "shootSmallSmoke",
-        "shootEffect": "lightningCharge",
-        "trailWidth": 5,
-        "trailLength": 22,
-  	  "trailColor": "f3ed35",
-        "despawnEffect": {
-         "type": "multiEffect",
-         "effects": [
-          {
-             "type": "ParticleEffect",
-             "particles": 1,
-             "sizeFrom": 0,
-             "sizeTo": 20,
-             "colorTo": "f3ed35",
-             "colorFrom": "F8F47A",
-             "lifetime": 25,
-             "length": 0
-           },
-           {
-             "type": "ParticleEffect",
-             "particles": 1,
-             "sizeFrom": 20,
-             "sizeTo": 0,
-             "colorFrom": "f3ed35",
-             "colorTo": "F8F47A",
-             "lifetime": 35,
-             "startDelay": 20,
-             "length": 0
-           }
-          ]
-},
-        "trailEffect": {
-          "type": "ParticleEffect",
-          "lifetime": 30,
-          "particles": 6,
-          "sizeFrom": 3,
-          "sizeTo": 2.5,
-          "length": 5,
-          "baseLength" : 6,
-          "colorTo": "F1EA8F00",
-          "colorFrom": "FFF576"
-         },
-        "trailInterval": 1
+          "type": "RailBulletType",
+          "shootEffec": "railShoot",
+          "length": 430,
+          "damage": 530,
+          "pointEffect": "railTrail",
+          "pierceEffect": "railHit",
+          "pointEffectSpace": 40,
+          "pierceCap": 3
       }
     }
   ],

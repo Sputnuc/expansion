@@ -6,18 +6,18 @@
 	"hasItems": true,
 	"itemCapacity": 60,
 	"requirements": [
-	{"item": "copper", "amount": 275},
-	{"item": "silicon-alloy", "amount": 130},
-	{"item": "tebriy-alloy", "amount": 80},
-	{"item": "graphite", "amount": 160}
+	{"item": "copper", "amount": 175},
+	{"item": "graphite", "amount": 95},
+	{"item": "tebriy-alloy", "amount": 115},
+	{"item": "silicon-alloy", "amount": 75},
                     ],
     "consumes": {
 		"power": 1.8,
 		"items": {
 			"items": [
-				{ "item": "graphite", "amount": 9},
+				{ "item": "graphite", "amount": 12},
 				{ "item": "tebriy", "amount": 5},
-				{ "item": "lead", "amount": 4}
+				{ "item": "titanium", "amount": 7}
 			]
 		},
 	  },	
@@ -37,7 +37,7 @@
    }
                ]
           },
-    "outputItem": {"item": "cobalt", "amount": 16},	
+    "outputItem": {"item": "cobalt", "amount": 20},	
 	"craftTime": 240,
 	"idleSound": "respawning",
 	"updateEffect": "smeltsmoke",

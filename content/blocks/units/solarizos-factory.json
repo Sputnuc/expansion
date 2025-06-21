@@ -8,8 +8,8 @@
     {
       "unit": "solarizos",
       "requirements": [
-       "graphite/30",
-       "silicon/25"
+       "silicon/15",
+       "graphite/25"
            ],
       "time": 900
     }, 
@@ -18,7 +18,8 @@
       "requirements": [
         "silicon/40", 
         "graphite/35",
-        "lead/30"
+        "lead/30",
+        "titanium/15"
            ],
       "time": 1800
     },

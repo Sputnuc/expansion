@@ -1,0 +1,97 @@
+  type: naval
+  name: "[orange]Pressure"
+  health: 1150
+  speed: 0.8
+  drag: 0.14
+  hitSize: 24
+  accel: 0.5
+  rotateSpeed: 1.4
+  weapons: [
+    {
+      x: 0
+      name: pressure-main-weapon
+      y: 4
+      reload: 60
+      rotateSpeed: 1.2
+      mirror: false
+      shootSound: plasmaboom
+	  inaccuracy: 3
+      rotate: true
+      shake: 4
+      shoot: {
+       shots: 5
+      }
+      bullet: {
+        type: basicBulletType
+        width: 12
+        height: 13
+        speed: 8
+        lifetime: 40
+        damage: 65
+        pierce: true
+        pierceCap: 2
+        pierceBuilding: false
+        trailWidth: 2
+        trailLength: 10
+        trailColor: "f5db84"
+        weaveScale: 4
+        weaveMag: 2
+        hitEffect: [
+        {
+         type: ParticleEffect
+         particles: 9
+         length: 19
+         sizeFrom: 2
+         sizeTo: 0
+         colorFrom: f5db84
+         colorTo: e8bf38
+         lifetime: 35
+        }
+        {
+         type: ParticleEffect
+         particles: 5
+         length: 16
+         line: true
+         lenFrom: 3
+         lenTo: 5
+         strokeFrom: 3
+         strokeTo: 0
+         colorFrom: f5db84
+         colorTo: e8bf38
+         lifetime: 25
+        }
+        {
+         type: WaveEffect
+         sizeFrom: 3
+         sizeTo: 21
+         strokeFrom: 2
+         strokeTo: 0
+         colorFrom: ffe799
+         colorTo: face3c
+         lifetime: 35
+        }
+        ]
+      }
+    }
+	{
+		name: pressure-mount-weapon
+		x: -8.25
+		y: -7
+		reload: 6
+		rotate: true
+        rotateSpeed: 1.5
+		shootSound: shootBig
+		mirror: true
+        shake: 2
+		bullet: {
+			type: BasicBulletType
+			speed: 3.5
+			lifetime: 90
+			damage: 15
+            width: 14
+            height: 15			
+		}
+	}
+  ]
+  research: meteor
+

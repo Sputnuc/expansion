@@ -2,9 +2,9 @@ type: tank
 name: "[yellow]flame"
 hitSize: 24
 treadPullOffset: 5
-speed: 0.35
-rotateSpeed: 0.5
-health: 2300
+speed: 0.4
+rotateSpeed: 0.8
+health: 1300
 armor: 14
 treadRects: [{
     x: 13
@@ -33,10 +33,13 @@ weapons: [{
         type: basicBulletType
         width: 13
         height: 14
-        damage: 75
-        lifetime: 24
-        speed: 8.4
-        splashDamage: 25
+        damage: 95
+        lifetime: 26
+        speed: 10
+        splashDamage: 45
+        pierce: true
+        pierceBuilding: true
+        pierceCap: 3
         splashDamageRadius: 44
         shootEffect: shootBig
         hitColor: ffa665
@@ -58,7 +61,7 @@ weapons: [{
         reload: 25
         shootY: 5
         recoil: 1
-        inaccuracy: 6
+        inaccuracy: 3
         rotate: true
         rotateSpeed: 2.8
         shootSound: lasershoot
@@ -71,7 +74,7 @@ weapons: [{
         bullet: {
             type:  BasicBulletType
             buildingDamageMultiplier: 0.7
-            damage: 15
+            damage: 19
             lifetime: 40
             height: 10
             width:10

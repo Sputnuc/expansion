@@ -6,10 +6,11 @@
 	"hasItems": true,
 	"itemCapacity": 30,
 	"requirements": [
-	{"item": "cobalt", "amount": 75},
-	{"item": "silicon-alloy", "amount": 130},
-	{"item": "tebriy-alloy", "amount": 190},
-	{"item": "plastanium", "amount": 60}
+    {"item": "titanium", "amount": 90},
+	{"item": "plastanium", "amount": 60},
+	{"item": "tebriy-alloy", "amount": 95},
+	{"item": "silicon-alloy", "amount": 75},
+	{"item": "cobalt", "amount": 45},
                     ],
     "consumes": {
 		"power": 2.2,

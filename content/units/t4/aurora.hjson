@@ -1,0 +1,97 @@
+
+  type: naval
+  health: 11000
+  armor: 19
+  speed: 0.4
+  drag: 0.14
+  hitSize: 24
+  accel: 0.5
+  rotateSpeed: 0.9
+  weapons: [
+    {
+      x: 0
+      name: aurora-main-weapon
+      y: -2.25
+      reload: 80
+      shootY: 5
+      shake: 5
+      rotateSpeed: 0.8
+      mirror: false
+      shootSound: artillery
+	  inaccuracy: 3
+	  recoil: 1.3
+      rotate: true
+      bullet: {
+        type: BasicBulletType
+        width: 19
+        height: 19
+        speed: 8
+        lifetime: 35
+        damage: 134
+        splashDamage: 97
+        splashDamageRadius: 32
+        shootEffect: shootTitan
+        smokeEffect: shootSmokeTitan
+        trailInterval: 2
+        trailRotation: true
+        trailEffect: {
+         type: ParticleEffect
+         particles: 1
+         length: 0
+         baseLength: 0
+         cone: 0
+         sizeFrom: 3
+         sizeTo: 0
+         colorFrom: ffcf87
+         colorTo: f0852e
+        }
+      }
+    }
+    {
+      x: -16
+      y: -4.25
+      name: aurora-missile-weapon
+      reload: 30
+      shootSound: missile
+      velocityRnd: 0.15
+      inaccuracy: 9
+      shoot: {
+       shots: 4
+      }
+      mirror: true
+      rotate: true
+      bullet: {
+       type: MissileBulletType
+       damage: 15
+       splashDamage: 27
+       splashDamageRadius: 23
+       hitEffect: blastExplosion
+       speed: 4
+       lifetime: 60
+       homingDelay: 20
+      }
+    }
+    {
+      x: -11.5
+      y: 8.75
+      name: aurora-mount-weapon
+      reload: 5
+      shootSound: shoot
+      inaccuracy: 2
+      shake: 1.5
+      mirror: true
+      rotate: true
+      bullet: {
+       type: BasicBulletType
+       damage: 27
+       splashDamage: 13
+       splashDamageRadius: 19
+       hitEffect: blastExplosion
+       speed: 6
+       lifetime: 40
+       width: 10
+       height: 11
+      }
+    }
+  ]
+  research: pressure

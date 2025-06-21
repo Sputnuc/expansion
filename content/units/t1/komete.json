@@ -9,14 +9,14 @@
   "rotateSpeed": 3.5,
   "weapons": [
     {
-      "x": -5,
+      "x": -4.5,
       "name": "komete-weapon",
-      "y": -4,
-      "reload": 20,
+      "y": -3.5,
+      "reload": 10,
       "rotateSpeed": 1.7,
       "inaccuracy": 1.5,
       "mirror": true,
-      "shootSound": "shoot",
+      "shootSound": "pew",
       "rotate": true,
       "bullet": {
         "type": "basicBulletType",
@@ -31,11 +31,11 @@
 	{
       "x": 0,
       "name": "komete-weapon2",
-      "y": 3,
+      "y": 2.25,
       "reload": 90,
       "rotateSpeed": 1.4,
       "mirror": false,
-      "shootSound": "bang",
+      "shootSound": "shoot",
       "rotate": true,
       "bullet": {
         "type": "basicBulletType",
@@ -44,9 +44,9 @@
 		"trailColor": "ffa665",
         "frontColor": "ffffff",
         "trailWidth": 1.5,
-        "trailLength": 8,
-        "speed": 16,
-        "lifetime": 12,
+        "trailLength": 5,
+        "speed": 8,
+        "lifetime": 24,
         "damage": 45
         "pierceBuilding": false
       }

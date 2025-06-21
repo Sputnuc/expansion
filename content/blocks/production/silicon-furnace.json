@@ -8,10 +8,11 @@
 	"hasLiquid": true,
 	"itemCapacity": 20,
 	"requirements": [
-		{"item": "copper", "amount": 195},
+		{"item": "copper", "amount": 115},
 		{"item": "lead", "amount": 90},
-		{"item": "silicon", "amount": 175},
-		{"item": "graphite", "amount": 65}
+		{"item": "graphite", "amount": 65},
+		{"item": "silicon", "amount": 75}
+
 	],
 	"consumes": {
 		"power": 1.8,
@@ -22,7 +23,7 @@
 			]
 		}
 	},	
-	"outputItem": {"item": "silicon-alloy", "amount": 6},
+	"outputItem": {"item": "silicon-alloy", "amount": 8},
 	"craftTime": 120,
 	"idleSound": "respawning",
 	"updateEffect": "smeltsmoke",

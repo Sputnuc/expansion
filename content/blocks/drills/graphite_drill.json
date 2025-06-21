@@ -11,14 +11,14 @@
 	"requirements": [
 	 {"item": "copper", "amount": 125},
 	 {"item": "lead", "amount": 95},
-	 {"item": "titanium", "amount": 75}
+	 {"item": "titanium", "amount": 95}
                     ],
 	"consumes": {
-         "power": 3,
-		 "liquid": {"liquid": "water", "amount": 0.41666666666},	
+         "power": 6,
+		 "liquid": {"liquid": "water", "amount": 0.5},	
 	},
     "outputItem": {"item": "graphite","amount": 1}
-    "craftTime": 30,
+    "craftTime": 20,
 	"updateEffect": "mine",
 	"research": "tebriy_drill", 
 	"drawer": {

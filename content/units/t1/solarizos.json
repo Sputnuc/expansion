@@ -24,13 +24,14 @@
       "bullet": {
         "type": "basicBulletType",
         "buildingDamageMultiplier": 1.1,
-        "damage": 5,
+        "damage": 7.5,
         "lifetime": 26.5,
         "height": 13,
-        "width": 7.5, 
-        "speed": 8.25
-        "trailWidth": 3,
-        "trailLength": 4,
+        "width": 7, 
+        "speed": 8.25,
+        "trailWidth": 2,
+        "trailLength": 3,
+        "trailColor": "96969670"
          }
     }
   ],

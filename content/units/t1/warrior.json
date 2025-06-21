@@ -29,20 +29,19 @@
       "reload": 60,
       "rotateSpeed": 1.4,
       "mirror": false,
-      "shootSound": "lasershoot",
+      "shootSound": "shoot",
       "shoot": {
        "shots": 3,
-       "shotDelay": 3
-  },
+       "shotDelay": 10
+       },
       "rotate": true,
       "bullet": {
         "type": "basicBulletType",
-        "width": 8,
-        "hight": 8,
+        "width":9,
+        "height": 12,
         "speed": 4,
         "lifetime": 45,
-        "damage": 8,
-        "buildingDamageMultiplier": 1.1,
+        "damage": 14,
         "pierceBuilding": false
       }
     }

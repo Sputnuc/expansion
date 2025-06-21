@@ -1,7 +1,7 @@
 {
   "type": "flying",
   "name": "niva",
-  "health": 350,
+  "health": 450,
   "flying": true, 
   "speed": 1.1, 
   "hitSize": 13,
@@ -13,7 +13,7 @@
   "weapons": [
     {
       "name": "niva-weapon",
-      "x": -7,
+      "x": -5.5,
       "y": 0,
       "reload": 15,
       "recoil": 2,

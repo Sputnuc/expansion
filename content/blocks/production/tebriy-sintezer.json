@@ -5,7 +5,7 @@
 	"hasItems": true,
 	"itemCapacity": 20,
 	"requirements": [
-		{"item": "copper", "amount": 145},
+		{"item": "copper", "amount": 115},
 		{"item": "lead", "amount": 90},
 		{"item": "graphite", "amount": 50}
 	],
