@@ -1,0 +1,428 @@
+    type: ItemTurret
+    buildCostMultiplier: 0.50
+    health: 3180
+    reload: 4
+    cooldownTime: 30
+    rotateSpeed: 1.5
+    shootCone: 20
+    inaccuracy: 4
+    recoil: 4
+    recoilTime: 5
+    size: 5
+    shake: 4
+    range: 290
+    minWarmup: 0.85
+    shootWarmupSpeed: 0.03
+    shootY: 19
+    consumes: {
+        coolant: {
+            amount: 0.8
+        }
+    }
+    coolantMultiplier: 0.7
+    shoot: {
+        type: ShootAlternate
+        spread: 10
+        barrels: 2
+    }
+    maxAmmo: 75
+    ammoTypes: {
+        graphite: {
+            knockback: 0.6
+            type: BasicBulletType
+            damage: 70
+            ammoMultiplier: 2
+            frontColor: ffffff 
+            backColor: b9c9df
+            height: 24
+            width: 17
+            shootEffect: shootBig
+            hitColor: b9c9df
+            hitEffect: hitBulletColor
+            despawnEffect: hitBulletColor
+            lifetime: 30
+            speed: 9.666
+            pierce: true
+            pierceCap: 3
+            despawnShake: 2
+            hitShake: 2
+            reloadMultiplier: 1.35
+        }
+        pyratite: {
+            knockback: 0.9
+            type: BasicBulletType
+            damage: 95
+            splashDamage: 23
+            splashDamageRadius: 30
+            ammoMultiplier: 3
+            frontColor: faab50 
+            backColor: cc672d
+            height: 25
+            width: 18
+            shootEffect: shootBig
+            hitEffect: [
+                {
+                    type: ParticleEffect
+                    particles: 8
+                    sizeFrom: 2
+                    sizeTo: 0
+                    length: 35
+                    baseLength: 8
+                    lifetime: 15
+                    colorFrom: faab50
+                    colorTo: cc672d
+                }
+                {
+                    type: WaveEffect
+                    sizeFrom: 3
+                    sizeTo: 13
+                    lifetime: 15
+                    strokeFrom: 1
+                    strokeTo: 0
+                    colorFrom: faab50
+                    colorTo: faab50
+                }
+                {
+                    type: ParticleEffect
+                    line: true
+                    particles: 4
+                    strokeFrom: 0.9
+                    strokeTo: 0
+                    lenFrom: 2
+                    lenTo: 3
+                    length: 20
+                    lifetime: 15
+                    colorFrom: faab50
+                    colorTo: cc672d
+                }
+                {
+                    type: ParticleEffect
+                    particles: 2
+                    sizeFrom: 1
+                    sizeTo: 4
+                    length: 15
+                    baseLength: 4
+                    lifetime: 25
+                    colorFrom: ba8f70
+                    colorTo: 5c5c5c00
+                }
+            ]
+            despawnEffect: none
+            status: melting
+            statusDuration: 360
+            lifetime: 30
+            speed: 9.666
+            pierce: true
+            pierceCap: 2
+            despawnShake: 2
+            hitShake: 2
+        }
+        thorium: {
+            knockback: 1.5
+            pierceArmor: true
+            type: BasicBulletType
+            damage: 155
+            ammoMultiplier: 1
+            frontColor: f2dcec 
+            backColor: d69ac5
+            height: 24
+            width: 17
+            shootEffect: shootBigColor
+            hitColor: f2dcec
+            hitEffect: hitBulletColor
+            despawnEffect: [
+                {
+                    type: ParticleEffect
+                    particles: 6
+                    cone: 35
+                    length: 93
+                    lifetime: 15
+                    sizeFrom: 3
+                    sizeTo: 0
+                    colorFrom: f2dcec
+                    colorTo: d69ac5
+                }
+                {
+                    type: ParticleEffect
+                    particles: 12
+                    cone: 95
+                    length: -31
+                    lifetime: 15
+                    sizeFrom: 3
+                    sizeTo: 0
+                    colorFrom: f2dcec
+                    colorTo: d69ac5
+                }
+                {
+                    type: WaveEffect
+                    sizeFrom: 2
+                    sizeTo: 9
+                    strokeFrom: 1
+                    strokeTo: 0
+                    colorFrom: f2dcec
+                    colorTo: f2dcec
+                    lifetime: 15
+                }
+            ]
+            lifetime: 20
+            trailWidth: 2
+            trailLength: 8
+            trailColor: d69ac5
+            status: slow
+            statusDuration: 120
+            speed: 14.5
+            pierce: true
+            pierceCap: 3
+            despawnShake: 2
+            hitShake: 2
+            reloadMultiplier: 0.6
+        }
+        silicon-alloy: {
+            knockback: 1
+            type: BasicBulletType
+            damage: 115
+            ammoMultiplier: 2
+            frontColor: babebf 
+            backColor: 99a1a3
+            height: 25
+            width: 17
+            trailWidth: 2
+            trailLength: 5
+            trailColor: 99a1a3
+            shootEffect: shootBig
+            hitColor: babebf
+            hitEffect: hitBulletColor
+            despawnEffect: [
+                {
+                    type: ParticleEffect
+                    particles: 5
+                    cone: 25
+                    length: 137
+                    lifetime: 15
+                    sizeFrom: 3
+                    sizeTo: 0
+                    colorFrom: babebf
+                    colorTo: 99a1a3
+                }
+                {
+                    type: ParticleEffect
+                    particles: 8
+                    cone: 95
+                    length: -65
+                    lifetime: 15
+                    sizeFrom: 3
+                    sizeTo: 0
+                    colorFrom: babebf
+                    colorTo: 99a1a3
+                }
+                {
+                    type: WaveEffect
+                    sizeFrom: 3
+                    sizeTo: 7
+                    strokeFrom: 1
+                    strokeTo: 0
+                    colorFrom: babebf
+                    colorTo: 99a1a3
+                    lifetime: 10
+                }
+            ]
+            lifetime: 15
+            speed: 19.333
+            pierce: true
+            pierceCap: 2
+            despawnShake: 2
+            hitShake: 1
+            reloadMultiplier: 1.15
+            homingPower: 0.25
+            homingRadius: 42
+        }
+        cobalt: {
+            knockback: 1.75
+            type: BasicBulletType
+            damage: 250
+            splashDamage: 85
+            splashDamageRadius: 45
+            scaleLife: true
+            pierceArmor: true
+            ammoMultiplier: 2
+            frontColor: 7AADDB 
+            backColor: 6588DB
+            height: 27
+            width: 19
+            trailWidth: 3
+            trailLength: 6
+            trailColor: 6588DB
+            shootEffect: shootBig
+            hitColor: babebf
+            hitEffect: hitBulletColor
+            despawnEffect: [
+                {
+                    type: ParticleEffect
+                    particles: 15
+                    length: 52
+                    baseLength: 15
+                    lifetime: 15
+                    sizeFrom: 3
+                    sizeTo: 0
+                    colorFrom: 7AADDB
+                    colorTo: 6588DB
+                }
+                {
+                    type: ParticleEffect
+                    line: true
+                    particles: 8
+                    length: 45
+                    lifetime: 15
+                    strokeFrom: 1.4
+                    strokeTo: 0
+                    lenFrom: 3
+                    lenTo: 4
+                    colorFrom: 7AADDB
+                    colorTo: 6588DB
+                }
+                {
+                    type: ParticleEffect
+                    particles: 4
+                    length: 31
+                    lifetime: 35
+                    sizeFrom: 3
+                    sizeTo: 4
+                    colorFrom: 7AADDB
+                    colorTo: 7AADDB00
+                }
+                {
+                    type: WaveEffect
+                    sizeFrom: 7
+                    sizeTo: 48
+                    strokeFrom: 3
+                    strokeTo: 0
+                    colorFrom: 7AADDB
+                    colorTo: 6588DB
+                    lifetime: 15
+                }
+            ]
+            lifetime: 15
+            speed: 19.333
+            pierce: true
+            pierceCap: 2
+            despawnShake: 2.3
+            hitShake: 1.5
+            reloadMultiplier: 0.35
+        }
+    }
+    requirements: [
+        copper/380
+        titanium/290
+        thorium/145
+        plastanium/320
+        surge-alloy/175
+        silicon-alloy/320
+        cobalt/140
+        carbon/295
+    ]
+    shootSound: shootBig
+    category: turret
+    research: collapse
+    drawer: {
+        type: drawTurret
+        parts: [
+            {
+            type: HaloPart
+            layer: 110
+            progress: warmup
+            haloRadius: 9
+            haloRadiusTo: 9
+            tri: true
+            shapes: 2
+            y: -15
+            sides: 3
+            color: FFD6A5
+            radius: 0
+            radiusTo: 2.2
+            triLengthTo: 12.5
+            triLength: 7
+            haloRotation: 90
+        }
+            {
+            type: HaloPart
+            layer: 110
+            progress: warmup
+            haloRadius: 9
+            haloRadiusTo: 9
+            tri: true
+            shapes: 2
+            y: -15
+            sides: 3
+            color: FFD6A5
+            radius: 0
+            radiusTo: 2.2
+            triLengthTo: 2.5
+            triLength: 1.5
+            haloRotation: 90
+            shapeRotation: 180
+        }
+            {
+            type: HaloPart
+            layer: 110
+            progress: warmup
+            haloRadius: 5
+            haloRadiusTo: 5
+            tri: true
+            shapes: 3
+            y: -15
+            sides: 3
+            color: FFD6A5
+            radius: 2
+            triLengthTo: 3.25
+            triLength: 0
+            haloRotation: 90
+            haloRotateSpeed: 1.5
+        }
+            {
+            type: HaloPart
+            layer: 110
+            progress: warmup
+            haloRadius: 5
+            haloRadiusTo: 5
+            tri: true
+            shapes: 3
+            y: -15
+            sides: 3
+            color: FFD6A5
+            radius: 2
+            triLengthTo: 2.5
+            triLength: 0
+            haloRotation: 90
+            haloRotateSpeed: 1.5
+            shapeRotation: 180
+        }
+            {
+                type: ShapePart
+                layer: 110
+                circle: false
+                y: -15
+                radius: 2
+                radiusTo: 3.5
+                sides: 3
+                rotateSpeed: 1.5
+                stroke: 0
+                strokeTo: 1
+                color: FFD6A5
+                progress: warmup
+                hollow: true
+            }
+            {
+                type: ShapePart
+                layer: 110
+                circle: true
+                y: -15
+                radius: 5
+                radiusTo: 5
+                stroke: 0
+                strokeTo: 1
+                color: FFD6A5
+                progress: warmup
+                hollow: true
+            }
+        ]
+    }

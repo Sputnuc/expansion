@@ -2,9 +2,9 @@
 	"type": "material",
 	"color": "873905",
 	"hardness": 4,
-	"cost": 4,
+	"cost": 2.5,
 	"research": {
 	"parent": "tebriy-expansion", 
-	"requirement": {"item": "titanium","amount": 50}
-	        }
+	        },
+    "alwaysUnlocked": true
 }

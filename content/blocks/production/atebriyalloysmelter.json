@@ -46,7 +46,7 @@
 	"category": "crafting", 
 	"researchCostMultiplier": 0.25,
 	"research": {
-	"parent": "tebriy-expansion"
+	"parent": "tebriy-expansion-craft"
 	        }
 }
 	

@@ -1,0 +1,103 @@
+type: LiquidTurret
+research: collapse
+name: Fireburn
+category: turret
+targetAir: false
+shootCone: 50
+shootY: 11.5
+recoil: 0
+liquidCapacity: 45
+buildCostMultiplier: 1.75
+coolantMultiplier: 10
+ammoPerShot: 5
+inaccuracy: 6
+size: 3
+maxAmmo: 18
+health: 720
+reload: 2
+range: 120
+armor: 3
+researchCostMultiplier:0.6
+ammoUseEffect: none
+shootSound: flame
+requirements: [
+copper/170
+graphite/125
+titanium/90
+plastanium/75
+tebriy-alloy/95
+]
+
+ammoTypes: {
+    gasoline: {
+        type: BasicBulletType
+        keepVelocity: false
+        collidesAir: false
+        hittable: false
+        hitSize: 10
+        width: 0
+        height: 0
+        reloadMultiplier: 1.25
+        ammoMultiplier: 2
+        statusDuration: 240
+        status: burning
+        pierceCap: 6
+        lifetime: 15
+        speed: 8
+        damage: 98
+        trailRotation: true
+        trailInterval: 1
+        trailEffect: {
+            type: ParticleEffect
+            particles: 5
+            lifetime: 20
+            length: 4
+            baseLength: 8
+            colorFrom: FFD098
+            colorTo: FF0800
+            sizeFrom: 3
+            sizeTo: 0
+        }
+        hitEffect: hitFlameSmall
+        despawnEffect: none
+    }
+    heavy-oil: {
+        type: BasicBulletType
+        keepVelocity: false
+        collidesAir: false
+        collidesGround: true
+        colides: false
+        rangeChange: 70
+        hittable: false
+        hitSize: 10
+        width: 0
+        height: 0
+        ammoMultiplier: 5
+        shake: 0
+        despawnSound: none
+        statusDuration: 440
+        status: burning
+        pierceCap: 4
+        damage: 15
+        lifetime: 95
+        speed: 2
+        scaleLife: true
+        splashDamage: 75
+        splashDamageRadius: 15
+        trailRotation: true
+        trailInterval: 1
+        trailEffect: {
+            type: ParticleEffect
+            particles: 2
+            lifetime: 30
+            length: 5
+            baseLength: 5
+            colorFrom: FFD098
+            colorTo: FF0015
+            sizeFrom: 2
+            sizeTo: 0
+        }
+        hitEffect: hitFlameSmall
+        despawnEffect: none
+    }
+}

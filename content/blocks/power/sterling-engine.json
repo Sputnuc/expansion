@@ -3,7 +3,6 @@
   "size": 3,
   "category": "power",
   "research": "tebriy-expansion-power",
-  "researchCostMultiplier": 0.35,
   "itemDuration": 45,
   "updateEffect": "fuelburn", 
   "itemCapacity": 30,
@@ -14,11 +13,20 @@
     {"item": "graphite", "amount": 45}
   ],
   "consumes": {
-  "items": [
-  {"item": "coal", "amount": 1}
-  ]
+   "itemFlammable": {}
     },
   "outputsPower": true,
-  	"researchCostMultiplier": 0.25,
-  "powerProduction": 4.5
+  "researchCostMultiplier": 0.25,
+  "powerProduction": 4.5,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawWarmupRegion"
+      }
+    ]
+  }
 }

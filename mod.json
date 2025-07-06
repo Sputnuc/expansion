@@ -2,8 +2,8 @@
     "displayName": "Expansion mod",
 	"name": "exp",
 	"author": "sputnuc",
-	"description": "[ENG]A mod that adds new content to serpulo.\n\n[Ru]Мод добавляющий новый контент для серпуло.",
-	"version": "4.9",
+	"description": "Является модом-расширением серпуло, также планируется эрекир контент \nP.s Мой первый мод",
+	"version": "5",
 	"minGameVersion": 136,
-	"subtitle": "v4.9"
+	"subtitle": "v5"
 }

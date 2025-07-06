@@ -1,7 +1,7 @@
 {
   "type": "flying",
   "name": "[yellow]paradox",
-  "health": 780,
+  "health": 650,
   "flying": true,
   "range": 100,  
   "speed": 1.4,
@@ -11,31 +11,31 @@
   "lowAltitude": true,
   "faceTarget": false,
   "forceMultiTarget": true,
-  "engineSize": 2.85,
-  "engineOffset": 9,
+  "engineSize": 3.5,
+  "engineOffset": 12.5,
   "weapons": [
     {
       "name": "paradox-weapon",
       "x": 0,
-      "y": 5,
+      "y": -4.5,
       "reload": 90,
 	  "layerOffset": 0.001,
       "recoil": 0.3,
       "mirror": false,
       "shootSound": "missile",
       "rotate": true,
-      "inaccuracity": 25, 
-      "velocityRnd": 0.3,
+      "inaccuracy": 9, 
+      "velocityRnd": 0.2,
       "shoot": {
       "shots": 7,
       "shotDelay": 3
       },
       "bullet": {
         "type": "missileBulletType",
-        "damage": 15,
+        "damage": 9,
 		"lifetime": 65,
         "height": 9,
-        "splashDamage": 15,
+        "splashDamage": 10,
         "splashDamageRadius": 35,
         "width": 8,
         "hitEffect": "blastExplosion",
@@ -43,23 +43,23 @@
         "homingPower": 0.4,
         "homingRadius": 40,
         "homingDelay": 20,
-        "speed": 3.5,
-        "weaveScale": 3,
-        "weaveMag": 4
+        "speed": 4.5,
+        "weaveScale": 4,
+        "weaveMag": 2
          }
     },
 	{
       "name": "paradox-weapon2",
 	  "layerOffset": 0.0009,
-      "x": -6.4,
-      "y": -5.8,
+      "x": -7.75,
+      "y": 0,
       "reload": 25,
       "recoil": 0.3,
       "mirror": true,
 	  "shootSound": "lasershoot",
       "rotate": true,
 	  "shootEffect": "none",
-      "inaccuracity": 3, 
+      "inaccuracy": 1, 
       "shoot": {
       "shots": 6,
       "shotDelay": 3
@@ -68,13 +68,13 @@
         "type": "basicBulletType",
         "damage": 9,
         "lifetime": 30,
-        "height": 5,
-	    "trailWidth": 2,
+        "height": 8.5,
+	    "trailWidth": 1.3,
 	    "frontColor": "8FBCD5",
 	    "backColor": "74a0af",
 	    "trailColor": "74a0af",
-        "trailLength": 2,
-        "width": 5, 
+        "trailLength": 3.5,
+        "width": 7.5, 
         "speed": 7
          }
     }

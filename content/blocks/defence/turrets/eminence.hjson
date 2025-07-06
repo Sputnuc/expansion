@@ -1,0 +1,214 @@
+  type: ItemTurret
+  size: 5
+  health: 4560
+  buildCostMultiplier: 0.50
+  maxAmmo: 40
+  ammoPerShot: 10
+  unitSort: strongest
+  reload: 390
+  range: 800
+  shake: 9
+  consumes: {
+    power: 35
+    liquids: [
+     cryofluid/1.5
+    ]
+  }
+  ammoUseEffect: casing3Double
+  targetAir: true
+  targetGround: true
+  recoil: 4
+  shootShake: 6
+  inaccuracy: 0
+  shootCone: 0.5
+  cooldownTime: 370
+  rotateSpeed: 1
+  shootSound: railgun
+  ammoTypes: {
+    surge-alloy: {
+      type: RailBulletType
+      pierceDamageFactor: 0.25
+      damage: 8000
+      shootEffect: instShoot
+      hitColor: fffee5
+      despawnEffect: none
+      buildingDamageMultiplier: 0.10
+      pointEffectSpace: 19
+      length: 800
+      pointEffect: [
+      {
+        offset: -90
+        region: exp-alt-railTrail2
+        particles: 1
+        cone: 0
+        length: 0.01
+        baseLength: 0
+        lifetime: 35
+        sizeFrom: 19
+        sizeTo: 0
+        colorFrom: fff7db
+        colorTo: ffea9e
+        layer: 105
+      }
+      {
+        line: true
+        particles: 1
+        cone: 0
+        length: 0.01
+        baseLength: -4
+        randLength: false
+        cap: false
+        lifetime: 35
+        strokeFrom: 5
+        strokeTo: 0
+        lenFrom: 19
+        lenTo: 19
+        colorFrom: ffea9e
+        colorTo: ffea9e
+        layer: 104
+      }
+      ]
+      shootEffect: {
+        offset: -90
+        region: exp-alt-railShoot
+        particles: 1
+        cone: 0
+        length: 0.01
+        baseLength: 0
+        lifetime: 35
+        sizeFrom: 21
+        sizeTo: 0
+        colorFrom: fff7db
+        colorTo: ffea9e
+        layer: 105
+      }
+      endEffect: {
+        offset: -90
+        region: exp-alt-railEnd
+        particles: 1
+        cone: 0
+        length: 0.0
+        baseLength: 0
+        lifetime: 35
+        sizeFrom: 45
+        sizeTo: 0
+        colorFrom: fff7db
+        colorTo: ffea9e
+        layer: 105
+      }
+      hitEffect: {
+      offset: -90
+        region: exp-alt-railHit
+        particles: 1
+        cone: 0
+        length: 0.0
+        baseLength: 0
+        lifetime: 35
+        sizeFrom: 21
+        sizeTo: 0
+        colorFrom: fff7db
+        colorTo: ffea9e
+        layer: 105
+      }
+    }
+	cobalt: {
+      type: RailBulletType
+	  reloadMultiplier: 1.5
+      pierceDamageFactor: 0.45
+      damage: 1500
+      hitShake: 7
+      hitColor: 837cd9
+      despawnEffect: none
+      buildingDamageMultiplier: 0.1
+      length: 800
+      pointEffectSpace: 19
+      pointEffect: [
+      {
+        offset: -90
+        region: exp-alt-railTrail
+        particles: 1
+        cone: 0
+        length: 0.01
+        baseLength: 0
+        lifetime: 35
+        sizeFrom: 19
+        sizeTo: 0
+        colorFrom: dee5ff
+        colorTo: 8498e0
+        layer: 105
+      }
+      {
+        line: true
+        particles: 1
+        cone: 0
+        length: 0.01
+        baseLength: -4
+        randLength: false
+        cap: false
+        lifetime: 35
+        strokeFrom: 5
+        strokeTo: 0
+        lenFrom: 19
+        lenTo: 19
+        colorFrom: 8498e0
+        colorTo: 8498e0
+        layer: 104
+      }
+      ]
+      shootEffect: {
+        offset: -90
+        region: exp-alt-railShoot
+        particles: 1
+        cone: 0
+        length: 0.01
+        baseLength: 0
+        lifetime: 35
+        sizeFrom: 21
+        sizeTo: 0
+        colorFrom: dee5ff
+        colorTo: 8498e0
+        layer: 105
+      }
+      endEffect: {
+        offset: -90
+        region: exp-alt-railEnd
+        particles: 1
+        cone: 0
+        length: 0.0
+        baseLength: 0
+        lifetime: 35
+        sizeFrom: 45
+        sizeTo: 0
+        colorFrom: dee5ff
+        colorTo: 8498e0
+        layer: 105
+      }
+      hitEffect: {
+      offset: -90
+        region: exp-alt-railHit
+        particles: 1
+        cone: 0
+        length: 0.0
+        baseLength: 0
+        lifetime: 35
+        sizeFrom: 40
+        sizeTo: 0
+        colorFrom: dee5ff
+        colorTo: 8498e0
+        layer: 105
+      }
+    }
+  }
+  requirements: [
+    copper/3000
+    silicon/1000
+    titanium/1250
+    thorium/1400
+    plastanium/1050
+    surge-alloy/2000
+    cobalt/1200
+    carbon/700
+  ]
+  category: turret
+  canOverdrive: true
+  research: retribution

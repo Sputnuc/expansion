@@ -1,0 +1,10 @@
+{
+  "name": "defence tech",
+  "description": "Tebriy tech tree.",
+  "alwaysUnlocked": true,
+  "buildVisibility": "editorOnly",
+  "type": "LightBlock",
+  "health": 800,
+  "size": 1,
+  "research": "tebriy-expansion"
+}
