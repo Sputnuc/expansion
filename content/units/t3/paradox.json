@@ -9,8 +9,7 @@
   "rotateSpeed": 3.75, 
   "armor": 3,
   "lowAltitude": true,
-  "faceTarget": false,
-  "forceMultiTarget": true,
+  "faceTarget": true,
   "engineSize": 3.5,
   "engineOffset": 12.5,
   "weapons": [

@@ -3,6 +3,8 @@ name: Strife
 health: 280
 armor: 2
 flying: true 
+drag: 0.02
+accel: 0.3
 speed: 1.8 
 hitSize: 9
 rotateSpeed: 7 
@@ -24,20 +26,19 @@ range: 115
       bullet: {
         recoil: 3
         type: LaserBulletType
-        damage: 170
+        damage: 175
         lifetime: 75
-        length: 115
-        width: 20
+        length: 155
+        width: 25
         sideAngle: 45
-        sideWidth: 4
-        sideLength: 30
+        sideWidth: 1
+        sideLength: 24
         pierceBuilding: true
         pierce: true
-        pierceCap: 3
         colors: [
-        20abc7,
-        7ae0f5,
-        d2f5fc
+        8fafff,
+        a8d1ff,
+        e5f1ff
         ]
          }
     }

@@ -25,7 +25,7 @@
       "bullet": {
         "type": "missileBulletType",
         "damage": 15,
-        "lifeTime": 45,
+        "lifetime": 45,
         "height": 7,
         "splashDamage": 13,
         "splashDamageRadius": 15.5,
