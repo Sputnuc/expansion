@@ -15,7 +15,7 @@
       rotateSpeed: 1.2
       mirror: false
       shootSound: plasmaboom
-	  inaccuracy: 3
+	    inaccuracy: 3
       rotate: true
       shake: 4
       shoot: {
@@ -26,7 +26,7 @@
         width: 12
         height: 13
         speed: 8
-        lifetime: 40
+        lifetime: 32
         damage: 65
         pierce: true
         pierceCap: 2
@@ -36,6 +36,16 @@
         trailColor: "f5db84"
         weaveScale: 4
         weaveMag: 2
+        despawnEffect: {
+         type: WaveEffect
+         sizeFrom: 4
+         sizeTo: 13
+         strokeFrom: 2.5
+         strokeTo: 0
+         colorFrom: ffe799
+         colorTo: face3c
+         lifetime: 10
+        }
         hitEffect: [
         {
          type: ParticleEffect
@@ -63,12 +73,12 @@
         {
          type: WaveEffect
          sizeFrom: 3
-         sizeTo: 21
+         sizeTo: 11
          strokeFrom: 2
          strokeTo: 0
          colorFrom: ffe799
          colorTo: face3c
-         lifetime: 35
+         lifetime: 25
         }
         ]
       }
@@ -79,17 +89,17 @@
 		y: -7
 		reload: 6
 		rotate: true
-        rotateSpeed: 1.5
+    rotateSpeed: 1.5
 		shootSound: shootBig
 		mirror: true
-        shake: 2
+    shake: 2
 		bullet: {
 			type: BasicBulletType
 			speed: 3.5
-			lifetime: 90
+			lifetime: 55
 			damage: 15
-            width: 14
-            height: 15			
+      width: 14
+      height: 15			
 		}
 	}
   ]

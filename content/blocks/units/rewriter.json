@@ -1,7 +1,7 @@
 {
     "type": "Reconstructor",
     "health": 750,
-    "size": 6,
+    "size": 7,
 	"hasLiquid": true,
 	"liquidCapacity": 120,
     "buildCostMultiplier": 0.50,
@@ -15,22 +15,25 @@
         "power": 15.5,
         "items": {
             "items": [
-              "silicon/350",
-              "plastanium/250",
-			  "tebriy-alloy/320",
-			  "carbon/150"
+             "silicon/850",
+             "titanium/650",
+             "plastanium/750",
+			       "tebriy-alloy/320",
+			       "cobalt/150"
             ]
 			
         },
-		"liquid": {"liquid": "cryofluid", "amount": 0.5}
+		"liquid": {"liquid": "cryofluid", "amount": 1}
     },
     "requirements": [
-      "carbon/350",      
-      "silicon-alloy/510",
-	  "thorium/550",
-      "plastanium/200",
-	  "phase-fabric/150",
-      "cobalt/220"
+      "copper/2350",
+      "lead/1850",
+      "thorium/1150",
+      "silicon/2000",
+      "plastanium/850",
+      "phase-fabric/350",
+      "tebriy-alloy/850",
+      "silicon-alloy/1250"
     ],
     "category": "units",
     "research": "refabricator"

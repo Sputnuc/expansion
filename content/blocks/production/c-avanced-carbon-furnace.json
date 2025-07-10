@@ -6,19 +6,21 @@
 	"hasItems": true,
 	"itemCapacity": 30,
 	"requirements": [
-	{"item": "thorium", "amount": 125},
-	{"item": "tebriy-alloy", "amount": 190},
-	{"item": "silicon-alloy", "amount": 155},
-	{"item": "cobalt", "amount": 115},
-	{"item": "carbon", "amount": 160}
-                    ],
+		"graphite/125",
+		"plastanium/145",
+		"surge-alloy/125",
+		"phase-fabric/75",
+        "tebriy-alloy/180",
+		"cobalt/155",
+		"carbon/195"
+    ],
     "consumes": {
 		"power": 2.5,
 		"items": {
 			"items": [
-				{ "item": "plastanium", "amount": 3},
-				{ "item": "silicon", "amount": 7},
-				{ "item": "titanium", "amount": 4},				
+				{ "item": "graphite", "amount": 6},
+				{ "item": "silicon", "amount": 6},
+				{ "item": "plastanium", "amount": 5},				
 				{ "item": "tebriy", "amount": 5}
 			]
 		},
@@ -29,17 +31,17 @@
     {
     "type": "DrawDefault"
     },
-   {
+    {
     "type": "DrawFlame",
     "flameRadius": 4,         
     "flameRadiusIn": 2.5,
     "flameRadiusScl": 4,  
     "flameRadiusMag": 2,    
     "flameRadiusInMag": 1
-   }
-               ]
-          },
-    "outputItem": {"item": "carbon", "amount": 14},	
+    }
+    ]
+    },
+    "outputItem": "carbon/9",	
 	"craftTime": 120,
 	"idleSound": "respawning",
 	"updateEffect": "smeltsmoke",

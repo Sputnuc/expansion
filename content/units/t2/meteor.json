@@ -22,7 +22,7 @@
         "width": 9,
         "height": 9,
         "speed": 4,
-        "lifetime": 60,
+        "lifetime": 40,
         "damage": 16,
         "pierceBuilding": false
       }
@@ -41,12 +41,12 @@
         "type": "basicBulletType",
         "width": 10,
         "height": 14,
-		"trailColor": "ffa665",
+	    	"trailColor": "ffa665",
         "frontColor": "ffffff",
         "trailWidth": 1.5,
         "trailLength": 9,
         "speed": 15,
-        "lifetime": 20,
+        "lifetime": 13,
         "damage": 55,
         "pierceBuilding": true,
         "pierceCap": 2

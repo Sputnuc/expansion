@@ -6,10 +6,10 @@
     "upgrades": [
         ["warrior", "armada"],
         ["solarizos", "niva"],
-		["komete", "meteor"],
+		["komete", "meteor"]
     ],
     "consumes": {
-        "power": 1.5,
+        "power": 3,
         "items": {
             "items": [
               "silicon/40",

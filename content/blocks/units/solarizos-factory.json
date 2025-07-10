@@ -31,13 +31,14 @@
         "metaglass/35"
            ],
       "time": 1800
-    }
+    },
     {
       "unit": "strife",
       "requirements": [
         "silicon/15", 
         "lead/15",
-        "titanium/25"
+        "titanium/25",
+        "coal/15"
            ],
       "time": 900
     }
@@ -48,6 +49,6 @@
     "silicon/40",
     "graphite/50"
   ],
-  "category": "units"
+  "category": "units",
   "research": "tebriy-expansion-units"
 }

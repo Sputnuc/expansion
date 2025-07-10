@@ -6,12 +6,14 @@
 	"hasItems": true,
 	"itemCapacity": 30,
 	"requirements": [
-    {"item": "titanium", "amount": 90},
-	{"item": "plastanium", "amount": 60},
-	{"item": "tebriy-alloy", "amount": 95},
-	{"item": "silicon-alloy", "amount": 75},
-	{"item": "cobalt", "amount": 45},
-                    ],
+		"lead/85",
+		"graphite/95",
+		"thorium/95",
+		"plastanium/75",
+		"surge-alloy/65",
+        "tebriy-alloy/120",
+		"cobalt/45"
+    ],
     "consumes": {
 		"power": 2.2,
 		"items": {
@@ -22,7 +24,7 @@
 			]
 		},
 	  },	
-    "outputItem": {"item": "carbon", "amount": 5},	
+    "outputItem": "carbon/5",
 	"craftTime": 180,
 	"idleSound": "respawning",
 	"drawer": {

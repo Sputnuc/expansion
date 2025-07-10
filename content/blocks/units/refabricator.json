@@ -14,17 +14,19 @@
         "items": {
             "items": [
               "silicon/150",
-			  "titanium/60", 
-			  "metaglass/75",
+			        "titanium/90", 
+			        "metaglass/85",
               "tebriy-alloy/70"          
             ]
         }
     },
     "requirements": [
-      "lead/500",      
-      "silicon/410",
+      "lead/700",      
       "titanium/600",
-      "tebriy-alloy/120"
+      "thorium/650",
+      "silicon/460",
+      "tebriy-alloy/120",
+      "silicon-alloy/110"
     ],
     "category": "units",
     "research": "base-reconstructor"

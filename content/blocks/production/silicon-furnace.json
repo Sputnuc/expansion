@@ -6,24 +6,25 @@
     "liquidCapacity": 120,
 	"hasItems": true,
 	"hasLiquid": true,
-	"itemCapacity": 20,
+	"itemCapacity": 30,
 	"requirements": [
-		{"item": "copper", "amount": 115},
-		{"item": "lead", "amount": 90},
-		{"item": "graphite", "amount": 65},
-		{"item": "silicon", "amount": 75}
-
+		"copper/135",
+		"lead/85",
+		"titanium/55",
+		"thorium/85",
+		"tebriy-alloy/45"
 	],
 	"consumes": {
 		"power": 1.8,
 		"items": {
 			"items": [
-				{"item": "silicon", "amount": 4},
-				{"item": "tebriy", "amount": 3}
+				"silicon/7",
+			    "tebriy/8",
+				"coal/11"
 			]
 		}
 	},	
-	"outputItem": {"item": "silicon-alloy", "amount": 8},
+	"outputItem": "silicon-alloy/9",
 	"craftTime": 120,
 	"idleSound": "respawning",
 	"updateEffect": "smeltsmoke",

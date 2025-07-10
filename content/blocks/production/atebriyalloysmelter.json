@@ -13,7 +13,7 @@
 	{"item": "silicon", "amount": 65},
 	{"item": "graphite", "amount": 45}
                     ],
-"consumes": {
+    "consumes": {
 		"power": 1.2,
 		"items": {
 			"items": [
@@ -22,20 +22,20 @@
 			]
 		}
 	},	
-  "drawer": {
+    "drawer": {
     "type": "DrawMulti",
     "drawers": [
-   {
-   "type": "DrawDefault"
-   },
-   {
-    "type": "DrawFlame",
-    "flameRadius": 4,         
-    "flameRadiusIn": 2.5,
-    "flameRadiusScl": 3,  
-    "flameRadiusMag": 2,    
-    "flameRadiusInMag": 1
-   }
+     {
+     "type": "DrawDefault"
+     },
+     {
+     "type": "DrawFlame",
+     "flameRadius": 4,         
+     "flameRadiusIn": 2.5,
+     "flameRadiusScl": 3,  
+     "flameRadiusMag": 2,    
+     "flameRadiusInMag": 1
+     }
                ]
           },
     "outputItem": {"item": "tebriy-alloy", "amount": 3},	
